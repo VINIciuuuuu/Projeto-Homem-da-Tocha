@@ -4,7 +4,7 @@ using UnityEngine.InputSystem;
 
 public class Luzia : MonoBehaviour
 {
-    // Coisas da Luzia início
+    // Coisas da Luzia inicio
 
     public float MoveSpeed = 3f; // movimento do jogador.
 
@@ -12,11 +12,11 @@ public class Luzia : MonoBehaviour
 
     // movimento fim
 
-    public GameObject interactarea; // Área de interação.
+    public GameObject interactarea; // area de interacao.
 
     public Rigidbody2D rb; // define que rigidbody2d seja o rb.
 
-    Vector2 movement; // define que o vector2 é o movimento.
+    Vector2 movement; // define que o vector2 e o movimento.
 
     private void Moremove()
     {
@@ -28,7 +28,7 @@ public class Luzia : MonoBehaviour
             }
             else
             {
-                MoveSpeed = 5f; // se não moveSpeed = 3.
+                MoveSpeed = 5f; // se nao moveSpeed = 3.
             }
         }
         else
@@ -39,22 +39,22 @@ public class Luzia : MonoBehaviour
             }
             else
             {
-                MoveSpeed = 3f; // se não moveSpeed = 3.
+                MoveSpeed = 3f; // se nao moveSpeed = 3.
             }
         }
     }
     void Start()
     {
-        
+
     }
 
     void Update()
     {
-        movement.x = Input.GetAxisRaw("Horizontal"); // pega o o botão A e D.
-        movement.y = Input.GetAxisRaw("Vertical"); // pega o o botão W e S.
-        correndo = Input.GetKey(KeyCode.LeftShift); // pega o o botão left shift.
+        movement.x = Input.GetAxisRaw("Horizontal"); // pega o o botao A e D.
+        movement.y = Input.GetAxisRaw("Vertical"); // pega o o botao W e S.
+        correndo = Input.GetKey(KeyCode.LeftShift); // pega o o botao left shift.
 
-        Moremove(); // chama a função Moremove que está escrita lá em cima.
+        Moremove(); // chama a funcao Moremove que esta escrita la em cima.
     }
 
     private void FixedUpdate()
