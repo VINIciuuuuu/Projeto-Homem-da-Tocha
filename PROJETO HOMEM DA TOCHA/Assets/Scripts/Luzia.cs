@@ -1,5 +1,6 @@
 using UnityEditor;
 using UnityEngine;
+using UnityEngine.AI;
 using UnityEngine.InputSystem;
 
 public class Luzia : MonoBehaviour
@@ -10,13 +11,11 @@ public class Luzia : MonoBehaviour
 
     private bool correndo; // verdadeiro ou falso para o estado correndo.
 
-    // movimento fim
-
-    public GameObject interactarea; // area de interacao.
-
     public Rigidbody2D rb; // define que rigidbody2d seja o rb.
 
     Vector2 movement; // define que o vector2 e o movimento.
+
+    // Coisas da Luzia fim
 
     private void Moremove()
     {
@@ -43,9 +42,25 @@ public class Luzia : MonoBehaviour
             }
         }
     }
+
+    private void Destruircamera() // destroi a camera de um level que n seja a camera principal.
+    {
+        GameObject cam = GameObject.FindGameObjectWithTag("cameraruim"); // procura um gameobject com a tag "cameraruim"
+        
+        if (cam != null) // se existir um que tenha a tag
+        {
+            Destroy(cam); // destroi ela
+        }
+    }
+
     void Start()
     {
 
+    }
+
+    private void Awake()
+    {
+        DontDestroyOnLoad(gameObject); // não destroi o player ao carregar uma cena nova
     }
 
     void Update()
@@ -55,6 +70,7 @@ public class Luzia : MonoBehaviour
         correndo = Input.GetKey(KeyCode.LeftShift); // pega o o botao left shift.
 
         Moremove(); // chama a funcao Moremove que esta escrita la em cima.
+        Destruircamera(); // chama para destruia a camera de um level que n seja a camera principal.
     }
 
     private void FixedUpdate()

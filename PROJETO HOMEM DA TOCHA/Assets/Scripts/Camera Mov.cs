@@ -1,3 +1,4 @@
+using System.Runtime.CompilerServices;
 using UnityEngine;
 
 public class CameraMov : MonoBehaviour
@@ -39,5 +40,9 @@ public class CameraMov : MonoBehaviour
         }
 
         transform.position = smoothedPosition;
+    }
+    private void Awake()
+    {
+        DontDestroyOnLoad(this);
     }
 }
