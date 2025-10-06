@@ -1,5 +1,6 @@
 using System;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UIElements;
 
 public class Interagir : MonoBehaviour
@@ -8,10 +9,13 @@ public class Interagir : MonoBehaviour
     [Header("Acão do objeto")]
     [Tooltip("Olhe no código para ver cada ação")]
     public int action;
+    public int cena;
+
     /*
     Todas as a ações:
 
     0 - Destroi o objeto.
+    1 - Interagir resulta em trocar de cena
      o resto ainda vamos fazer
 
     */
@@ -36,9 +40,9 @@ public class Interagir : MonoBehaviour
                 Destroy(gameObject);
             }
             
-            if (action == 3)
+            if (action == 1)
             {
-                Destroy(gameObject); // apenas testei pra ver se funciona, e funcionou :)
+                SceneManager.LoadSceneAsync(cena);
             }
         }
     }

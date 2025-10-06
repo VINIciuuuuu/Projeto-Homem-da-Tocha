@@ -3,7 +3,6 @@ using UnityEngine.SceneManagement;
 
 public class MudarCena : MonoBehaviour
 {
-
     public int cena = 0;
 
     private void OnTriggerEnter2D(Collider2D collision) // detecta a colisão
@@ -12,5 +11,10 @@ public class MudarCena : MonoBehaviour
         {
             SceneManager.LoadSceneAsync(cena); // carrega a cena da cidade
         }
+    }
+
+    public void Menuinicial()
+    {
+        SceneManager.LoadSceneAsync(11);
     }
 }
