@@ -1,40 +1,10 @@
 fileFormatVersion: 2
-guid: f07f546d73175dd44bce7c59856c6ebc
+guid: 70b30ec31f5cc5d4fae4fd37df044943
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -705444830226101571
-    second: Tilemap Casa Urbana_0
-  - first:
-      213: -5890013167144575400
-    second: Tilemap Casa Urbana_1
-  - first:
-      213: -4654735352233994163
-    second: Tilemap Casa Urbana_2
-  - first:
-      213: -5888485770226150879
-    second: Tilemap Casa Urbana_3
-  - first:
-      213: -2577368487923897868
-    second: Tilemap Casa Urbana_4
-  - first:
-      213: 1140736535211920319
-    second: Tilemap Casa Urbana_5
-  - first:
-      213: 477373304148058089
-    second: Tilemap Casa Urbana_6
-  - first:
-      213: 21722883326489305
-    second: Tilemap Casa Urbana_7
-  - first:
-      213: -8443230043323975390
-    second: Tilemap Casa Urbana_8
-  - first:
-      213: -3951832602074102902
-    second: Tilemap Casa Urbana_9
-  - first:
-      213: -4813100622385246976
-    second: Tilemap Casa Urbana_10
+      213: 4053596619076625361
+    second: tilemap rua grande 2_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -81,7 +51,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 32
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -143,243 +113,353 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Tilemap Casa Urbana_0
+      name: tilemap rua grande 2_0
       rect:
         serializedVersion: 2
-        x: 212
+        x: 0
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d369cee5a4414830800000000000000
+      internalID: 4053596619076625361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilemap rua grande 2_1
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91c702e67be47b54c9698d77c74f3be0
+      internalID: 681726754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilemap rua grande 2_2
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9e39ac95661ee5438b801affaa76ac5
+      internalID: 1832599963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilemap rua grande 2_3
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: daac36fc7217cc8499701d2cc6594222
+      internalID: -1522975697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilemap rua grande 2_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 820f20302234c6847b37a74b4192f016
+      internalID: 1596040453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilemap rua grande 2_5
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6616f7374e492a4c8283e072100ca20
+      internalID: 712239398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilemap rua grande 2_6
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b7f6c21c04987c469368277a0292eb2
+      internalID: -1177766363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilemap rua grande 2_7
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 604095f07b13d584bbec9e6ffa696d52
+      internalID: 1148457897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilemap rua grande 2_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 822677c8d9a175247bbe1c160c4327cc
+      internalID: 958003118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilemap rua grande 2_9
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 943e394e1fa94694f96615b9ac6142dd
+      internalID: -2120696283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilemap rua grande 2_10
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2fe26df2e46fc4d4286b32468a4579d0
+      internalID: -1430166122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilemap rua grande 2_11
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: edcbc83b50c7a6b4fa8a7ad93092c85f
+      internalID: -373484629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilemap rua grande 2_12
+      rect:
+        serializedVersion: 2
+        x: 0
         y: 0
-        width: 56
-        height: 82
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: dbaccbd1aa1c536f0800000000000000
-      internalID: -705444830226101571
+      spriteID: 353a80e193efbcf4b826b8d96498d4fe
+      internalID: 1345217887
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Tilemap Casa Urbana_1
+      name: tilemap rua grande 2_13
       rect:
         serializedVersion: 2
-        x: 287
-        y: 31
-        width: 66
-        height: 51
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 85e59f92b38724ea0800000000000000
-      internalID: -5890013167144575400
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Tilemap Casa Urbana_2
-      rect:
-        serializedVersion: 2
-        x: 385
+        x: 32
         y: 0
-        width: 95
-        height: 64
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: d48d3a6ebde076fb0800000000000000
-      internalID: -4654735352233994163
+      spriteID: 436db23d063edae438a236174c2d21ba
+      internalID: 36081743
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Tilemap Casa Urbana_3
+      name: tilemap rua grande 2_14
       rect:
         serializedVersion: 2
-        x: 578
+        x: 64
         y: 0
-        width: 29
-        height: 64
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 1225ab8f365e74ea0800000000000000
-      internalID: -5888485770226150879
+      spriteID: ca598e79548e8a142adb74382a7d87bb
+      internalID: -1892961543
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Tilemap Casa Urbana_4
+      name: tilemap rua grande 2_15
       rect:
         serializedVersion: 2
-        x: 609
+        x: 96
         y: 0
-        width: 30
-        height: 64
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 4f9a20604095b3cd0800000000000000
-      internalID: -2577368487923897868
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Tilemap Casa Urbana_5
-      rect:
-        serializedVersion: 2
-        x: 674
-        y: 37
-        width: 28
-        height: 17
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: fbbcd9bb5d5b4df00800000000000000
-      internalID: 1140736535211920319
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Tilemap Casa Urbana_6
-      rect:
-        serializedVersion: 2
-        x: 677
-        y: 0
-        width: 6
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 9efdffaad78ff9600800000000000000
-      internalID: 477373304148058089
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Tilemap Casa Urbana_7
-      rect:
-        serializedVersion: 2
-        x: 682
-        y: 0
-        width: 6
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 9d23c28e8dc2d4000800000000000000
-      internalID: 21722883326489305
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Tilemap Casa Urbana_8
-      rect:
-        serializedVersion: 2
-        x: 687
-        y: 0
-        width: 7
-        height: 7
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 229b4ce720f93da80800000000000000
-      internalID: -8443230043323975390
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Tilemap Casa Urbana_9
-      rect:
-        serializedVersion: 2
-        x: 693
-        y: 0
-        width: 6
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: a83c095af254829c0800000000000000
-      internalID: -3951832602074102902
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Tilemap Casa Urbana_10
-      rect:
-        serializedVersion: 2
-        x: 698
-        y: 0
-        width: 6
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 00d048e1c7e643db0800000000000000
-      internalID: -4813100622385246976
+      spriteID: e347bc1f8921dbc4495fa43e40cd6a07
+      internalID: 1358648974
       vertices: []
       indices: 
       edges: []
@@ -388,7 +468,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 36c4af2294469f74c958401ec7b3c0b4
     internalID: 0
     vertices: []
     indices: 
@@ -398,17 +478,22 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Tilemap Casa Urbana_0: -705444830226101571
-      Tilemap Casa Urbana_1: -5890013167144575400
-      Tilemap Casa Urbana_10: -4813100622385246976
-      Tilemap Casa Urbana_2: -4654735352233994163
-      Tilemap Casa Urbana_3: -5888485770226150879
-      Tilemap Casa Urbana_4: -2577368487923897868
-      Tilemap Casa Urbana_5: 1140736535211920319
-      Tilemap Casa Urbana_6: 477373304148058089
-      Tilemap Casa Urbana_7: 21722883326489305
-      Tilemap Casa Urbana_8: -8443230043323975390
-      Tilemap Casa Urbana_9: -3951832602074102902
+      tilemap rua grande 2_0: 4053596619076625361
+      tilemap rua grande 2_1: 681726754
+      tilemap rua grande 2_10: -1430166122
+      tilemap rua grande 2_11: -373484629
+      tilemap rua grande 2_12: 1345217887
+      tilemap rua grande 2_13: 36081743
+      tilemap rua grande 2_14: -1892961543
+      tilemap rua grande 2_15: 1358648974
+      tilemap rua grande 2_2: 1832599963
+      tilemap rua grande 2_3: -1522975697
+      tilemap rua grande 2_4: 1596040453
+      tilemap rua grande 2_5: 712239398
+      tilemap rua grande 2_6: -1177766363
+      tilemap rua grande 2_7: 1148457897
+      tilemap rua grande 2_8: 958003118
+      tilemap rua grande 2_9: -2120696283
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
