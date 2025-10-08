@@ -43,6 +43,12 @@ public class CameraMov : MonoBehaviour
     }
     private void Awake()
     {
-        DontDestroyOnLoad(this);
+        DontDestroyOnLoad(gameObject);
+        GameObject[] Cameras = GameObject.FindGameObjectsWithTag("MainCamera");
+
+        if (Cameras.Length > 1)
+        {
+            Destroy(gameObject);
+        }
     }
 }

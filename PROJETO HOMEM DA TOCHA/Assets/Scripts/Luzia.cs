@@ -61,6 +61,12 @@ public class Luzia : MonoBehaviour
     private void Awake()
     {
         DontDestroyOnLoad(gameObject); // não destroi o player ao carregar uma cena nova
+        GameObject[] players = GameObject.FindGameObjectsWithTag("Player");
+
+        if (players.Length > 1)
+        {
+            Destroy(gameObject);
+        }
     }
 
     void Update()
