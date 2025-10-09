@@ -15,7 +15,12 @@ public class Luzia : MonoBehaviour
 
     Vector2 movement; // define que o vector2 e o movimento.
 
+    public bool LuziaStop = false;
+
     // Coisas da Luzia fim
+    
+    public GameObject Moldura;
+    private SpriteRenderer MolduraSR;
 
     private void Moremove()
     {
@@ -55,7 +60,19 @@ public class Luzia : MonoBehaviour
 
     void Start()
     {
+        Moldura = GameObject.FindGameObjectWithTag("MfamTuri");
 
+        if (Moldura != null)
+        {
+            MolduraSR = Moldura.GetComponent<SpriteRenderer>();
+
+            if (MolduraSR != null)
+            {
+                Color cor = MolduraSR.color;
+                cor.a = 0f;
+                MolduraSR.color = cor;
+            }
+        }
     }
 
     private void Awake()
@@ -71,16 +88,42 @@ public class Luzia : MonoBehaviour
 
     void Update()
     {
+        if (LuziaStop)
+        {
+            MoveSpeed = 0f;
+            if (Input.GetKeyDown(KeyCode.E))
+            {
+                LuziaStop = false;
+                Color cor = MolduraSR.color;
+                cor.a = 0f;
+                MolduraSR.color = cor;
+            }
+        }
+
         movement.x = Input.GetAxisRaw("Horizontal"); // pega o o botao A e D.
         movement.y = Input.GetAxisRaw("Vertical"); // pega o o botao W e S.
         correndo = Input.GetKey(KeyCode.LeftShift); // pega o o botao left shift.
 
-        Moremove(); // chama a funcao Moremove que esta escrita la em cima.
+        if (!LuziaStop)
+        {
+            Moremove(); // chama a funcao Moremove que esta escrita la em cima.
+        }
         Destruircamera(); // chama para destruia a camera de um level que n seja a camera principal.
     }
 
     private void FixedUpdate()
     {
         rb.MovePosition(rb.position + movement * MoveSpeed * Time.fixedDeltaTime); //faz o personagem se mover.
+    }
+
+    public void Luziapara()
+    {
+        LuziaStop = true;
+    }
+
+    public void LuziaVolta()
+    {
+        LuziaStop = false;
+        MoveSpeed = 3f;
     }
 }

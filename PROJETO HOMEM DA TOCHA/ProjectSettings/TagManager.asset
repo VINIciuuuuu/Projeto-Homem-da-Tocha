@@ -7,6 +7,10 @@ TagManager:
   - cameraruim
   - Gmanager
   - NPC
+  - Mpause
+  - BotaoEicon
+  - Papeldasenha
+  - MfamTuri
   layers:
   - Default
   - TransparentFX
