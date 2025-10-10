@@ -8391,7 +8391,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sceneDialogo: 15
   action: 1
-  cena: 12
+  cena: 2
   scriptLuzia: {fileID: 0}
   BotaoE: {fileID: 0}
   CadScript: {fileID: 0}
