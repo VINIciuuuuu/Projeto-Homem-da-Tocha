@@ -9282,7 +9282,7 @@ SpriteRenderer:
   m_Size: {x: 4.51, y: 3.32}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
+  m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!4 &1025509158
@@ -9419,7 +9419,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sceneDialogo: 15
-  action: 4
+  action: 3
   cena: 0
   scriptLuzia: {fileID: 0}
   BotaoE: {fileID: 0}
@@ -12632,7 +12632,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sceneDialogo: 15
-  action: 3
+  action: 2
   cena: 0
   scriptLuzia: {fileID: 0}
   BotaoE: {fileID: 0}

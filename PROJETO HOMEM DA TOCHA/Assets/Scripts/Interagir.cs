@@ -27,9 +27,8 @@ public class Interagir : MonoBehaviour
 
     0 - Destroi o objeto.
     1 - Interagir resulta em trocar de cena.
-    2 - interação com NPC.
-    3 - interação com o papel da senha.
-    4 - interação com cadeado.
+    2 - interação com o papel da senha.
+    3 - interação com cadeado.
      o resto ainda vamos fazer
 
     */
@@ -74,7 +73,6 @@ public class Interagir : MonoBehaviour
         if (collision.CompareTag("Player"))
         {
             podeinteragir = false;
-            dialogoAberto = false;
             Color cor = botaoSR.color;
             cor.a = 0f;
             botaoSR.color = cor;
@@ -113,14 +111,6 @@ public class Interagir : MonoBehaviour
 
             if (action == 2)
             {
-                if (!dialogoAberto)
-                {
-                    SceneManager.LoadScene(sceneDialogo, LoadSceneMode.Additive);
-                    dialogoAberto = true;
-                }
-            }
-            if (action == 3)
-            {
                 Color corPapel = papelSR.color;
                 corPapel.a = 1f;
                 papelSR.color = corPapel;
@@ -128,28 +118,11 @@ public class Interagir : MonoBehaviour
                 Horadopapel = true;
             }
 
-            if (action == 4)
+            if (action == 3)
             {
                 CadScript.Comecarcadeado();
             }
         }
-        // fora da lista
-        if (dialogoAberto)
-        {
-            Color cor = botaoSR.color;
-            cor.a = 0f;
-            botaoSR.color = cor;
-        }
-    }
-
-    public void DialogoFechado()
-    {
-        dialogoAberto = false;
-        SceneManager.UnloadSceneAsync(15);
-        //Está função é para resetar a bool dialogoAberto para que outro possa ser aberto
-        //MoveSpeed volta ao normal quando o dialogo é fechado
-        //UnloadSceneAsyn fecha a cena de dialog q foi aberta
-        //Está função será aberta no DialogManager da cena de dialogo.
     }
 
     public void Papeloff()
@@ -159,10 +132,5 @@ public class Interagir : MonoBehaviour
         Color corPapel = papelSR.color;
         corPapel.a = 0f;
         papelSR.color = corPapel;
-    }
-
-    public void Papelon()
-    {
-
     }
 }
