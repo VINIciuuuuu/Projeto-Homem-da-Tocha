@@ -9465,6 +9465,7 @@ MonoBehaviour:
   senhaCorreta: 3912
   ScriptLuzia: {fileID: 0}
   Moldura: {fileID: 0}
+  BotaoE: {fileID: 0}
 --- !u!4 &1037531400
 Transform:
   m_ObjectHideFlags: 0

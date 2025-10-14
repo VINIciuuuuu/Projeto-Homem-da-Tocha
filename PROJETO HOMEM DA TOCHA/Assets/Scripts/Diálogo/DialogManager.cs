@@ -32,6 +32,7 @@ public class DialogManager : MonoBehaviour
 
     private int index = -1;
     private Coroutine typingRoutine;
+    public Luzia ScriptLuzia;
 
     public bool IsRunning { get; private set; } = false;
 
@@ -79,6 +80,19 @@ public class DialogManager : MonoBehaviour
         optionsPanel?.SetActive(false); // NOVO: Esconde o painel de opções no início
     }
 
+    private void Update()
+    {
+        if (Input.GetKeyDown(KeyCode.E) || Input.GetKeyDown(KeyCode.Return))
+        {
+            nextButton.onClick.Invoke();
+        }
+    }
+
+    private void Start()
+    {
+        ScriptLuzia = FindAnyObjectByType<Luzia>();
+    }
+
     public void StartDialogue(DialogueData data)
     {
         if (data == null)
@@ -96,6 +110,7 @@ public class DialogManager : MonoBehaviour
         currentOnDialogueStartEventFromData = data.onDialogueStartEvent;
         currentOnDialogueEndEventFromData = data.onDialogueEndEvent;
         currentOptions = data.options; // NOVO: Carrega as opções
+        ScriptLuzia.Luziapara();
 
         if (currentLines == null || currentLines.Length == 0)
         {
@@ -222,6 +237,7 @@ public class DialogManager : MonoBehaviour
         dialoguePanel?.SetActive(false);
         optionsPanel?.SetActive(false); // Garante que o painel de opções esteja escondido
         nextButton.gameObject.SetActive(true); // Garante que o botão 'Next' esteja visível para o próximo diálogo (se um for iniciado em seguida)
+        ScriptLuzia.LuziaVolta();
 
         currentOnDialogueEndEventFromData?.Invoke(); // Evento do DialogueData atual
 
