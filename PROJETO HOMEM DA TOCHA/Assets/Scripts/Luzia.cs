@@ -18,12 +18,18 @@ public class Luzia : MonoBehaviour
     public bool LuziaStop = false;
 
     // Coisas da Luzia fim
-    
-    public GameObject Moldura;
-    private SpriteRenderer MolduraSR;
+
 
     private void Moremove()
     {
+        if (movement.y != 0)
+        {
+            if (movement.x !=0)
+            {
+                movement.y = 0;
+            }
+        }
+
         if (correndo)
         {
             if (movement.x != 0 && movement.y != 0) // se movimento x e movimento y estiver sendo forem apertados ao mesmo tempo, movespeed = 0.
@@ -60,19 +66,7 @@ public class Luzia : MonoBehaviour
 
     void Start()
     {
-        Moldura = GameObject.FindGameObjectWithTag("MfamTuri");
 
-        if (Moldura != null)
-        {
-            MolduraSR = Moldura.GetComponent<SpriteRenderer>();
-
-            if (MolduraSR != null)
-            {
-                Color cor = MolduraSR.color;
-                cor.a = 0f;
-                MolduraSR.color = cor;
-            }
-        }
     }
 
     private void Awake()
@@ -91,13 +85,6 @@ public class Luzia : MonoBehaviour
         if (LuziaStop)
         {
             MoveSpeed = 0f;
-            if (Input.GetKeyDown(KeyCode.E))
-            {
-                LuziaStop = false;
-                Color cor = MolduraSR.color;
-                cor.a = 0f;
-                MolduraSR.color = cor;
-            }
         }
 
         movement.x = Input.GetAxisRaw("Horizontal"); // pega o o botao A e D.
