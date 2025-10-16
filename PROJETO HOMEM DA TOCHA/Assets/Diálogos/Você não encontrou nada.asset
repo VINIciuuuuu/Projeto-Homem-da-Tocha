@@ -10,21 +10,16 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 0}
-  m_Name: bocao casa
+  m_Name: "Voc\xEA n\xE3o encontrou nada"
   m_EditorClassIdentifier: Assembly-CSharp::DialogueData
   lines:
-  - N sei oq fazer
-  characterPortrait1: {fileID: -7423414479923241944, guid: b04e6d3af66ee5642b24e037eaf3dfda, type: 3}
-  characterPortrait2: {fileID: -1440037109515661448, guid: 1eecf2eba1af63041aa2eb2fe302ed56, type: 3}
-  characterName1: "Boc\xE3o"
-  characterName2: Luzia
-  hasOptions: 1
-  options:
-  - optionText: 1
-    nextDialogue: {fileID: 11400000, guid: 78c203c1bd208f44e9d0ae3d3475d524, type: 2}
-    onOptionSelected:
-      m_PersistentCalls:
-        m_Calls: []
+  - Droga!, nada...
+  characterPortrait1: {fileID: -1440037109515661448, guid: 1eecf2eba1af63041aa2eb2fe302ed56, type: 3}
+  characterPortrait2: {fileID: 0}
+  characterName1: Luzia
+  characterName2: 
+  hasOptions: 0
+  options: []
   onDialogueStartEvent:
     m_PersistentCalls:
       m_Calls: []

@@ -37,6 +37,11 @@ public class DialogueData : ScriptableObject
     [Header("Configuração de Herança")]
     public DialogueData dialogoPai; // Referência ao DialogueData "pai"
 
+    private void Awake()
+    {
+        DontDestroyOnLoad(this);
+    }
+
     private void OnValidate()
     {
         PuxarDadosDoPai();

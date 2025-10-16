@@ -24,7 +24,27 @@ public class DialogNPC : MonoBehaviour
     private bool PlayerInRange = false; //define quando o jogador pode iniciar um dialog
     private Luzia scriptLuzia; //cria uma variavel para o codigo do jogador (Luzia) para fazer com que não se mova durante um dialog
 
+    private void OnTriggerEnter2D(Collider2D other)
+    {
+        if (other.gameObject.CompareTag(playerTag))
+        {
+            PlayerInRange = true;
+            Color cor = botaoSR.color;
+            cor.a = 1f;
+            botaoSR.color = cor;
+        }
+    }
 
+    private void OnTriggerExit2D(Collider2D other)
+    {
+        if (other.gameObject.CompareTag(playerTag))
+        {
+            PlayerInRange = false;
+            Color cor = botaoSR.color;
+            cor.a = 0f;
+            botaoSR.color = cor;
+        }
+    }
     private void Start()
     {
         BotaoE = GameObject.FindGameObjectWithTag("BotaoEicon");
@@ -101,27 +121,5 @@ public class DialogNPC : MonoBehaviour
         // Chame os eventos específicos DESTE NPC que devem acontecer DEPOIS do diálogo terminar
         NPCDialogueEndEvents?.Invoke();
         Debug.Log($"Diálogo do NPC '{gameObject.name}' fechado.");
-    }
-
-    private void OnTriggerEnter2D(Collider2D other)
-    {
-        if (other.gameObject.CompareTag(playerTag))
-        {
-            PlayerInRange = true;
-            Color cor = botaoSR.color;
-            cor.a = 1f;
-            botaoSR.color = cor;
-        }
-    }
-
-    private void OnTriggerExit2D(Collider2D other)
-    {
-        if (other.gameObject.CompareTag(playerTag))
-        {
-            PlayerInRange = false;
-            Color cor = botaoSR.color;
-            cor.a = 0f;
-            botaoSR.color = cor;
-        }
     }
 }

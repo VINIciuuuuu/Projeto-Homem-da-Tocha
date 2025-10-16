@@ -49,7 +49,6 @@ public class DialogManager : MonoBehaviour
                 {
                     GameObject obj = new GameObject("DialogueManager");
                     instance = obj.AddComponent<DialogManager>();
-                    Debug.LogWarning("[DialogueManager] Criado automaticamente uma instância de DialogueManager. Considere criar uma no editor.");
                 }
             }
             return instance;
