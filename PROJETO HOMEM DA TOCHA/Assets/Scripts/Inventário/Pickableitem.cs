@@ -7,7 +7,7 @@ public class PickableItem : MonoBehaviour
     [Header("Dados do Item")]
     public ItemData data;
     [Min(1)] public int amount = 1;
-    public string Itemprapegar = "pano";
+    public string Itemprapegar = "nada";
 
     [Header("Feedback (opcional)")]
     public AudioSource pickupSfx; // arraste um AudioSource com um áudio curto
@@ -30,6 +30,11 @@ public class PickableItem : MonoBehaviour
         if (Itemprapegar == "pano")
         {
            IntInv.IntPanopegou();
+        }
+
+        if (Itemprapegar == "vara")
+        {
+            IntInv.IntVarapegou();
         }
         
         // fim intInv

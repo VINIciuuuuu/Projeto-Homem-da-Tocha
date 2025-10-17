@@ -6,7 +6,7 @@ public class PapelSenha : MonoBehaviour
 {
     public GameObject BotaoE;
     private SpriteRenderer botaoSR;
-    private bool podeinteragir;
+    private bool podeinteragirpapel;
     public Luzia scriptLuzia;
     bool Horadopapel = false;
     private SpriteRenderer papelSR;
@@ -40,7 +40,7 @@ public class PapelSenha : MonoBehaviour
     {
         if (collision.CompareTag("Player"))
         {
-            podeinteragir = true;
+            podeinteragirpapel = true;
             Color cor = botaoSR.color;
             cor.a = 1f;
             botaoSR.color = cor;
@@ -51,7 +51,7 @@ public class PapelSenha : MonoBehaviour
     {
         if (collision.CompareTag("Player"))
         {
-            podeinteragir = false;
+            podeinteragirpapel = false;
             Color cor = botaoSR.color;
             cor.a = 0f;
             botaoSR.color = cor;
@@ -71,7 +71,7 @@ public class PapelSenha : MonoBehaviour
             return;
         }
 
-        if (podeinteragir && Input.GetKeyDown(KeyCode.E) || Input.GetKeyDown(KeyCode.Return))
+        if (podeinteragirpapel && Input.GetKeyDown(KeyCode.E) || Input.GetKeyDown(KeyCode.Return))
         {
             Color corPapel = papelSR.color;
             corPapel.a = 1f;

@@ -1,6 +1,7 @@
 using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
+using System.Runtime.CompilerServices;
 
 public class Cadeado : MonoBehaviour
 {
@@ -14,7 +15,7 @@ public class Cadeado : MonoBehaviour
     public Luzia ScriptLuzia;
     public GameObject Moldura;
     private SpriteRenderer MolduraSR;
-    private bool podeinteragir;
+    private bool podeinteragirmoldura;
     public GameObject BotaoE;
     private SpriteRenderer botaoSR;
     private bool Terminocadeado = false;
@@ -58,7 +59,7 @@ public class Cadeado : MonoBehaviour
         {
             if (podever)
             {
-                podeinteragir = true;
+                podeinteragirmoldura = true;
                 Color cor = botaoSR.color;
                 cor.a = 1f;
                 botaoSR.color = cor;
@@ -76,7 +77,7 @@ public class Cadeado : MonoBehaviour
     {
         if (collision.CompareTag("Player"))
         {
-            podeinteragir = false;
+            podeinteragirmoldura = false;
             Color cor = botaoSR.color;
             cor.a = 0f;
             botaoSR.color = cor;
@@ -85,14 +86,7 @@ public class Cadeado : MonoBehaviour
 
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.E) || Input.GetKeyDown(KeyCode.Return))
-        {
-            Molduraoff();
-            podever = false;
-            ScriptLuzia.LuziaVolta();
-        }
-
-        if (!Terminocadeado && podeinteragir && Input.GetKeyDown(KeyCode.E) || !Terminocadeado && podeinteragir && Input.GetKeyDown(KeyCode.Return))
+        if (!Terminocadeado && podeinteragirmoldura && Input.GetKeyDown(KeyCode.E) || !Terminocadeado && podeinteragirmoldura && Input.GetKeyDown(KeyCode.Return))
         {
             Comecarcadeado();
         }
@@ -110,6 +104,13 @@ public class Cadeado : MonoBehaviour
         {
             painelUI.SetActive(false);
             Cadeadoiniciado = false;
+            ScriptLuzia.LuziaVolta();
+        }
+
+        if (Terminocadeado && Input.GetKeyDown(KeyCode.E) || Terminocadeado && Input.GetKeyDown(KeyCode.Return))
+        {
+            Molduraoff();
+            podever = false;
             ScriptLuzia.LuziaVolta();
         }
     }
