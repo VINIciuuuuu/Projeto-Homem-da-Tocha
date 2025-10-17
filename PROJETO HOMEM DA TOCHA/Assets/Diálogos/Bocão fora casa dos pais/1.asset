@@ -10,16 +10,22 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 0}
-  m_Name: vai toma no cu
+  m_Name: 1
   m_EditorClassIdentifier: Assembly-CSharp::DialogueData
   lines:
-  - "ol\xE1 seu merda"
+  - "Quase um m\xEAs sem me dar not\xEDcias..."
+  - Qual o problema deles?
   characterPortrait1: {fileID: 0}
   characterPortrait2: {fileID: 0}
-  characterName1: renan
-  characterName2: acutis
+  characterName1: 
+  characterName2: 
   hasOptions: 0
-  options: []
+  options:
+  - optionText: 
+    nextDialogue: {fileID: 0}
+    onOptionSelected:
+      m_PersistentCalls:
+        m_Calls: []
   onDialogueStartEvent:
     m_PersistentCalls:
       m_Calls: []

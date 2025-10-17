@@ -1,0 +1,858 @@
+fileFormatVersion: 2
+guid: b4583cd51561fde478778e1f1c8a380c
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5620168371676547614
+    second: Luzia-Sheet_0
+  - first:
+      213: 6681965449853634027
+    second: Luzia-Sheet_1
+  - first:
+      213: -8382963462725953996
+    second: Luzia-Sheet_2
+  - first:
+      213: 1285717170811473
+    second: Luzia-Sheet_3
+  - first:
+      213: 6172357143646515848
+    second: Luzia-Sheet_4
+  - first:
+      213: -3507381352379761863
+    second: Luzia-Sheet_5
+  - first:
+      213: -124939322567371071
+    second: Luzia-Sheet_6
+  - first:
+      213: -8804902526395397831
+    second: Luzia-Sheet_7
+  - first:
+      213: 8157668593116341518
+    second: Luzia-Sheet_8
+  - first:
+      213: 7091728292004629652
+    second: Luzia-Sheet_9
+  - first:
+      213: -7489527097369207693
+    second: Luzia-Sheet_10
+  - first:
+      213: 4255261579511377772
+    second: Luzia-Sheet_11
+  - first:
+      213: -4699723616510845107
+    second: Luzia-Sheet_12
+  - first:
+      213: 1809075760398184730
+    second: Luzia-Sheet_13
+  - first:
+      213: -5840266111209426201
+    second: Luzia-Sheet_14
+  - first:
+      213: -3249008690925855408
+    second: Luzia-Sheet_15
+  - first:
+      213: 2892035129046982836
+    second: Luzia-Sheet_16
+  - first:
+      213: 5220672733399714990
+    second: Luzia-Sheet_17
+  - first:
+      213: 959704436286032267
+    second: Luzia-Sheet_18
+  - first:
+      213: -9223331697704278979
+    second: Luzia-Sheet_19
+  - first:
+      213: -338379342205153286
+    second: Luzia-Sheet_20
+  - first:
+      213: 2871772720043349219
+    second: Luzia-Sheet_21
+  - first:
+      213: -6786871986849075870
+    second: Luzia-Sheet_22
+  - first:
+      213: -5920272039860946469
+    second: Luzia-Sheet_23
+  - first:
+      213: -2226746366631944760
+    second: Luzia-Sheet_24
+  - first:
+      213: 3000765747705903973
+    second: Luzia-Sheet_25
+  - first:
+      213: -7787541892988136028
+    second: Luzia-Sheet_26
+  - first:
+      213: 6401160465838119378
+    second: Luzia-Sheet_27
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Luzia-Sheet_0
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 448
+        width: 24
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1a8aab6b59defd40800000000000000
+      internalID: 5620168371676547614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Luzia-Sheet_1
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 384
+        width: 24
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be585ff8c2c1bbc50800000000000000
+      internalID: 6681965449853634027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Luzia-Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 320
+        width: 16
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 436142f352bb9ab80800000000000000
+      internalID: -8382963462725953996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Luzia-Sheet_3
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 256
+        width: 16
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1527f3b5a51940000800000000000000
+      internalID: 1285717170811473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Luzia-Sheet_4
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 192
+        width: 27
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88235ed9e1e98a550800000000000000
+      internalID: 6172357143646515848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Luzia-Sheet_5
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 192
+        width: 23
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 93b339f2e37435fc0800000000000000
+      internalID: -3507381352379761863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Luzia-Sheet_6
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 192
+        width: 22
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c6d4eb1950244ef0800000000000000
+      internalID: -124939322567371071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Luzia-Sheet_7
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 192
+        width: 26
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 93943487dc3bec580800000000000000
+      internalID: -8804902526395397831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Luzia-Sheet_8
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 192
+        width: 22
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e056f004d5cd53170800000000000000
+      internalID: 8157668593116341518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Luzia-Sheet_9
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 192
+        width: 22
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49c0688de41ea6260800000000000000
+      internalID: 7091728292004629652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Luzia-Sheet_10
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 128
+        width: 27
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37c55a149cadf0890800000000000000
+      internalID: -7489527097369207693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Luzia-Sheet_11
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 128
+        width: 23
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6fa4297cd9bd0b30800000000000000
+      internalID: 4255261579511377772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Luzia-Sheet_12
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 128
+        width: 22
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4f5b5f554a37ceb0800000000000000
+      internalID: -4699723616510845107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Luzia-Sheet_13
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 128
+        width: 26
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a11bd46b1d02b1910800000000000000
+      internalID: 1809075760398184730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Luzia-Sheet_14
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 128
+        width: 22
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e23c973ae433fea0800000000000000
+      internalID: -5840266111209426201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Luzia-Sheet_15
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 128
+        width: 22
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05d15314fc339e2d0800000000000000
+      internalID: -3249008690925855408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Luzia-Sheet_16
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 64
+        width: 23
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b0ebc090a2922820800000000000000
+      internalID: 2892035129046982836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Luzia-Sheet_17
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 64
+        width: 22
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eac8bd2d03e837840800000000000000
+      internalID: 5220672733399714990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Luzia-Sheet_18
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 64
+        width: 24
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b89023e991e815d00800000000000000
+      internalID: 959704436286032267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Luzia-Sheet_19
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 64
+        width: 23
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d346cb030b4200080800000000000000
+      internalID: -9223331697704278979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Luzia-Sheet_20
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 64
+        width: 22
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aff0884f7c5dd4bf0800000000000000
+      internalID: -338379342205153286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Luzia-Sheet_21
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 64
+        width: 24
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e457d5d2169ad720800000000000000
+      internalID: 2871772720043349219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Luzia-Sheet_22
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 2
+        width: 24
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26dafc7e2ef20d1a0800000000000000
+      internalID: -6786871986849075870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Luzia-Sheet_23
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 1
+        width: 22
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd9396a52f7f6dda0800000000000000
+      internalID: -5920272039860946469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Luzia-Sheet_24
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 0
+        width: 21
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8cdd2043af10911e0800000000000000
+      internalID: -2226746366631944760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Luzia-Sheet_25
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 2
+        width: 24
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56b7b2e7c8cd4a920800000000000000
+      internalID: 3000765747705903973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Luzia-Sheet_26
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 1
+        width: 22
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a518f298e71de390800000000000000
+      internalID: -7787541892988136028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Luzia-Sheet_27
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 0
+        width: 21
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d91e84678d75d850800000000000000
+      internalID: 6401160465838119378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Luzia-Sheet_0: 5620168371676547614
+      Luzia-Sheet_1: 6681965449853634027
+      Luzia-Sheet_10: -7489527097369207693
+      Luzia-Sheet_11: 4255261579511377772
+      Luzia-Sheet_12: -4699723616510845107
+      Luzia-Sheet_13: 1809075760398184730
+      Luzia-Sheet_14: -5840266111209426201
+      Luzia-Sheet_15: -3249008690925855408
+      Luzia-Sheet_16: 2892035129046982836
+      Luzia-Sheet_17: 5220672733399714990
+      Luzia-Sheet_18: 959704436286032267
+      Luzia-Sheet_19: -9223331697704278979
+      Luzia-Sheet_2: -8382963462725953996
+      Luzia-Sheet_20: -338379342205153286
+      Luzia-Sheet_21: 2871772720043349219
+      Luzia-Sheet_22: -6786871986849075870
+      Luzia-Sheet_23: -5920272039860946469
+      Luzia-Sheet_24: -2226746366631944760
+      Luzia-Sheet_25: 3000765747705903973
+      Luzia-Sheet_26: -7787541892988136028
+      Luzia-Sheet_27: 6401160465838119378
+      Luzia-Sheet_3: 1285717170811473
+      Luzia-Sheet_4: 6172357143646515848
+      Luzia-Sheet_5: -3507381352379761863
+      Luzia-Sheet_6: -124939322567371071
+      Luzia-Sheet_7: -8804902526395397831
+      Luzia-Sheet_8: 8157668593116341518
+      Luzia-Sheet_9: 7091728292004629652
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

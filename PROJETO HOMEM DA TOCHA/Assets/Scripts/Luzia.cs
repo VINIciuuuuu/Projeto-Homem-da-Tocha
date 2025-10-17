@@ -17,6 +17,9 @@ public class Luzia : MonoBehaviour
 
     public bool LuziaStop = false;
 
+    private Animator animator;
+    private SpriteRenderer spriteRenderer;
+
     // Coisas da Luzia fim
 
 
@@ -66,7 +69,7 @@ public class Luzia : MonoBehaviour
 
     void Start()
     {
-
+        animator = GetComponent<Animator>();
     }
 
     private void Awake()
@@ -96,6 +99,15 @@ public class Luzia : MonoBehaviour
             Moremove(); // chama a funcao Moremove que esta escrita la em cima.
         }
         Destruircamera(); // chama para destruia a camera de um level que n seja a camera principal.
+
+        bool isUp = movement.y > 0;
+        bool isDown = movement.y < 0;
+        bool isLeft = movement.x < 0;
+        bool isRight = movement.x > 0;
+        animator.SetBool("isUp", isUp);
+        animator.SetBool("isDown", isDown);
+        animator.SetBool("isLeft", isLeft);
+        animator.SetBool("isRight", isRight);
     }
 
     private void FixedUpdate()
