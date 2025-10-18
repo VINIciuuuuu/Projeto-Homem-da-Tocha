@@ -1,0 +1,63 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 0}
+  m_Name: POUSADA POS BANHO
+  m_EditorClassIdentifier: Assembly-CSharp::DialogueData
+  lines:
+  - "BOC\xC3O:  Eu fui na cozinha pegar algumas coisas pra comer...\r"
+  - "BOC\xC3O:  E... er. \xC9 um lugar meio estranho Luzia.\r\r"
+  - "LUZIA: Estranho, como?\r\r\r"
+  - "BOC\xC3O: Tinha um cara fumando na entrada da pousada, sabe o que ele fez quando
+    ele terminou de fumar?\r\r\r\r"
+  - "BOC\xC3O: Ele apagou o cigarro na coxa dele como se n\xE3o fosse NADA!! Nada!
+    Isso \xE9 meio... estranho.\r\r\r\r\r"
+  - "LUZIA: Uma pessoa estranha n\xE3o faz de um lugar estranho, Boc\xE3o.\r\r\r\r\r\r"
+  - "LUZIA: Sua faculdade de teatro \xE9 cheio de gente estranha.\r\r\r\r\r\r\r"
+  - "BOC\xC2O: Luzia, eu t\xF4 falando s\xE9rio... \xC9 um pouco diferente aqui.\r\r\r\r\r\r\r\r"
+  - "(Hm... N\xE3o \xE9 sempre que Boc\xE3o fica t\xE3o s\xE9rio. )\r"
+  - "(Isso me deixa mais preocupada.)\r\r"
+  - "LUZIA: Ent\xE3o, o que mais aconteceu?\r\r\r"
+  - "BOC\xC3O: Nossa janta! D\xE1 um gole no caf\xE9...\r\r\r\r"
+  - "LUZIA: Nosso caf\xE9... *glup* glup*"
+  - "LUZIA: Isso t\xE1 queimado.\r"
+  - "BOC\xC3O: Sim Luzia. T\xE1 queimado.\r\r"
+  - "LUZIA: Voc\xEA n\xE3o pode pedir pra trocar?"
+  - "BOC\xC3O: Eu fui fazer isso e eles disseram que \xE9 a moda da casa. Parece
+    que o povo gosta do caf\xE9 assim."
+  - "LUZIA: O cuscuz, a banana frita e a bolacha com requeij\xE3o t\xE3o gostosos.\r"
+  - "BOC\xC3O: E da\xED?\r \r"
+  - "LUZIA: E da\xED que o povo da cozinha s\xF3 errou no caf\xE9 e tava zoando voc\xEA,
+    Boc\xE3o."
+  - "BOC\xC3O: Me zoando? N-n\xE3o Luzia, com certeza eles...\r"
+  - "BOC\xC3O: Eles s\xF3 tavam me zoando?\r\r"
+  - "BOC\xC3O: Que filhos da...\r\r\r"
+  - "LUZIA: Boc\xE3o, a gente t\xE1 cansado demais pra isso... O caf\xE9 com certeza
+    foi um acidente de cozinha.\r"
+  - "LUZIA: O resto eu concordo. A \xE1gua muito quente, o cigarro na coxa... Isso
+    \xE9 meio estranho mesmo.\r\r"
+  - "LUZIA: Eu acho que vou deitar agora, to bem cansada, amanh\xE3 a gente come\xE7a
+    a procurar pelo meu av\xF4.\r\r"
+  - "BOC\xC3O: Tranquilo amiga, boa noite.\r\r"
+  - "LUZIA: Boa noite...\r\r"
+  characterPortrait1: {fileID: -7423414479923241944, guid: b04e6d3af66ee5642b24e037eaf3dfda, type: 3}
+  characterPortrait2: {fileID: 0}
+  characterName1: 
+  characterName2: 
+  hasOptions: 0
+  options: []
+  onDialogueStartEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  onDialogueEndEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  dialogoPai: {fileID: 0}

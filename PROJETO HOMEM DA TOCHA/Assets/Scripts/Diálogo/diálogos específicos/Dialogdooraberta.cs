@@ -98,7 +98,7 @@ public class Dialogdooraberta : MonoBehaviour
         DialogManager.Instance.StartDialogue(npcDialogueData);
         //Fala com o DialogManager para ele começar o dialogo e dando o Asset do dialogo do NPC
 
-        DialogManager.Instance.onDialogueEnd.AddListener(GlobalDialogueEnded);
+        DialogManager.Instance.onDialogueEndGlobal.AddListener(GlobalDialogueEnded);
         //Puxa evento quando termina o dialogo
 
         if (scriptLuzia != null)
@@ -113,7 +113,7 @@ public class Dialogdooraberta : MonoBehaviour
     private void GlobalDialogueEnded()
     {
         // Remove a assinatura para evitar que este NPC responda a outros diálogos ou a eventos múltiplos
-        DialogManager.Instance.onDialogueEnd.RemoveListener(GlobalDialogueEnded);
+        DialogManager.Instance.onDialogueEndGlobal.RemoveListener(GlobalDialogueEnded);
 
         // Restaura o movimento do jogador
         if (scriptLuzia != null)

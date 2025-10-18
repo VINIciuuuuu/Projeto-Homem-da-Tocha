@@ -12,9 +12,7 @@ public class InternalIventory : MonoBehaviour
 
     private void Start()
     {
-        Scriptportapais = FindAnyObjectByType<Dialogdoor>();
-        Scriptportapaisaberta = FindAnyObjectByType<Dialogdooraberta>();
-        Scripttpportafora = FindAnyObjectByType<tpportafora>();
+
     }
 
     public void IntVarapegou()
@@ -52,5 +50,9 @@ public class InternalIventory : MonoBehaviour
         {
             Scripttpportafora.pegouchavedoor();
         }
+
+        Scriptportapais = FindAnyObjectByType<Dialogdoor>();
+        Scriptportapaisaberta = FindAnyObjectByType<Dialogdooraberta>();
+        Scripttpportafora = FindAnyObjectByType<tpportafora>();
     }
 }
