@@ -5,6 +5,6 @@ public class Menuinicial : MonoBehaviour
 {
     public void Comecarjogo()
     {
-        SceneManager.LoadSceneAsync(11);
+        SceneManager.LoadSceneAsync("Fora 1");
     }
 }

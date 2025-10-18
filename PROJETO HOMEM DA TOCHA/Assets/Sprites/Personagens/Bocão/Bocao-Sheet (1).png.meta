@@ -1,0 +1,858 @@
+fileFormatVersion: 2
+guid: 55431ae90f66f3344859c302994b5081
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 324527740032514521
+    second: Bocao-Sheet (1)_0
+  - first:
+      213: -4760953895989017918
+    second: Bocao-Sheet (1)_1
+  - first:
+      213: -731252644517099177
+    second: Bocao-Sheet (1)_2
+  - first:
+      213: -9079469595715424590
+    second: Bocao-Sheet (1)_3
+  - first:
+      213: 1625153414037402602
+    second: Bocao-Sheet (1)_4
+  - first:
+      213: -3536286024147285593
+    second: Bocao-Sheet (1)_5
+  - first:
+      213: 169538346583622070
+    second: Bocao-Sheet (1)_6
+  - first:
+      213: 3616309265940013083
+    second: Bocao-Sheet (1)_7
+  - first:
+      213: 3517187918053854330
+    second: Bocao-Sheet (1)_8
+  - first:
+      213: 4027821336269851901
+    second: Bocao-Sheet (1)_9
+  - first:
+      213: -699079078786779666
+    second: Bocao-Sheet (1)_10
+  - first:
+      213: 2382659301855940856
+    second: Bocao-Sheet (1)_11
+  - first:
+      213: 5082296146722615053
+    second: Bocao-Sheet (1)_12
+  - first:
+      213: 1562559005800578891
+    second: Bocao-Sheet (1)_13
+  - first:
+      213: 9007788401670717100
+    second: Bocao-Sheet (1)_14
+  - first:
+      213: -1313219864544580433
+    second: Bocao-Sheet (1)_15
+  - first:
+      213: -4233732328452875027
+    second: Bocao-Sheet (1)_16
+  - first:
+      213: 4734386765935407538
+    second: Bocao-Sheet (1)_17
+  - first:
+      213: -7875926791703323530
+    second: Bocao-Sheet (1)_18
+  - first:
+      213: 1904278136232753059
+    second: Bocao-Sheet (1)_19
+  - first:
+      213: -3161622200103434373
+    second: Bocao-Sheet (1)_20
+  - first:
+      213: 2037118863921242544
+    second: Bocao-Sheet (1)_21
+  - first:
+      213: 7345934524325020213
+    second: Bocao-Sheet (1)_22
+  - first:
+      213: -1045015956849501786
+    second: Bocao-Sheet (1)_23
+  - first:
+      213: -602363096802341825
+    second: Bocao-Sheet (1)_24
+  - first:
+      213: 6420344213907176865
+    second: Bocao-Sheet (1)_25
+  - first:
+      213: 6394859382099395512
+    second: Bocao-Sheet (1)_26
+  - first:
+      213: -9067884484389792965
+    second: Bocao-Sheet (1)_27
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Bocao-Sheet (1)_0
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 448
+        width: 30
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d9f5689244f08400800000000000000
+      internalID: 324527740032514521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bocao-Sheet (1)_1
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 384
+        width: 30
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c2009df7a1bdedb0800000000000000
+      internalID: -4760953895989017918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bocao-Sheet (1)_2
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 320
+        width: 23
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7594e7a18911ad5f0800000000000000
+      internalID: -731252644517099177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bocao-Sheet (1)_3
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 256
+        width: 23
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2be2c6ef18e3ff180800000000000000
+      internalID: -9079469595715424590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bocao-Sheet (1)_4
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 192
+        width: 28
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae3763d6b64bd8610800000000000000
+      internalID: 1625153414037402602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bocao-Sheet (1)_5
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 128
+        width: 28
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a9c58ad8969ceec0800000000000000
+      internalID: -3536286024147285593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bocao-Sheet (1)_6
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 192
+        width: 22
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b18ceb5a325a5200800000000000000
+      internalID: 169538346583622070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bocao-Sheet (1)_7
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 128
+        width: 25
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b10ee4a0e16bf2230800000000000000
+      internalID: 3616309265940013083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bocao-Sheet (1)_8
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 192
+        width: 25
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7c45efc6cf8fc030800000000000000
+      internalID: 3517187918053854330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bocao-Sheet (1)_9
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 192
+        width: 28
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dfc8a1f3a22b5e730800000000000000
+      internalID: 4027821336269851901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bocao-Sheet (1)_10
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 128
+        width: 28
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee5b10f184f5c46f0800000000000000
+      internalID: -699079078786779666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bocao-Sheet (1)_11
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 192
+        width: 22
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f057ebd208e01120800000000000000
+      internalID: 2382659301855940856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bocao-Sheet (1)_12
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 192
+        width: 22
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0fecb41b61f78640800000000000000
+      internalID: 5082296146722615053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bocao-Sheet (1)_13
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 65
+        width: 28
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4fb45113235fa510800000000000000
+      internalID: 1562559005800578891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bocao-Sheet (1)_14
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 128
+        width: 22
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cae777573d7120d70800000000000000
+      internalID: 9007788401670717100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bocao-Sheet (1)_15
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 64
+        width: 30
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fac65ddad7186cde0800000000000000
+      internalID: -1313219864544580433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bocao-Sheet (1)_16
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 65
+        width: 28
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dec9a78e0e2ce35c0800000000000000
+      internalID: -4233732328452875027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bocao-Sheet (1)_17
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 128
+        width: 22
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b1f3e40eabe3b140800000000000000
+      internalID: 4734386765935407538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bocao-Sheet (1)_18
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 64
+        width: 30
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67c9a87bf4613b290800000000000000
+      internalID: -7875926791703323530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bocao-Sheet (1)_19
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 128
+        width: 22
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a732b720ea5d6a10800000000000000
+      internalID: 1904278136232753059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bocao-Sheet (1)_20
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 1
+        width: 30
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7788d82c59af14d0800000000000000
+      internalID: -3161622200103434373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bocao-Sheet (1)_21
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 65
+        width: 28
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b1e54940dc454c10800000000000000
+      internalID: 2037118863921242544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bocao-Sheet (1)_22
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 1
+        width: 28
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 532cba9878002f560800000000000000
+      internalID: 7345934524325020213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bocao-Sheet (1)_23
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 1
+        width: 30
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a9de53268b5f71f0800000000000000
+      internalID: -1045015956849501786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bocao-Sheet (1)_24
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 65
+        width: 28
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3cca4574f9f3a7f0800000000000000
+      internalID: -602363096802341825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bocao-Sheet (1)_25
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 1
+        width: 28
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1adfbadcb05a91950800000000000000
+      internalID: 6420344213907176865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bocao-Sheet (1)_26
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 0
+        width: 27
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b3cb920aba1fb850800000000000000
+      internalID: 6394859382099395512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bocao-Sheet (1)_27
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 0
+        width: 27
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b339babea17682280800000000000000
+      internalID: -9067884484389792965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Bocao-Sheet (1)_0: 324527740032514521
+      Bocao-Sheet (1)_1: -4760953895989017918
+      Bocao-Sheet (1)_10: -699079078786779666
+      Bocao-Sheet (1)_11: 2382659301855940856
+      Bocao-Sheet (1)_12: 5082296146722615053
+      Bocao-Sheet (1)_13: 1562559005800578891
+      Bocao-Sheet (1)_14: 9007788401670717100
+      Bocao-Sheet (1)_15: -1313219864544580433
+      Bocao-Sheet (1)_16: -4233732328452875027
+      Bocao-Sheet (1)_17: 4734386765935407538
+      Bocao-Sheet (1)_18: -7875926791703323530
+      Bocao-Sheet (1)_19: 1904278136232753059
+      Bocao-Sheet (1)_2: -731252644517099177
+      Bocao-Sheet (1)_20: -3161622200103434373
+      Bocao-Sheet (1)_21: 2037118863921242544
+      Bocao-Sheet (1)_22: 7345934524325020213
+      Bocao-Sheet (1)_23: -1045015956849501786
+      Bocao-Sheet (1)_24: -602363096802341825
+      Bocao-Sheet (1)_25: 6420344213907176865
+      Bocao-Sheet (1)_26: 6394859382099395512
+      Bocao-Sheet (1)_27: -9067884484389792965
+      Bocao-Sheet (1)_3: -9079469595715424590
+      Bocao-Sheet (1)_4: 1625153414037402602
+      Bocao-Sheet (1)_5: -3536286024147285593
+      Bocao-Sheet (1)_6: 169538346583622070
+      Bocao-Sheet (1)_7: 3616309265940013083
+      Bocao-Sheet (1)_8: 3517187918053854330
+      Bocao-Sheet (1)_9: 4027821336269851901
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

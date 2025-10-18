@@ -10,14 +10,13 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 0}
-  m_Name: Bocao
+  m_Name: New Dialogue
   m_EditorClassIdentifier: Assembly-CSharp::DialogueData
-  lines:
-  - dadada
-  characterPortrait1: {fileID: -7423414479923241944, guid: b04e6d3af66ee5642b24e037eaf3dfda, type: 3}
-  characterPortrait2: {fileID: -1440037109515661448, guid: 1eecf2eba1af63041aa2eb2fe302ed56, type: 3}
-  characterName1: "Boc\xE3o"
-  characterName2: Luzia
+  lines: []
+  characterPortrait1: {fileID: 0}
+  characterPortrait2: {fileID: 0}
+  characterName1: 
+  characterName2: 
   hasOptions: 0
   options: []
   onDialogueStartEvent:

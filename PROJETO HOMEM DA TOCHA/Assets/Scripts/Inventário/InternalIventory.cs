@@ -36,7 +36,7 @@ public class InternalIventory : MonoBehaviour
     {
         if (pano)
         {
-            SceneManager.LoadSceneAsync(12);
+            SceneManager.LoadSceneAsync(3);
         }
     }
 
