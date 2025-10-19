@@ -9,58 +9,17 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 0}
+  m_Script: {fileID: 11500000, guid: 43f76160d857df344adb2ea1cc2d6870, type: 3}
   m_Name: "BOC\xC3O FORA 1"
   m_EditorClassIdentifier: Assembly-CSharp::DialogueData
-  lines:
-  - "(Quase um m\xEAs sem me dar not\xEDcias...)\r"
-  - "(Qual o problema deles?)\r"
-  - "BOC\xC3O: \xD4 LUZIA! EU T\xD4 FALANDO CONTIGO!\r"
-  - "LUZIA: O que foi Boc\xE3o?\r\r"
-  - "BOC\xC3O: Vai fazer um m\xEAs que o tio e a tia viajaram e n\xE3o d\xE3o sinal
-    de vida!\r\r\r"
-  - "BOC\xC3O: E tu n\xE3o sabe pra onde eles foram?\r\r\r\r"
-  - "LUZIA: Visitar meu av\xF4.\r\r\r\r"
-  - "BOC\xC3O: Belezinha, bora l\xE1 ent\xE3o!\r\r\r\r\r"
-  - "LUZIA: ...\r\r\r\r\r"
-  - "BOC\xC3O: Ah\u2026 tu n\xE3o sabe onde ele mora\u2026\r\r\r\r\r"
-  - "LUZIA: Eu nunca perguntei onde meu av\xF4 mora, meus pais nunca me disseram
-    tamb\xE9m, n\xE3o ia fazer diferen\xE7a saber.\r\r\r\r\r"
-  - "(Mas\u2026 um m\xEAs \xE9 tempo demais sem dar not\xEDcias. Tem alguma coisa
-    errada)\r\r\r\r\r\r"
-  - "LUZIA: Antes que pergunte, eu n\xE3o tenho uma chave reserva.\r\r\r\r\r\r\r"
-  - "BOC\xC3O:  Sem endere\xE7o do seu av\xF4, sem chave, sem not\xEDcia dos pais\u2026\r\r\r\r\r\r\r"
-  - "LUZIA: Obrigada por me lembrar que eu n\xE3o tenho nada, Boc\xE3o.\r\r\r\r\r\r\r\r"
-  - "BOC\xC3O: Ah, que isso! Voc\xEA tem o melhor amigo do mundo!\r\r\r\r\r\r\r\r\r"
-  - "LUZIA *sorrindo*: Isso \xE9 um fato ineg\xE1vel.\r\r\r\r\r\r\r\r\r"
-  - "BOC\xC3O:  Hm...\r\r\r\r\r\r\r\r\r\r"
-  - "BOC\xC3O: Ent\xE3o, o que a gente faz?\r\r\r\r\r\r\r\r\r\r"
-  - 'LUZIA: A gente precisa saber o que aconteceu.'
-  - "LUZIA: Mas a gente n\xE3o tem como entrar na casas dos meus pais.\r"
-  - "LUZIA: N\xE3o de um jeito normal...\r\r"
-  - "BOC\xC3O: Ah, de boa, a gente vai invadir a casa dos teus pais ent\xE3o!\r\r"
-  - "LUZIA: Hm...\r\r"
-  - "BOC\xC3O: N\xC3O. EU T\xD4 ZOANDO!\r"
-  - "LUZIA: \xC9 uma boa ideia.\r\r"
-  - "BOC\xC3O: Ainda \xE9 crime invadir a casa dos pais, tu sabe disso!\r\r\r"
-  - "LUZIA: Eles t\xE3o desaparecidos, Boc\xE3o.\r\r\r\r"
-  - "LUZIA: Na pior das hip\xF3teses...\r\r\r\r\r"
-  - "(Eles morreram e essa casa virou um terreno abandonado.)\r"
-  - "BOC\xC3O: Ent\xE3o?...\r"
-  - "LUZIA: Nada. Nada. \r\r"
-  - "LUZIA: Me ajuda a achar um jeito de pular o muro.\r\r\r"
-  - "BOC\xC3O: O muro \xE9 baixo Luzia...\r\r\r"
-  - "LUZIA: Ai, s\xF3 me d\xE1 pezinho vai.\r\r\r"
-  characterPortrait1: {fileID: -7423414479923241944, guid: b04e6d3af66ee5642b24e037eaf3dfda, type: 3}
-  characterPortrait2: {fileID: 0}
-  characterName1: 
-  characterName2: 
-  hasOptions: 0
-  options: []
-  onDialogueStartEvent:
+  npcDialogueData: {fileID: 0}
+  NPCDialogueStartEvents:
     m_PersistentCalls:
       m_Calls: []
-  onDialogueEndEvent:
+  NPCDialogueEndEvents:
     m_PersistentCalls:
       m_Calls: []
-  dialogoPai: {fileID: 0}
+  BotaoE: {fileID: 0}
+  playerTag: Player
+  interactionKey1: 101
+  interactionKey2: 13

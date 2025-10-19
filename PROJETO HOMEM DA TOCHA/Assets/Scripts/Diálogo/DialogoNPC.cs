@@ -9,7 +9,7 @@ Este código que irá dizer quando o jogador pode interagir ou não com um NPC.
 public class DialogNPC : MonoBehaviour
 {
     [Header("Configuração de Diálogo")]
-    [SerializeField] private DialogueData npcDialogueData; //Asset do dialogo do NPC
+    public DialogueData npcDialogueData; //Asset do dialogo do NPC
  
     public UnityEvent NPCDialogueStartEvents;
     public UnityEvent NPCDialogueEndEvents;

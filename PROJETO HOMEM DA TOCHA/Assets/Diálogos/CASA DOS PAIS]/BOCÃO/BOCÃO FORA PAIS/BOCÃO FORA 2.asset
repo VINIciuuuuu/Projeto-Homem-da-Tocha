@@ -12,3 +12,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e075a39215ed06f469077e2191956d5d, type: 3}
   m_Name: "BOC\xC3O FORA 2"
   m_EditorClassIdentifier: Assembly-CSharp::DialogueData
+  lines:
+  - dasdadsad
+  - teste
+  characterPortrait1: {fileID: 0}
+  characterPortrait2: {fileID: 0}
+  characterName1: 
+  characterName2: 
+  hasOptions: 0
+  options: []
+  onDialogueStartEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  onDialogueEndEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  dialogoPai: {fileID: 0}
