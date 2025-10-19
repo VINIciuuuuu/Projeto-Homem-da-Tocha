@@ -73554,7 +73554,7 @@ PrefabInstance:
     - target: {fileID: 3620232157588525352, guid: 668ecc4a6d722c149b816e8dcdbd64d1, type: 3}
       propertyPath: npcDialogueData
       value: 
-      objectReference: {fileID: 11400000, guid: fad7323edc0e30d46b8b634b41cd30f7, type: 2}
+      objectReference: {fileID: 11400000, guid: 50622ddd0b409d243aa900dab7af9251, type: 2}
     - target: {fileID: 4266956885827463669, guid: 668ecc4a6d722c149b816e8dcdbd64d1, type: 3}
       propertyPath: m_Sprite
       value: 

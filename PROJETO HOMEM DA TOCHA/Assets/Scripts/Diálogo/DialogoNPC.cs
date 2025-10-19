@@ -10,7 +10,7 @@ public class DialogNPC : MonoBehaviour
 {
     [Header("Configuração de Diálogo")]
     public DialogueData npcDialogueData; //Asset do dialogo do NPC
- 
+
     public UnityEvent NPCDialogueStartEvents;
     public UnityEvent NPCDialogueEndEvents;
     public GameObject BotaoE;
@@ -69,7 +69,7 @@ public class DialogNPC : MonoBehaviour
             Debug.Log("Script da Luzia não encontrado");
         }
         //avisa quando codigo de luzia não for encontrado
-        
+
         if (npcDialogueData == null)
         {
             Debug.Log("NPC sem dialogo");
