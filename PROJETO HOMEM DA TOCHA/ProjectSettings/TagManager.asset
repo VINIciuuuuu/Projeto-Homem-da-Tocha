@@ -4,13 +4,8 @@
 TagManager:
   serializedVersion: 3
   tags:
-  - cameraruim
-  - Gmanager
-  - NPC
-  - Mpause
-  - BotaoEicon
-  - Papeldasenha
-  - MfamTuri
+  - Camerareal
+  - FadeIn
   layers:
   - Default
   - TransparentFX

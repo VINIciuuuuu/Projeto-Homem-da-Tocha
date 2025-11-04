@@ -15,42 +15,19 @@ public class Luzia : MonoBehaviour
 
     Vector2 movement; // define que o vector2 e o movimento.
 
-    public bool LuziaStop = false;
-
-    private Animator animator;
-    private SpriteRenderer spriteRenderer;
-
     // Coisas da Luzia fim
 
 
     private void Moremove()
     {
-        if (movement.y != 0)
-        {
-            if (movement.x !=0)
-            {
-                movement.y = 0;
-            }
-        }
-
         if (correndo)
         {
-            if (movement.x != 0 && movement.y != 0) // se movimento x e movimento y estiver sendo forem apertados ao mesmo tempo, movespeed = 0.
-            {
-                MoveSpeed = 0f;
-            }
-            else
             {
                 MoveSpeed = 5f; // se nao moveSpeed = 3.
             }
         }
         else
         {
-            if (movement.x != 0 && movement.y != 0) // se movimento x e movimento y estiver sendo forem apertados ao mesmo tempo, movespeed = 0.
-            {
-                MoveSpeed = 0f;
-            }
-            else
             {
                 MoveSpeed = 3f; // se nao moveSpeed = 3.
             }
@@ -59,17 +36,12 @@ public class Luzia : MonoBehaviour
 
     private void Destruircamera() // destroi a camera de um level que n seja a camera principal.
     {
-        GameObject cam = GameObject.FindGameObjectWithTag("cameraruim"); // procura um gameobject com a tag "cameraruim"
-        
+        GameObject cam = GameObject.FindGameObjectWithTag("MainCamera"); // procura um gameobject com a tag "MainCamera"
+
         if (cam != null) // se existir um que tenha a tag
         {
             Destroy(cam); // destroi ela
         }
-    }
-
-    void Start()
-    {
-        animator = GetComponent<Animator>();
     }
 
     private void Awake()
@@ -85,44 +57,16 @@ public class Luzia : MonoBehaviour
 
     void Update()
     {
-        if (LuziaStop)
-        {
-            MoveSpeed = 0f;
-        }
-
         movement.x = Input.GetAxisRaw("Horizontal"); // pega o o botao A e D.
         movement.y = Input.GetAxisRaw("Vertical"); // pega o o botao W e S.
         correndo = Input.GetKey(KeyCode.LeftShift); // pega o o botao left shift.
 
-        if (!LuziaStop)
-        {
-            Moremove(); // chama a funcao Moremove que esta escrita la em cima.
-        }
-        Destruircamera(); // chama para destruia a camera de um level que n seja a camera principal.
-
-        bool isUp = movement.y > 0;
-        bool isDown = movement.y < 0;
-        bool isLeft = movement.x < 0;
-        bool isRight = movement.x > 0;
-        animator.SetBool("isUp", isUp);
-        animator.SetBool("isDown", isDown);
-        animator.SetBool("isLeft", isLeft);
-        animator.SetBool("isRight", isRight);
+        Moremove();
+        Destruircamera();
     }
 
     private void FixedUpdate()
     {
         rb.MovePosition(rb.position + movement * MoveSpeed * Time.fixedDeltaTime); //faz o personagem se mover.
-    }
-
-    public void Luziapara()
-    {
-        LuziaStop = true;
-    }
-
-    public void LuziaVolta()
-    {
-        LuziaStop = false;
-        MoveSpeed = 3f;
     }
 }
