@@ -43,5 +43,23 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: "Ch\xE3o"
+    uniqueID: 2987680499
+    locked: 0
+  - name: AndarNaFrente
+    uniqueID: 1691344533
+    locked: 0
+  - name: "Colis\xE3o"
+    uniqueID: 422077467
+    locked: 0
+  - name: Player
+    uniqueID: 2043440983
+    locked: 0
+  - name: "AndarPorTr\xE1s"
+    uniqueID: 393331367
+    locked: 0
+  - name: "Decora\xE7\xE3o"
+    uniqueID: 1150901401
+    locked: 0
   m_RenderingLayers:
   - Default

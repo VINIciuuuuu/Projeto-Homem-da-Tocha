@@ -11,6 +11,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Turi.unity
     guid: 56282e981d92ae044b6abcda5d6d7d1d
+  - enabled: 1
+    path: Assets/Scenes/Turi_Casa01.unity
+    guid: 2b27c73d5a77e7e4db75de7de92501b7
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0
