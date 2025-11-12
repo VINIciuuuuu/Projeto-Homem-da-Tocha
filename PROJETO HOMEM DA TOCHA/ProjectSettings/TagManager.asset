@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Camerareal
   - FadeIn
+  - FadeImage
   layers:
   - Default
   - TransparentFX

@@ -9,11 +9,14 @@ public class Transiçõesdecena : MonoBehaviour
     public float fadeSpeed = 1f; // Velocidade do fade
     public string nextSceneName; // Nome da cena para mudar
     public GameObject FadeinCanva;
+    public GameObject buttonmenu;
 
     bool isFading = false;
 
     void Awake()
     {
+        FadeinCanva.SetActive(false);
+
         if (FadeinCanva == null)
         {
             GameObject.FindGameObjectWithTag("FadeIn");
@@ -27,6 +30,7 @@ public class Transiçõesdecena : MonoBehaviour
 
     public void Menustart()
     {
+        FadeinCanva.SetActive(true);
         if (!isFading)
         {
             nextSceneName = "Turi";
@@ -52,6 +56,10 @@ public class Transiçõesdecena : MonoBehaviour
 
         // Aqui você pode mudar de cena
         if (!string.IsNullOrEmpty(nextSceneName))
+        {
+            SceneManager.LoadScene(nextSceneName);
+            Destroy(buttonmenu);
+        }
             SceneManager.LoadScene(nextSceneName);
 
         // FADE IN (tela ficando visível)
