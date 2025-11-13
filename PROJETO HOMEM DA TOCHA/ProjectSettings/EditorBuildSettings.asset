@@ -12,8 +12,29 @@ EditorBuildSettings:
     path: Assets/Scenes/Turi.unity
     guid: 56282e981d92ae044b6abcda5d6d7d1d
   - enabled: 1
-    path: Assets/Scenes/Turi_Casa01.unity
+    path: Assets/Scenes/Casa_Kalu.unity
     guid: 2b27c73d5a77e7e4db75de7de92501b7
+  - enabled: 1
+    path: Assets/Scenes/Casa_Josefa.unity
+    guid: 076594695ae95394890b4258ce9948e5
+  - enabled: 1
+    path: Assets/Scenes/Igreja.unity
+    guid: f8d3f66339d95b842accae0613e90bb4
+  - enabled: 1
+    path: Assets/Scenes/Igreja_Vitral.unity
+    guid: fc3f224ec3fd01b4a8d02a732608b3ca
+  - enabled: 1
+    path: Assets/Scenes/Lago.unity
+    guid: c8f5e5205cae06a418cee62c59371199
+  - enabled: 1
+    path: Assets/Scenes/Mercante.unity
+    guid: 34296c6df27f1a84086a384a102188f2
+  - enabled: 1
+    path: Assets/Scenes/Pousada.unity
+    guid: 104f20594f3e1d446b45dcb84ece7dc2
+  - enabled: 1
+    path: Assets/Scenes/Pousada_Quarto.unity
+    guid: 0ed0c18907611c240b63849b38a88132
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0
