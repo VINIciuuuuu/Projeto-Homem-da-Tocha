@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 8737df6ea00c33a42841625507e43f7c
+guid: d17717cade60a424090f58e17bdc80df
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -2216877865968599563
-    second: NEW DIALOGUE BOX_0
+      213: 6830001457909762130
+    second: fotografia_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,23 +100,23 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: NEW DIALOGUE BOX_0
+      name: fotografia_0
       rect:
         serializedVersion: 2
-        x: 44
-        y: 7
-        width: 386
-        height: 77
+        x: 0
+        y: 0
+        width: 320
+        height: 450
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 5fdf38093511c31e0800000000000000
-      internalID: -2216877865968599563
+      spriteID: 2588c1a932a09ce50800000000000000
+      internalID: 6830001457909762130
       vertices: []
       indices: 
       edges: []
@@ -125,7 +125,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: f556f7ddd3248b5409d652e14fbb0ade
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
@@ -135,7 +135,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      NEW DIALOGUE BOX_0: -2216877865968599563
+      fotografia_0: 6830001457909762130
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
