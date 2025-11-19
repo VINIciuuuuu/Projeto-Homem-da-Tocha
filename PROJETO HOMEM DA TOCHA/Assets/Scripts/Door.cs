@@ -13,7 +13,7 @@ public class Door : MonoBehaviour
         var col = GetComponent<Collider2D>();
         col.isTrigger = true;
     }
-    private void OnTriggerEnter2D(Collider2D other)
+    public void OnTriggerEnter2D(Collider2D other)
     {
         if (!other.CompareTag("Player")) return;
 
