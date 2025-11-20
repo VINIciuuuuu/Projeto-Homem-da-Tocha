@@ -35,6 +35,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Pousada_Quarto.unity
     guid: 0ed0c18907611c240b63849b38a88132
+  - enabled: 1
+    path: Assets/Scenes/Faculdade.unity
+    guid: f6fcabfb9293d8f468550b86ead63921
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0
