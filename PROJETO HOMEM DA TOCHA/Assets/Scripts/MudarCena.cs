@@ -7,6 +7,7 @@ public class MudarCena : MonoBehaviour
     public string arrivalSpawnName = "default";
     public void TrocarCena(string destinationSceneName) 
     {
+        Luzia.Instance.Luziavolta();
         Spawn.NextSpawnName = arrivalSpawnName;
         SceneManager.LoadScene(destinationSceneName);
     }
