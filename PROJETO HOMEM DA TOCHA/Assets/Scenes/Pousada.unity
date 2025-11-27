@@ -149,60 +149,60 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DialogueEditor.NPCConversation
   CurrentIDCounter: 50
-  json: "{\"Options\":[{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":21}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":226.5,\"yPos\":-709},\"ID\":18,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Pode
-    falar mais de Turi?\",\"parentUIDs\":[35],\"SpeechUID\":-1},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":46}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":754.5,\"yPos\":-705},\"ID\":20,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Nada
-    demais\",\"parentUIDs\":[35],\"SpeechUID\":-1},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":38}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":494.5,\"yPos\":-706},\"ID\":37,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Obrigada
-    por nos ajudar.\",\"parentUIDs\":[35],\"SpeechUID\":-1}],\"Parameters\":[],\"SpeechNodes\":[{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":1}],\"EditorInfo\":{\"isRoot\":true,\"xPos\":491.5,\"yPos\":-2623},\"ID\":0,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Pera
-    amiga, depois eu te ligo, chegaram clientes aqui na pousada!\",\"parentUIDs\":[],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"???\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":2}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":489.5,\"yPos\":-2511},\"ID\":1,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"*A
+  json: "{\"Options\":[{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":21}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":288.5,\"yPos\":-584},\"ID\":18,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Pode
+    falar mais de Turi?\",\"parentUIDs\":[35],\"SpeechUID\":-1},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":46}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":816.5,\"yPos\":-580},\"ID\":20,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Nada
+    demais\",\"parentUIDs\":[35],\"SpeechUID\":-1},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":38}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":556.5,\"yPos\":-581},\"ID\":37,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Obrigada
+    por nos ajudar.\",\"parentUIDs\":[35],\"SpeechUID\":-1}],\"Parameters\":[],\"SpeechNodes\":[{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":1}],\"EditorInfo\":{\"isRoot\":true,\"xPos\":553.5,\"yPos\":-2498},\"ID\":0,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Pera
+    amiga, depois eu te ligo, chegaram clientes aqui na pousada!\",\"parentUIDs\":[],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"???\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":2}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":551.5,\"yPos\":-2386},\"ID\":1,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"*A
     recepcionista na nossa frente bate o telefone fixo no suporte e olha pra n\xF3s
     dois, sorridente. N\xE3o tenho mem\xF3ria nenhuma dela mas Boc\xE3o por outro
-    lado, parecia j\xE1 ter conhecido a mo\xE7a.*\",\"parentUIDs\":[0],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Luzia\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":3}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":488.5,\"yPos\":-2410},\"ID\":2,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Meus
-    queridoooos! Acordaram! Achei que iam dormir toda vida!\\r\\n\",\"parentUIDs\":[1],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"???\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":4}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":490.5,\"yPos\":-2310},\"ID\":3,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Hahaha!
-    Qu\xEA isso Dona Helena!\",\"parentUIDs\":[2],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Boc\xE3o\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":5}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":492.5,\"yPos\":-2210},\"ID\":4,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Quidiabo
-    de Dona Helena o qu\xEA! Pode me chamar de Lena fofo!\",\"parentUIDs\":[3],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Lena\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":6}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":492.5,\"yPos\":-2102},\"ID\":5,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"E
-    voc\xEA!! Hihihihi.... \xE9 a \u201Camiiiiga\u201D dele, n\xE9?\",\"parentUIDs\":[4],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Lena\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":7}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":498.5,\"yPos\":-1998},\"ID\":6,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Por
-    que ela t\xE1 falando desse jeito, Boc\xE3o?\",\"parentUIDs\":[5],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Luzia\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":8}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":492.5,\"yPos\":-1898},\"ID\":7,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"*Qualquer
+    lado, parecia j\xE1 ter conhecido a mo\xE7a.*\",\"parentUIDs\":[0],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Luzia\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":3}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":550.5,\"yPos\":-2285},\"ID\":2,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Meus
+    queridoooos! Acordaram! Achei que iam dormir toda vida!\\r\\n\",\"parentUIDs\":[1],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"???\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":4}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":552.5,\"yPos\":-2185},\"ID\":3,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Hahaha!
+    Qu\xEA isso Dona Helena!\",\"parentUIDs\":[2],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Boc\xE3o\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":5}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":554.5,\"yPos\":-2085},\"ID\":4,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Quidiabo
+    de Dona Helena o qu\xEA! Pode me chamar de Lena fofo!\",\"parentUIDs\":[3],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Lena\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":6}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":554.5,\"yPos\":-1977},\"ID\":5,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"E
+    voc\xEA!! Hihihihi.... \xE9 a \u201Camiiiiga\u201D dele, n\xE9?\",\"parentUIDs\":[4],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Lena\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":7}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":560.5,\"yPos\":-1873},\"ID\":6,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Por
+    que ela t\xE1 falando desse jeito, Boc\xE3o?\",\"parentUIDs\":[5],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Luzia\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":8}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":554.5,\"yPos\":-1773},\"ID\":7,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"*Qualquer
     pessoa que botar aspas na minha rela\xE7\xE3o de amizade com boc\xE3o merece
-    algum tipo de sofrimento eterno*\",\"parentUIDs\":[6],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Luzia\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":9}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":499.5,\"yPos\":-1784},\"ID\":8,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"T\xF4
-    s\xF3 brincando com voc\xEAs fofos! Ent\xE3o, vieram pro acerto de contas?\",\"parentUIDs\":[7],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Lena\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":10}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":497.5,\"yPos\":-1683},\"ID\":9,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"O
-    que seria esse acerto de contas?\",\"parentUIDs\":[8],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Luzia\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":11}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":500.5,\"yPos\":-1583},\"ID\":10,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Meu
+    algum tipo de sofrimento eterno*\",\"parentUIDs\":[6],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Luzia\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":9}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":561.5,\"yPos\":-1660},\"ID\":8,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"T\xF4
+    s\xF3 brincando com voc\xEAs fofos! Ent\xE3o, vieram pro acerto de contas?\",\"parentUIDs\":[7],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Lena\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":10}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":559.5,\"yPos\":-1558},\"ID\":9,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"O
+    que seria esse acerto de contas?\",\"parentUIDs\":[8],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Luzia\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":11}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":562.5,\"yPos\":-1458},\"ID\":10,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Meu
     paizinho pediu pra voc\xEAs encontrarem ele na nossa Mercearia logo aqui do lado,
-    ent\xE3o voc\xEAs que perguntem pessoalmente sobre o acerto de contas.\",\"parentUIDs\":[9],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Lena\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":12}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":501.5,\"yPos\":-1473},\"ID\":11,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Nossa\u2026
-    como voc\xEA foi \xFAtil\u2026\",\"parentUIDs\":[10],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Luzia\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":13}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":501.5,\"yPos\":-1374},\"ID\":12,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Luzia!\",\"parentUIDs\":[11],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Boc\xE3o\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":14}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":502.5,\"yPos\":-1266},\"ID\":13,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Hahahahaha!
-    Tudo bem fofo!\",\"parentUIDs\":[12],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Lena\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":15}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":504.5,\"yPos\":-1165},\"ID\":14,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Espero
-    que gostem da nossa cidadezinha! Sejam bem-vindos a Turi!\",\"parentUIDs\":[13],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Lena\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":16}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":505.5,\"yPos\":-1082},\"ID\":15,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Voc\xEA
-    disse\u2026 Turi?\\r\\n\",\"parentUIDs\":[14],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Luzia\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":17}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":507.5,\"yPos\":-1000},\"ID\":16,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Sim!
-    Voc\xEAs est\xE3o em Turi!\",\"parentUIDs\":[15],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Lena\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":35}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":504.5,\"yPos\":-917},\"ID\":17,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Eu
+    ent\xE3o voc\xEAs que perguntem pessoalmente sobre o acerto de contas.\",\"parentUIDs\":[9],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Lena\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":12}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":563.5,\"yPos\":-1348},\"ID\":11,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Nossa\u2026
+    como voc\xEA foi \xFAtil\u2026\",\"parentUIDs\":[10],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Luzia\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":13}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":563.5,\"yPos\":-1249},\"ID\":12,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Luzia!\",\"parentUIDs\":[11],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Boc\xE3o\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":14}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":564.5,\"yPos\":-1141},\"ID\":13,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Hahahahaha!
+    Tudo bem fofo!\",\"parentUIDs\":[12],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Lena\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":15}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":566.5,\"yPos\":-1040},\"ID\":14,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Espero
+    que gostem da nossa cidadezinha! Sejam bem-vindos a Turi!\",\"parentUIDs\":[13],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Lena\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":16}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":567.5,\"yPos\":-957},\"ID\":15,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Voc\xEA
+    disse\u2026 Turi?\\r\\n\",\"parentUIDs\":[14],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Luzia\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":17}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":569.5,\"yPos\":-875},\"ID\":16,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Sim!
+    Voc\xEAs est\xE3o em Turi!\",\"parentUIDs\":[15],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Lena\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":35}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":566.5,\"yPos\":-792},\"ID\":17,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Eu
     e Boc\xE3o nos olhamos com um tom de confus\xE3o e empolga\xE7\xE3o. Nossa pr\xF3xima
-    parada seria a Mercearia mas tamb\xE9m podia falar um pouco mais com  Lena\",\"parentUIDs\":[16],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Luzia\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":22}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":224.5,\"yPos\":-638},\"ID\":21,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Claro!
-    Posso passar horas falando de Turi!\",\"parentUIDs\":[18],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Lena\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":23}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":224.5,\"yPos\":-529},\"ID\":22,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Nossa
+    parada seria a Mercearia mas tamb\xE9m podia falar um pouco mais com  Lena\",\"parentUIDs\":[16],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Luzia\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":22}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":286.5,\"yPos\":-513},\"ID\":21,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Claro!
+    Posso passar horas falando de Turi!\",\"parentUIDs\":[18],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Lena\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":23}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":286.5,\"yPos\":-404},\"ID\":22,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Nossa
     cidade \xE9 pequena mas temos muitas coisas interessantes aqui, principalmente
-    costumes!\\r\\n\",\"parentUIDs\":[21],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Lena\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":24}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":225.5,\"yPos\":-419},\"ID\":23,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"A
+    costumes!\\r\\n\",\"parentUIDs\":[21],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Lena\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":24}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":275.5,\"yPos\":-296},\"ID\":23,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"A
     gente chama Turi de \u201CA cidade que acalenta o cora\xE7\xE3o\u201D justamente
-    por isso!\\r\\n\",\"parentUIDs\":[22],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Lena\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":25}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":227.5,\"yPos\":-320},\"ID\":24,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"E
-    que tipo de costumes s\xE3o esses?\\r\\n\",\"parentUIDs\":[23],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Luzia\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":26}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":216.5,\"yPos\":-216},\"ID\":25,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Um
-    dos mais legais \xE9 a Pira! Com certeza voc\xEA j\xE1 deve ter ouvido falar!\",\"parentUIDs\":[24],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Lena\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":27}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":216.5,\"yPos\":-113},\"ID\":26,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"*Nunca
-    ouvi falar e pela cara de Boc\xE3o, nem ele*\",\"parentUIDs\":[25],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Luzia\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":28}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":217.5,\"yPos\":-10},\"ID\":27,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"\xC9
+    por isso!\\r\\n\",\"parentUIDs\":[22],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Lena\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":25}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":282.5,\"yPos\":-195},\"ID\":24,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"E
+    que tipo de costumes s\xE3o esses?\\r\\n\",\"parentUIDs\":[23],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Luzia\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":26}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":278.5,\"yPos\":-91},\"ID\":25,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Um
+    dos mais legais \xE9 a Pira! Com certeza voc\xEA j\xE1 deve ter ouvido falar!\",\"parentUIDs\":[24],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Lena\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":27}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":278.5,\"yPos\":12},\"ID\":26,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"*Nunca
+    ouvi falar e pela cara de Boc\xE3o, nem ele*\",\"parentUIDs\":[25],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Luzia\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":28}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":279.5,\"yPos\":115},\"ID\":27,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"\xC9
     um dia no m\xEAs em que nos juntamos ao redor de uma grande pira e descartamos
-    objetos que nos trazem mem\xF3rias negativas!\",\"parentUIDs\":[26],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Lena\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":29}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":212.5,\"yPos\":99},\"ID\":28,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Eeeei,
-    ou. Isso parece daora n\xE9 Luzia?\\r\\n\",\"parentUIDs\":[27],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Boc\xE3o\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":30}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":209.5,\"yPos\":208},\"ID\":29,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Dizem
-    que queimar mem\xF3rias ruins tr\xE1s boas energias!\\r\\n\",\"parentUIDs\":[28],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Boc\xE3o\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":31}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":207.5,\"yPos\":308},\"ID\":30,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Falou
-    tudo, fofo!\\r\\n\",\"parentUIDs\":[29],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Lena\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":32}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":207.5,\"yPos\":410},\"ID\":31,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Parece
-    um costume interessante, eu participaria.\",\"parentUIDs\":[30],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Luzia\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":33}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":206.5,\"yPos\":518},\"ID\":32,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"E
-    o que voc\xEA jogaria l\xE1?\\r\\n\",\"parentUIDs\":[31],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Boc\xE3o\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":36}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":202.5,\"yPos\":623},\"ID\":33,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Voc\xEA.
-    Que pergunta besta Boc\xE3o.\",\"parentUIDs\":[32],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Luzia\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableOptionConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":18},{\"__type\":\"EditableOptionConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":20},{\"__type\":\"EditableOptionConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":37}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":504.5,\"yPos\":-811},\"ID\":35,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":null,\"parentUIDs\":[17,36,45],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Lena\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":35}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":201.5,\"yPos\":745},\"ID\":36,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"*Um
-    costume que envolve destruir coisas negativas, parece eficaz*\",\"parentUIDs\":[33],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Luzia\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":39}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":500.5,\"yPos\":-623},\"ID\":38,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"T\xE1
-    tudo bem! A gente AMA ajudar o povo aqui em Turi!\\r\\n\",\"parentUIDs\":[37],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Lena\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":40}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":499.5,\"yPos\":-517},\"ID\":39,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"E
-    outra, pessoas novas sempre s\xE3o bem vindas na nossa cidade!\\r\\n\",\"parentUIDs\":[38],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Lena\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":41}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":504.5,\"yPos\":-415},\"ID\":40,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"\xC9
-    um saco viver por aqui \xE0s vezes\u2026\\r\\n\",\"parentUIDs\":[39],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Lena\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":42}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":498.5,\"yPos\":-299},\"ID\":41,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Por
-    que? Acontece alguma coisa esquisita?\\r\\n\",\"parentUIDs\":[40],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Boc\xE3o\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":43}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":501.5,\"yPos\":-190},\"ID\":42,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Ah
-    n\xE3o\u2026\\r\\n\",\"parentUIDs\":[41],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Boc\xE3o\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":44}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":505.5,\"yPos\":-77},\"ID\":43,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"N\xE3o
+    objetos que nos trazem mem\xF3rias negativas!\",\"parentUIDs\":[26],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Lena\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":29}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":274.5,\"yPos\":224},\"ID\":28,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Eeeei,
+    ou. Isso parece daora n\xE9 Luzia?\\r\\n\",\"parentUIDs\":[27],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Boc\xE3o\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":30}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":271.5,\"yPos\":333},\"ID\":29,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Dizem
+    que queimar mem\xF3rias ruins tr\xE1s boas energias!\\r\\n\",\"parentUIDs\":[28],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Boc\xE3o\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":31}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":268.5,\"yPos\":434},\"ID\":30,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Falou
+    tudo, fofo!\\r\\n\",\"parentUIDs\":[29],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Lena\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":32}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":269.5,\"yPos\":535},\"ID\":31,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Parece
+    um costume interessante, eu participaria.\",\"parentUIDs\":[30],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Luzia\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":33}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":268.5,\"yPos\":643},\"ID\":32,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"E
+    o que voc\xEA jogaria l\xE1?\\r\\n\",\"parentUIDs\":[31],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Boc\xE3o\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":36}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":264.5,\"yPos\":748},\"ID\":33,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Voc\xEA.
+    Que pergunta besta Boc\xE3o.\",\"parentUIDs\":[32],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Luzia\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableOptionConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":18},{\"__type\":\"EditableOptionConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":20},{\"__type\":\"EditableOptionConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":37}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":566.5,\"yPos\":-686},\"ID\":35,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":null,\"parentUIDs\":[17,36,45],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Lena\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":35}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":263.5,\"yPos\":870},\"ID\":36,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"*Um
+    costume que envolve destruir coisas negativas, parece eficaz*\",\"parentUIDs\":[33],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Luzia\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":39}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":562.5,\"yPos\":-498},\"ID\":38,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"T\xE1
+    tudo bem! A gente AMA ajudar o povo aqui em Turi!\\r\\n\",\"parentUIDs\":[37],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Lena\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":40}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":561.5,\"yPos\":-392},\"ID\":39,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"E
+    outra, pessoas novas sempre s\xE3o bem vindas na nossa cidade!\\r\\n\",\"parentUIDs\":[38],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Lena\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":41}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":565.5,\"yPos\":-290},\"ID\":40,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"\xC9
+    um saco viver por aqui \xE0s vezes\u2026\\r\\n\",\"parentUIDs\":[39],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Lena\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":42}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":560.5,\"yPos\":-174},\"ID\":41,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Por
+    que? Acontece alguma coisa esquisita?\\r\\n\",\"parentUIDs\":[40],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Boc\xE3o\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":43}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":563.5,\"yPos\":-65},\"ID\":42,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Ah
+    n\xE3o\u2026\\r\\n\",\"parentUIDs\":[41],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Boc\xE3o\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":44}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":567.5,\"yPos\":48},\"ID\":43,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"N\xE3o
     fofo, \xE9 que tem pouca gente da minha faixa et\xE1ria, quase sempre fico morta
-    de t\xE9dio!\\r\\n\",\"parentUIDs\":[42],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Lena\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":45}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":501.5,\"yPos\":20},\"ID\":44,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Eu
-    trabalho numa pousada e n\xE3o rola um babadozinho, nem nada!\\r\\n\",\"parentUIDs\":[43],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Lena\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":35}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":505.5,\"yPos\":117},\"ID\":45,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Que
-    problem\xE3o\u2026\",\"parentUIDs\":[44],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Luzia\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":48}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":750.5,\"yPos\":-620},\"ID\":46,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Digam
-    pro meu paizinho que mandei beijos!\",\"parentUIDs\":[20],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Lena\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":49}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":751.5,\"yPos\":-516},\"ID\":48,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Tchau
-    Don-... Er\u2026 Lena!\\r\\n\",\"parentUIDs\":[46],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Boc\xE3o\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[],\"EditorInfo\":{\"isRoot\":false,\"xPos\":752.5,\"yPos\":-417},\"ID\":49,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Tchau
+    de t\xE9dio!\\r\\n\",\"parentUIDs\":[42],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Lena\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":45}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":563.5,\"yPos\":145},\"ID\":44,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Eu
+    trabalho numa pousada e n\xE3o rola um babadozinho, nem nada!\\r\\n\",\"parentUIDs\":[43],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Lena\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":35}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":567.5,\"yPos\":242},\"ID\":45,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Que
+    problem\xE3o\u2026\",\"parentUIDs\":[44],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Luzia\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":48}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":812.5,\"yPos\":-495},\"ID\":46,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Digam
+    pro meu paizinho que mandei beijos!\",\"parentUIDs\":[20],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Lena\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":49}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":813.5,\"yPos\":-391},\"ID\":48,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Tchau
+    Don-... Er\u2026 Lena!\\r\\n\",\"parentUIDs\":[46],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Boc\xE3o\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[],\"EditorInfo\":{\"isRoot\":false,\"xPos\":814.5,\"yPos\":-292},\"ID\":49,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Tchau
     fofo!\\r\\n\",\"parentUIDs\":[48],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Lena\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0}]}"
   saveVersion: 110
   DefaultName: Lena
@@ -3864,7 +3864,7 @@ MonoBehaviour:
       m_Calls: []
   NodeID: 49
   TMPFont: {fileID: 11400000, guid: 1e471e1ec41ec774f966967734aa9d66, type: 2}
-  Icon: {fileID: 0}
+  Icon: {fileID: -5170287061274091551, guid: 88648e27d6aba154fa0a4d5f19ddbbb2, type: 3}
   Audio: {fileID: 0}
 --- !u!4 &1719628541
 Transform:
@@ -3917,7 +3917,7 @@ MonoBehaviour:
       m_Calls: []
   NodeID: 46
   TMPFont: {fileID: 11400000, guid: 1e471e1ec41ec774f966967734aa9d66, type: 2}
-  Icon: {fileID: 0}
+  Icon: {fileID: -5170287061274091551, guid: 88648e27d6aba154fa0a4d5f19ddbbb2, type: 3}
   Audio: {fileID: 0}
 --- !u!114 &1719628544
 MonoBehaviour:
@@ -3955,7 +3955,7 @@ MonoBehaviour:
       m_Calls: []
   NodeID: 44
   TMPFont: {fileID: 11400000, guid: 1e471e1ec41ec774f966967734aa9d66, type: 2}
-  Icon: {fileID: 0}
+  Icon: {fileID: -5170287061274091551, guid: 88648e27d6aba154fa0a4d5f19ddbbb2, type: 3}
   Audio: {fileID: 0}
 --- !u!114 &1719628546
 MonoBehaviour:
@@ -3974,7 +3974,7 @@ MonoBehaviour:
       m_Calls: []
   NodeID: 43
   TMPFont: {fileID: 11400000, guid: 1e471e1ec41ec774f966967734aa9d66, type: 2}
-  Icon: {fileID: 0}
+  Icon: {fileID: -5170287061274091551, guid: 88648e27d6aba154fa0a4d5f19ddbbb2, type: 3}
   Audio: {fileID: 0}
 --- !u!114 &1719628547
 MonoBehaviour:
@@ -4031,7 +4031,7 @@ MonoBehaviour:
       m_Calls: []
   NodeID: 40
   TMPFont: {fileID: 11400000, guid: 1e471e1ec41ec774f966967734aa9d66, type: 2}
-  Icon: {fileID: 0}
+  Icon: {fileID: -5170287061274091551, guid: 88648e27d6aba154fa0a4d5f19ddbbb2, type: 3}
   Audio: {fileID: 0}
 --- !u!114 &1719628550
 MonoBehaviour:
@@ -4050,7 +4050,7 @@ MonoBehaviour:
       m_Calls: []
   NodeID: 39
   TMPFont: {fileID: 11400000, guid: 1e471e1ec41ec774f966967734aa9d66, type: 2}
-  Icon: {fileID: 0}
+  Icon: {fileID: -5170287061274091551, guid: 88648e27d6aba154fa0a4d5f19ddbbb2, type: 3}
   Audio: {fileID: 0}
 --- !u!114 &1719628551
 MonoBehaviour:
@@ -4069,7 +4069,7 @@ MonoBehaviour:
       m_Calls: []
   NodeID: 38
   TMPFont: {fileID: 11400000, guid: 1e471e1ec41ec774f966967734aa9d66, type: 2}
-  Icon: {fileID: 0}
+  Icon: {fileID: -5170287061274091551, guid: 88648e27d6aba154fa0a4d5f19ddbbb2, type: 3}
   Audio: {fileID: 0}
 --- !u!114 &1719628552
 MonoBehaviour:
@@ -4202,7 +4202,7 @@ MonoBehaviour:
       m_Calls: []
   NodeID: 30
   TMPFont: {fileID: 11400000, guid: 1e471e1ec41ec774f966967734aa9d66, type: 2}
-  Icon: {fileID: 0}
+  Icon: {fileID: -5170287061274091551, guid: 88648e27d6aba154fa0a4d5f19ddbbb2, type: 3}
   Audio: {fileID: 0}
 --- !u!114 &1719628559
 MonoBehaviour:
@@ -4259,7 +4259,7 @@ MonoBehaviour:
       m_Calls: []
   NodeID: 27
   TMPFont: {fileID: 11400000, guid: 1e471e1ec41ec774f966967734aa9d66, type: 2}
-  Icon: {fileID: 0}
+  Icon: {fileID: -5170287061274091551, guid: 88648e27d6aba154fa0a4d5f19ddbbb2, type: 3}
   Audio: {fileID: 0}
 --- !u!114 &1719628562
 MonoBehaviour:
@@ -4278,7 +4278,7 @@ MonoBehaviour:
       m_Calls: []
   NodeID: 26
   TMPFont: {fileID: 11400000, guid: 1e471e1ec41ec774f966967734aa9d66, type: 2}
-  Icon: {fileID: -3010980872749922538, guid: 18bd27027fb5dd646879cb907010ec43, type: 3}
+  Icon: {fileID: -5170287061274091551, guid: 88648e27d6aba154fa0a4d5f19ddbbb2, type: 3}
   Audio: {fileID: 0}
 --- !u!114 &1719628563
 MonoBehaviour:
@@ -4297,7 +4297,7 @@ MonoBehaviour:
       m_Calls: []
   NodeID: 25
   TMPFont: {fileID: 11400000, guid: 1e471e1ec41ec774f966967734aa9d66, type: 2}
-  Icon: {fileID: 0}
+  Icon: {fileID: -5170287061274091551, guid: 88648e27d6aba154fa0a4d5f19ddbbb2, type: 3}
   Audio: {fileID: 0}
 --- !u!114 &1719628564
 MonoBehaviour:
@@ -4335,7 +4335,7 @@ MonoBehaviour:
       m_Calls: []
   NodeID: 23
   TMPFont: {fileID: 11400000, guid: 1e471e1ec41ec774f966967734aa9d66, type: 2}
-  Icon: {fileID: 0}
+  Icon: {fileID: -5170287061274091551, guid: 88648e27d6aba154fa0a4d5f19ddbbb2, type: 3}
   Audio: {fileID: 0}
 --- !u!114 &1719628566
 MonoBehaviour:
@@ -4354,7 +4354,7 @@ MonoBehaviour:
       m_Calls: []
   NodeID: 22
   TMPFont: {fileID: 11400000, guid: 1e471e1ec41ec774f966967734aa9d66, type: 2}
-  Icon: {fileID: 0}
+  Icon: {fileID: -5170287061274091551, guid: 88648e27d6aba154fa0a4d5f19ddbbb2, type: 3}
   Audio: {fileID: 0}
 --- !u!114 &1719628567
 MonoBehaviour:
@@ -4373,7 +4373,7 @@ MonoBehaviour:
       m_Calls: []
   NodeID: 21
   TMPFont: {fileID: 11400000, guid: 1e471e1ec41ec774f966967734aa9d66, type: 2}
-  Icon: {fileID: 0}
+  Icon: {fileID: -5170287061274091551, guid: 88648e27d6aba154fa0a4d5f19ddbbb2, type: 3}
   Audio: {fileID: 0}
 --- !u!114 &1719628568
 MonoBehaviour:
@@ -4449,7 +4449,7 @@ MonoBehaviour:
       m_Calls: []
   NodeID: 16
   TMPFont: {fileID: 11400000, guid: 1e471e1ec41ec774f966967734aa9d66, type: 2}
-  Icon: {fileID: 0}
+  Icon: {fileID: -5170287061274091551, guid: 88648e27d6aba154fa0a4d5f19ddbbb2, type: 3}
   Audio: {fileID: 0}
 --- !u!114 &1719628572
 MonoBehaviour:
@@ -4487,7 +4487,7 @@ MonoBehaviour:
       m_Calls: []
   NodeID: 14
   TMPFont: {fileID: 11400000, guid: 1e471e1ec41ec774f966967734aa9d66, type: 2}
-  Icon: {fileID: 0}
+  Icon: {fileID: -5170287061274091551, guid: 88648e27d6aba154fa0a4d5f19ddbbb2, type: 3}
   Audio: {fileID: 0}
 --- !u!114 &1719628574
 MonoBehaviour:
@@ -4506,7 +4506,7 @@ MonoBehaviour:
       m_Calls: []
   NodeID: 13
   TMPFont: {fileID: 11400000, guid: 1e471e1ec41ec774f966967734aa9d66, type: 2}
-  Icon: {fileID: 0}
+  Icon: {fileID: -5170287061274091551, guid: 88648e27d6aba154fa0a4d5f19ddbbb2, type: 3}
   Audio: {fileID: 0}
 --- !u!114 &1719628575
 MonoBehaviour:
@@ -4563,7 +4563,7 @@ MonoBehaviour:
       m_Calls: []
   NodeID: 10
   TMPFont: {fileID: 11400000, guid: 1e471e1ec41ec774f966967734aa9d66, type: 2}
-  Icon: {fileID: 0}
+  Icon: {fileID: -5170287061274091551, guid: 88648e27d6aba154fa0a4d5f19ddbbb2, type: 3}
   Audio: {fileID: 0}
 --- !u!114 &1719628578
 MonoBehaviour:
@@ -4601,7 +4601,7 @@ MonoBehaviour:
       m_Calls: []
   NodeID: 8
   TMPFont: {fileID: 11400000, guid: 1e471e1ec41ec774f966967734aa9d66, type: 2}
-  Icon: {fileID: 0}
+  Icon: {fileID: -5170287061274091551, guid: 88648e27d6aba154fa0a4d5f19ddbbb2, type: 3}
   Audio: {fileID: 0}
 --- !u!114 &1719628580
 MonoBehaviour:
@@ -4658,7 +4658,7 @@ MonoBehaviour:
       m_Calls: []
   NodeID: 5
   TMPFont: {fileID: 11400000, guid: 1e471e1ec41ec774f966967734aa9d66, type: 2}
-  Icon: {fileID: 0}
+  Icon: {fileID: -5170287061274091551, guid: 88648e27d6aba154fa0a4d5f19ddbbb2, type: 3}
   Audio: {fileID: 0}
 --- !u!114 &1719628583
 MonoBehaviour:
@@ -4677,7 +4677,7 @@ MonoBehaviour:
       m_Calls: []
   NodeID: 4
   TMPFont: {fileID: 11400000, guid: 1e471e1ec41ec774f966967734aa9d66, type: 2}
-  Icon: {fileID: 0}
+  Icon: {fileID: -5170287061274091551, guid: 88648e27d6aba154fa0a4d5f19ddbbb2, type: 3}
   Audio: {fileID: 0}
 --- !u!114 &1719628584
 MonoBehaviour:
@@ -4715,7 +4715,7 @@ MonoBehaviour:
       m_Calls: []
   NodeID: 2
   TMPFont: {fileID: 11400000, guid: 1e471e1ec41ec774f966967734aa9d66, type: 2}
-  Icon: {fileID: 0}
+  Icon: {fileID: -5170287061274091551, guid: 88648e27d6aba154fa0a4d5f19ddbbb2, type: 3}
   Audio: {fileID: 0}
 --- !u!114 &1719628586
 MonoBehaviour:
@@ -4753,7 +4753,7 @@ MonoBehaviour:
       m_Calls: []
   NodeID: 0
   TMPFont: {fileID: 11400000, guid: 1e471e1ec41ec774f966967734aa9d66, type: 2}
-  Icon: {fileID: 0}
+  Icon: {fileID: -5170287061274091551, guid: 88648e27d6aba154fa0a4d5f19ddbbb2, type: 3}
   Audio: {fileID: 0}
 --- !u!1 &1831134158
 GameObject:

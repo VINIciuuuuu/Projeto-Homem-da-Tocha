@@ -1,3 +1,4 @@
+using System.Collections;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
@@ -16,11 +17,11 @@ public class Door : MonoBehaviour
     public void OnTriggerEnter2D(Collider2D other)
     {
         if (!other.CompareTag("Player")) return;
-
         Spawn.NextSpawnName = arrivalSpawnName;
         SceneManager.LoadScene(destinationSceneName);
 
     }
+
 }
 
 

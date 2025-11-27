@@ -1,0 +1,871 @@
+fileFormatVersion: 2
+guid: 0e30ed37920c30849aa7a1d5b0ef2a00
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2865554225893056752
+    second: Assets ambiente vivo_0
+  - first:
+      213: 7882573511639003467
+    second: Assets ambiente vivo_1
+  - first:
+      213: -8668860978412019955
+    second: Assets ambiente vivo_2
+  - first:
+      213: 8936345970475853195
+    second: Assets ambiente vivo_3
+  - first:
+      213: 3589759129511227733
+    second: Assets ambiente vivo_4
+  - first:
+      213: -7743286533266070856
+    second: Assets ambiente vivo_5
+  - first:
+      213: 5166258868729642933
+    second: Assets ambiente vivo_6
+  - first:
+      213: 2806451755414315742
+    second: Assets ambiente vivo_7
+  - first:
+      213: 7203466664190927355
+    second: Assets ambiente vivo_8
+  - first:
+      213: -2073823715733658884
+    second: Assets ambiente vivo_9
+  - first:
+      213: 4249600816884217419
+    second: Assets ambiente vivo_10
+  - first:
+      213: 5059546000095650137
+    second: Assets ambiente vivo_11
+  - first:
+      213: 8095207766136966643
+    second: Assets ambiente vivo_12
+  - first:
+      213: -9014709292064686509
+    second: Assets ambiente vivo_13
+  - first:
+      213: -1621815377073547397
+    second: Assets ambiente vivo_14
+  - first:
+      213: -3268301716978225640
+    second: Assets ambiente vivo_15
+  - first:
+      213: -3038269991219043102
+    second: Assets ambiente vivo_16
+  - first:
+      213: 5302067659084357280
+    second: Assets ambiente vivo_17
+  - first:
+      213: -2957429254506919613
+    second: Assets ambiente vivo_18
+  - first:
+      213: 3521741144095355363
+    second: Assets ambiente vivo_19
+  - first:
+      213: -8136176024216166570
+    second: Assets ambiente vivo_20
+  - first:
+      213: -9159682754436267006
+    second: Assets ambiente vivo_21
+  - first:
+      213: 7640174777312272995
+    second: Assets ambiente vivo_22
+  - first:
+      213: -3740367920650075228
+    second: Assets ambiente vivo_23
+  - first:
+      213: -296166377653888370
+    second: Assets ambiente vivo_24
+  - first:
+      213: 5689705900233098579
+    second: Assets ambiente vivo_25
+  - first:
+      213: -7319808027245082852
+    second: Assets ambiente vivo_26
+  - first:
+      213: 3359695331747438351
+    second: Assets ambiente vivo_27
+  - first:
+      213: -2557790648024318397
+    second: Assets ambiente vivo_28
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Assets ambiente vivo_0
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 191
+        width: 86
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f0a9f6d26e74c720800000000000000
+      internalID: 2865554225893056752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Assets ambiente vivo_1
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 239
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b41752d58d6846d60800000000000000
+      internalID: 7882573511639003467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Assets ambiente vivo_2
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 207
+        width: 23
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0f9186aed402b780800000000000000
+      internalID: -8668860978412019955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Assets ambiente vivo_3
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 207
+        width: 39
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b85e4383057440c70800000000000000
+      internalID: 8936345970475853195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Assets ambiente vivo_4
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 207
+        width: 33
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5517bbfa8e261d130800000000000000
+      internalID: 3589759129511227733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Assets ambiente vivo_5
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 223
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b22c967ce15a8490800000000000000
+      internalID: -7743286533266070856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Assets ambiente vivo_6
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 207
+        width: 25
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5bf7750b11d32b740800000000000000
+      internalID: 5166258868729642933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Assets ambiente vivo_7
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 207
+        width: 6
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed2edb8900582f620800000000000000
+      internalID: 2806451755414315742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Assets ambiente vivo_8
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 159
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf1e776f3cad7f360800000000000000
+      internalID: 7203466664190927355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Assets ambiente vivo_9
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 143
+        width: 23
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf22ae0715c4833e0800000000000000
+      internalID: -2073823715733658884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Assets ambiente vivo_10
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 127
+        width: 22
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b46f7977d6d99fa30800000000000000
+      internalID: 4249600816884217419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Assets ambiente vivo_11
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 143
+        width: 14
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 951237cc74e173640800000000000000
+      internalID: 5059546000095650137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Assets ambiente vivo_12
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 143
+        width: 14
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3fdc393b294f75070800000000000000
+      internalID: 8095207766136966643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Assets ambiente vivo_13
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 143
+        width: 23
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35e321d29a155e280800000000000000
+      internalID: -9014709292064686509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Assets ambiente vivo_14
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 143
+        width: 50
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b77d34ed1872e79e0800000000000000
+      internalID: -1621815377073547397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Assets ambiente vivo_15
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 143
+        width: 23
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81ea6b497e8a4a2d0800000000000000
+      internalID: -3268301716978225640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Assets ambiente vivo_16
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 79
+        width: 17
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e4e8a95a85e5d5d0800000000000000
+      internalID: -3038269991219043102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Assets ambiente vivo_17
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 79
+        width: 10
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ae5fc2c17ab49940800000000000000
+      internalID: 5302067659084357280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Assets ambiente vivo_18
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 79
+        width: 18
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34944cc13c915f6d0800000000000000
+      internalID: -2957429254506919613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Assets ambiente vivo_19
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 79
+        width: 25
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e17eac59ecbfd030800000000000000
+      internalID: 3521741144095355363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Assets ambiente vivo_20
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 79
+        width: 26
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65f9b86630f761f80800000000000000
+      internalID: -8136176024216166570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Assets ambiente vivo_21
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 79
+        width: 26
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2040e8e901542e080800000000000000
+      internalID: -9159682754436267006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Assets ambiente vivo_22
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 79
+        width: 19
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 362e8970b7a570a60800000000000000
+      internalID: 7640174777312272995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Assets ambiente vivo_23
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 79
+        width: 17
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a3c268813b871cc0800000000000000
+      internalID: -3740367920650075228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Assets ambiente vivo_24
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 0
+        width: 26
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8a9689af3ec3ebf0800000000000000
+      internalID: -296166377653888370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Assets ambiente vivo_25
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 0
+        width: 26
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35586d3fe55e5fe40800000000000000
+      internalID: 5689705900233098579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Assets ambiente vivo_26
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 0
+        width: 78
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1701089161da6a90800000000000000
+      internalID: -7319808027245082852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Assets ambiente vivo_27
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 0
+        width: 29
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0f18529a1900ae20800000000000000
+      internalID: 3359695331747438351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Assets ambiente vivo_28
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 0
+        width: 53
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34eb1b615f6e08cd0800000000000000
+      internalID: -2557790648024318397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Assets ambiente vivo_0: 2865554225893056752
+      Assets ambiente vivo_1: 7882573511639003467
+      Assets ambiente vivo_10: 4249600816884217419
+      Assets ambiente vivo_11: 5059546000095650137
+      Assets ambiente vivo_12: 8095207766136966643
+      Assets ambiente vivo_13: -9014709292064686509
+      Assets ambiente vivo_14: -1621815377073547397
+      Assets ambiente vivo_15: -3268301716978225640
+      Assets ambiente vivo_16: -3038269991219043102
+      Assets ambiente vivo_17: 5302067659084357280
+      Assets ambiente vivo_18: -2957429254506919613
+      Assets ambiente vivo_19: 3521741144095355363
+      Assets ambiente vivo_2: -8668860978412019955
+      Assets ambiente vivo_20: -8136176024216166570
+      Assets ambiente vivo_21: -9159682754436267006
+      Assets ambiente vivo_22: 7640174777312272995
+      Assets ambiente vivo_23: -3740367920650075228
+      Assets ambiente vivo_24: -296166377653888370
+      Assets ambiente vivo_25: 5689705900233098579
+      Assets ambiente vivo_26: -7319808027245082852
+      Assets ambiente vivo_27: 3359695331747438351
+      Assets ambiente vivo_28: -2557790648024318397
+      Assets ambiente vivo_3: 8936345970475853195
+      Assets ambiente vivo_4: 3589759129511227733
+      Assets ambiente vivo_5: -7743286533266070856
+      Assets ambiente vivo_6: 5166258868729642933
+      Assets ambiente vivo_7: 2806451755414315742
+      Assets ambiente vivo_8: 7203466664190927355
+      Assets ambiente vivo_9: -2073823715733658884
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

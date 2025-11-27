@@ -1892,6 +1892,7 @@ GameObject:
   - component: {fileID: 905655962}
   - component: {fileID: 905655965}
   - component: {fileID: 905655966}
+  - component: {fileID: 905655967}
   m_Layer: 0
   m_Name: Camera Principal
   m_TagString: Camerareal
@@ -2049,6 +2050,19 @@ MonoBehaviour:
       m_PostInfinity: 2
       m_RotationOrder: 4
   CustomBlends: {fileID: 0}
+--- !u!114 &905655967
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 905655961}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 28e16234c47fd6b4791932cf80042190, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::StartDialogueScene
+  myConversation: {fileID: 865348035}
 --- !u!1 &994668240
 GameObject:
   m_ObjectHideFlags: 0

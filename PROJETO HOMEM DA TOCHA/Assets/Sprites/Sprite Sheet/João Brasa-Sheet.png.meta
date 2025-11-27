@@ -1,0 +1,1209 @@
+fileFormatVersion: 2
+guid: e708f7e64e35ce146aa5bb4bdc709668
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4895510490638242148
+    second: "Jo\xE3o Brasa-Sheet_0"
+  - first:
+      213: -6602997025890135223
+    second: "Jo\xE3o Brasa-Sheet_1"
+  - first:
+      213: 5660840469336661949
+    second: "Jo\xE3o Brasa-Sheet_2"
+  - first:
+      213: 471597745773388430
+    second: "Jo\xE3o Brasa-Sheet_3"
+  - first:
+      213: 6483953686079043183
+    second: "Jo\xE3o Brasa-Sheet_4"
+  - first:
+      213: -6787714699317294692
+    second: "Jo\xE3o Brasa-Sheet_5"
+  - first:
+      213: 1981508537092193903
+    second: "Jo\xE3o Brasa-Sheet_6"
+  - first:
+      213: 3413397404318850467
+    second: "Jo\xE3o Brasa-Sheet_7"
+  - first:
+      213: 6978944728157533747
+    second: "Jo\xE3o Brasa-Sheet_8"
+  - first:
+      213: 6776990283401815126
+    second: "Jo\xE3o Brasa-Sheet_9"
+  - first:
+      213: 6852013790260153832
+    second: "Jo\xE3o Brasa-Sheet_10"
+  - first:
+      213: 6907513213954576188
+    second: "Jo\xE3o Brasa-Sheet_11"
+  - first:
+      213: -5205676268840889729
+    second: "Jo\xE3o Brasa-Sheet_12"
+  - first:
+      213: -2898491586346790766
+    second: "Jo\xE3o Brasa-Sheet_13"
+  - first:
+      213: -5810189551593083154
+    second: "Jo\xE3o Brasa-Sheet_14"
+  - first:
+      213: 1814395450360069319
+    second: "Jo\xE3o Brasa-Sheet_15"
+  - first:
+      213: -4328710851085838573
+    second: "Jo\xE3o Brasa-Sheet_16"
+  - first:
+      213: -8006371562076706694
+    second: "Jo\xE3o Brasa-Sheet_17"
+  - first:
+      213: 3604176792873425888
+    second: "Jo\xE3o Brasa-Sheet_18"
+  - first:
+      213: -1426192694633934641
+    second: "Jo\xE3o Brasa-Sheet_19"
+  - first:
+      213: 1236044892811426184
+    second: "Jo\xE3o Brasa-Sheet_20"
+  - first:
+      213: -1070994552983604289
+    second: "Jo\xE3o Brasa-Sheet_21"
+  - first:
+      213: -926906737952528896
+    second: "Jo\xE3o Brasa-Sheet_22"
+  - first:
+      213: 3658558764250983519
+    second: "Jo\xE3o Brasa-Sheet_23"
+  - first:
+      213: 1378773951202251024
+    second: "Jo\xE3o Brasa-Sheet_24"
+  - first:
+      213: -8895101221806011378
+    second: "Jo\xE3o Brasa-Sheet_25"
+  - first:
+      213: 914596903211971336
+    second: "Jo\xE3o Brasa-Sheet_26"
+  - first:
+      213: 1715573555981151905
+    second: "Jo\xE3o Brasa-Sheet_27"
+  - first:
+      213: 6128746279251992731
+    second: "Jo\xE3o Brasa-Sheet_28"
+  - first:
+      213: -1743081184350017617
+    second: "Jo\xE3o Brasa-Sheet_29"
+  - first:
+      213: -2691528646090798939
+    second: "Jo\xE3o Brasa-Sheet_30"
+  - first:
+      213: 6680100716461349626
+    second: "Jo\xE3o Brasa-Sheet_31"
+  - first:
+      213: 3764527151016891219
+    second: "Jo\xE3o Brasa-Sheet_32"
+  - first:
+      213: 2033846636709253102
+    second: "Jo\xE3o Brasa-Sheet_33"
+  - first:
+      213: 4858512036688004362
+    second: "Jo\xE3o Brasa-Sheet_34"
+  - first:
+      213: -2370492786562283699
+    second: "Jo\xE3o Brasa-Sheet_35"
+  - first:
+      213: -5436249440544260925
+    second: "Jo\xE3o Brasa-Sheet_36"
+  - first:
+      213: -6734228902088332303
+    second: "Jo\xE3o Brasa-Sheet_37"
+  - first:
+      213: -5694768010648090629
+    second: "Jo\xE3o Brasa-Sheet_38"
+  - first:
+      213: 7183855128773814002
+    second: "Jo\xE3o Brasa-Sheet_39"
+  - first:
+      213: -6494100917329611586
+    second: "Jo\xE3o Brasa-Sheet_40"
+  - first:
+      213: 4676539123993768632
+    second: "Jo\xE3o Brasa-Sheet_41"
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: "Jo\xE3o Brasa-Sheet_0"
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 0
+        width: 29
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 461d0bc8ad850f340800000000000000
+      internalID: 4895510490638242148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Jo\xE3o Brasa-Sheet_1"
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 0
+        width: 29
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9439bda60317d54a0800000000000000
+      internalID: -6602997025890135223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Jo\xE3o Brasa-Sheet_2"
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 0
+        width: 29
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dbf97f81a685f8e40800000000000000
+      internalID: 5660840469336661949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Jo\xE3o Brasa-Sheet_3"
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 0
+        width: 29
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e82a2b1b6a37b8600800000000000000
+      internalID: 471597745773388430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Jo\xE3o Brasa-Sheet_4"
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 0
+        width: 29
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6673d62681abf950800000000000000
+      internalID: 6483953686079043183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Jo\xE3o Brasa-Sheet_5"
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 0
+        width: 29
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c99ce7e91713dc1a0800000000000000
+      internalID: -6787714699317294692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Jo\xE3o Brasa-Sheet_6"
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 0
+        width: 29
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6eb8c8148bbf7b10800000000000000
+      internalID: 1981508537092193903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Jo\xE3o Brasa-Sheet_7"
+      rect:
+        serializedVersion: 2
+        x: 461
+        y: 0
+        width: 31
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ad5aa1bad2de5f20800000000000000
+      internalID: 3413397404318850467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Jo\xE3o Brasa-Sheet_8"
+      rect:
+        serializedVersion: 2
+        x: 524
+        y: 50
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3363ae411413ad060800000000000000
+      internalID: 6978944728157533747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Jo\xE3o Brasa-Sheet_9"
+      rect:
+        serializedVersion: 2
+        x: 527
+        y: 0
+        width: 29
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6546078b1c4bc0e50800000000000000
+      internalID: 6776990283401815126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Jo\xE3o Brasa-Sheet_10"
+      rect:
+        serializedVersion: 2
+        x: 589
+        y: 55
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8edc88c1d3e371f50800000000000000
+      internalID: 6852013790260153832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Jo\xE3o Brasa-Sheet_11"
+      rect:
+        serializedVersion: 2
+        x: 591
+        y: 0
+        width: 29
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3f4417abaa6cdf50800000000000000
+      internalID: 6907513213954576188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Jo\xE3o Brasa-Sheet_12"
+      rect:
+        serializedVersion: 2
+        x: 653
+        y: 56
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f72de0ca309b1c7b0800000000000000
+      internalID: -5205676268840889729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Jo\xE3o Brasa-Sheet_13"
+      rect:
+        serializedVersion: 2
+        x: 655
+        y: 0
+        width: 29
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2905753524d76c7d0800000000000000
+      internalID: -2898491586346790766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Jo\xE3o Brasa-Sheet_14"
+      rect:
+        serializedVersion: 2
+        x: 717
+        y: 0
+        width: 31
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eeeab93f26f0e5fa0800000000000000
+      internalID: -5810189551593083154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Jo\xE3o Brasa-Sheet_15"
+      rect:
+        serializedVersion: 2
+        x: 782
+        y: 0
+        width: 30
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ccfbcc8c070e2910800000000000000
+      internalID: 1814395450360069319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Jo\xE3o Brasa-Sheet_16"
+      rect:
+        serializedVersion: 2
+        x: 846
+        y: 0
+        width: 30
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31756a95a645de3c0800000000000000
+      internalID: -4328710851085838573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Jo\xE3o Brasa-Sheet_17"
+      rect:
+        serializedVersion: 2
+        x: 911
+        y: 0
+        width: 29
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a78e0aedb77a3e090800000000000000
+      internalID: -8006371562076706694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Jo\xE3o Brasa-Sheet_18"
+      rect:
+        serializedVersion: 2
+        x: 975
+        y: 0
+        width: 29
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0eb5de682bb940230800000000000000
+      internalID: 3604176792873425888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Jo\xE3o Brasa-Sheet_19"
+      rect:
+        serializedVersion: 2
+        x: 1039
+        y: 0
+        width: 29
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc0561fec45253ce0800000000000000
+      internalID: -1426192694633934641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Jo\xE3o Brasa-Sheet_20"
+      rect:
+        serializedVersion: 2
+        x: 1103
+        y: 0
+        width: 29
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 889f57af740572110800000000000000
+      internalID: 1236044892811426184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Jo\xE3o Brasa-Sheet_21"
+      rect:
+        serializedVersion: 2
+        x: 1167
+        y: 0
+        width: 29
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb3b801e0201321f0800000000000000
+      internalID: -1070994552983604289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Jo\xE3o Brasa-Sheet_22"
+      rect:
+        serializedVersion: 2
+        x: 1231
+        y: 0
+        width: 29
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0066c689b37f223f0800000000000000
+      internalID: -926906737952528896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Jo\xE3o Brasa-Sheet_23"
+      rect:
+        serializedVersion: 2
+        x: 1295
+        y: 0
+        width: 29
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5c621defcfc5c230800000000000000
+      internalID: 3658558764250983519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Jo\xE3o Brasa-Sheet_24"
+      rect:
+        serializedVersion: 2
+        x: 1359
+        y: 0
+        width: 29
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 011d8f28a93622310800000000000000
+      internalID: 1378773951202251024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Jo\xE3o Brasa-Sheet_25"
+      rect:
+        serializedVersion: 2
+        x: 1423
+        y: 0
+        width: 29
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0c0c1921904e8480800000000000000
+      internalID: -8895101221806011378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Jo\xE3o Brasa-Sheet_26"
+      rect:
+        serializedVersion: 2
+        x: 1487
+        y: 0
+        width: 29
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8033f98a90d41bc00800000000000000
+      internalID: 914596903211971336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Jo\xE3o Brasa-Sheet_27"
+      rect:
+        serializedVersion: 2
+        x: 1551
+        y: 0
+        width: 29
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ae6f464f01fec710800000000000000
+      internalID: 1715573555981151905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Jo\xE3o Brasa-Sheet_28"
+      rect:
+        serializedVersion: 2
+        x: 1615
+        y: 0
+        width: 29
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b90ef4df44ead0550800000000000000
+      internalID: 6128746279251992731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Jo\xE3o Brasa-Sheet_29"
+      rect:
+        serializedVersion: 2
+        x: 1679
+        y: 0
+        width: 29
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa76628e5e45fc7e0800000000000000
+      internalID: -1743081184350017617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Jo\xE3o Brasa-Sheet_30"
+      rect:
+        serializedVersion: 2
+        x: 1743
+        y: 0
+        width: 29
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a848fae4f4c5aad0800000000000000
+      internalID: -2691528646090798939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Jo\xE3o Brasa-Sheet_31"
+      rect:
+        serializedVersion: 2
+        x: 1811
+        y: 0
+        width: 25
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: afad28c753c74bc50800000000000000
+      internalID: 6680100716461349626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Jo\xE3o Brasa-Sheet_32"
+      rect:
+        serializedVersion: 2
+        x: 1875
+        y: 0
+        width: 25
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 353dcaf9f794e3430800000000000000
+      internalID: 3764527151016891219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Jo\xE3o Brasa-Sheet_33"
+      rect:
+        serializedVersion: 2
+        x: 1939
+        y: 0
+        width: 25
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eef8da48dbca93c10800000000000000
+      internalID: 2033846636709253102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Jo\xE3o Brasa-Sheet_34"
+      rect:
+        serializedVersion: 2
+        x: 2003
+        y: 0
+        width: 25
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a058fb3b4f6ec6340800000000000000
+      internalID: 4858512036688004362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Jo\xE3o Brasa-Sheet_35"
+      rect:
+        serializedVersion: 2
+        x: 2067
+        y: 0
+        width: 25
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d47445abe515a1fd0800000000000000
+      internalID: -2370492786562283699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Jo\xE3o Brasa-Sheet_36"
+      rect:
+        serializedVersion: 2
+        x: 2131
+        y: 0
+        width: 25
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3cc71f1bfef8e84b0800000000000000
+      internalID: -5436249440544260925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Jo\xE3o Brasa-Sheet_37"
+      rect:
+        serializedVersion: 2
+        x: 2195
+        y: 0
+        width: 25
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1fb2bd63e763b82a0800000000000000
+      internalID: -6734228902088332303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Jo\xE3o Brasa-Sheet_38"
+      rect:
+        serializedVersion: 2
+        x: 2259
+        y: 0
+        width: 25
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf7001f9aae18f0b0800000000000000
+      internalID: -5694768010648090629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Jo\xE3o Brasa-Sheet_39"
+      rect:
+        serializedVersion: 2
+        x: 2323
+        y: 0
+        width: 25
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f66e6c8d2e22b360800000000000000
+      internalID: 7183855128773814002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Jo\xE3o Brasa-Sheet_40"
+      rect:
+        serializedVersion: 2
+        x: 2387
+        y: 0
+        width: 25
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb4b7077f9150e5a0800000000000000
+      internalID: -6494100917329611586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Jo\xE3o Brasa-Sheet_41"
+      rect:
+        serializedVersion: 2
+        x: 2451
+        y: 0
+        width: 25
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b27ddf4e8766e040800000000000000
+      internalID: 4676539123993768632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      "Jo\xE3o Brasa-Sheet_0": 4895510490638242148
+      "Jo\xE3o Brasa-Sheet_1": -6602997025890135223
+      "Jo\xE3o Brasa-Sheet_10": 6852013790260153832
+      "Jo\xE3o Brasa-Sheet_11": 6907513213954576188
+      "Jo\xE3o Brasa-Sheet_12": -5205676268840889729
+      "Jo\xE3o Brasa-Sheet_13": -2898491586346790766
+      "Jo\xE3o Brasa-Sheet_14": -5810189551593083154
+      "Jo\xE3o Brasa-Sheet_15": 1814395450360069319
+      "Jo\xE3o Brasa-Sheet_16": -4328710851085838573
+      "Jo\xE3o Brasa-Sheet_17": -8006371562076706694
+      "Jo\xE3o Brasa-Sheet_18": 3604176792873425888
+      "Jo\xE3o Brasa-Sheet_19": -1426192694633934641
+      "Jo\xE3o Brasa-Sheet_2": 5660840469336661949
+      "Jo\xE3o Brasa-Sheet_20": 1236044892811426184
+      "Jo\xE3o Brasa-Sheet_21": -1070994552983604289
+      "Jo\xE3o Brasa-Sheet_22": -926906737952528896
+      "Jo\xE3o Brasa-Sheet_23": 3658558764250983519
+      "Jo\xE3o Brasa-Sheet_24": 1378773951202251024
+      "Jo\xE3o Brasa-Sheet_25": -8895101221806011378
+      "Jo\xE3o Brasa-Sheet_26": 914596903211971336
+      "Jo\xE3o Brasa-Sheet_27": 1715573555981151905
+      "Jo\xE3o Brasa-Sheet_28": 6128746279251992731
+      "Jo\xE3o Brasa-Sheet_29": -1743081184350017617
+      "Jo\xE3o Brasa-Sheet_3": 471597745773388430
+      "Jo\xE3o Brasa-Sheet_30": -2691528646090798939
+      "Jo\xE3o Brasa-Sheet_31": 6680100716461349626
+      "Jo\xE3o Brasa-Sheet_32": 3764527151016891219
+      "Jo\xE3o Brasa-Sheet_33": 2033846636709253102
+      "Jo\xE3o Brasa-Sheet_34": 4858512036688004362
+      "Jo\xE3o Brasa-Sheet_35": -2370492786562283699
+      "Jo\xE3o Brasa-Sheet_36": -5436249440544260925
+      "Jo\xE3o Brasa-Sheet_37": -6734228902088332303
+      "Jo\xE3o Brasa-Sheet_38": -5694768010648090629
+      "Jo\xE3o Brasa-Sheet_39": 7183855128773814002
+      "Jo\xE3o Brasa-Sheet_4": 6483953686079043183
+      "Jo\xE3o Brasa-Sheet_40": -6494100917329611586
+      "Jo\xE3o Brasa-Sheet_41": 4676539123993768632
+      "Jo\xE3o Brasa-Sheet_5": -6787714699317294692
+      "Jo\xE3o Brasa-Sheet_6": 1981508537092193903
+      "Jo\xE3o Brasa-Sheet_7": 3413397404318850467
+      "Jo\xE3o Brasa-Sheet_8": 6978944728157533747
+      "Jo\xE3o Brasa-Sheet_9": 6776990283401815126
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

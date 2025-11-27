@@ -1,3 +1,4 @@
+using UnityEditor.SearchService;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 public class MudarCena : MonoBehaviour
@@ -10,5 +11,6 @@ public class MudarCena : MonoBehaviour
         Luzia.Instance.Luziavolta();
         Spawn.NextSpawnName = arrivalSpawnName;
         SceneManager.LoadScene(destinationSceneName);
+        
     }
 }
