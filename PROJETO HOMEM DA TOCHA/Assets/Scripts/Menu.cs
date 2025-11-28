@@ -33,7 +33,7 @@ public class Transiçõesdecena : MonoBehaviour
         FadeinCanva.SetActive(true);
         if (!isFading)
         {
-            nextSceneName = "Turi";
+           // nextSceneName = "Turi";
             StartCoroutine(FadeOutIn());
         }
     }
