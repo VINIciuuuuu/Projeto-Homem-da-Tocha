@@ -2,16 +2,16 @@ using UnityEngine;
 
 public class ItemGiver : MonoBehaviour
 {
-    [Header("Refer√™ncia do Invent√°rio")]
+    [Header("ReferÍncia do Invent·rio")]
     public Inventory playerInventory;
-    
-    [Header("Item Padr√£o (opcional)")]
+
+    [Header("Item Padr„o (opcional)")]
     public ItemData defaultItem;
     public int defaultAmount = 1;
 
     void Start()
     {
-        // Se n√£o foi atribu√≠do manualmente, tenta encontrar o invent√°rio do player
+        // Se n„o foi atribuÌdo manualmente, tenta encontrar o invent·rio do player
         if (playerInventory == null)
         {
             GameObject player = GameObject.FindGameObjectWithTag("Player");
@@ -23,7 +23,7 @@ public class ItemGiver : MonoBehaviour
     }
 
     /// <summary>
-    /// Adiciona um item ao invent√°rio do player
+    /// Adiciona um item ao invent·rio do player
     /// </summary>
     /// <param name="item">O ItemData do item a ser adicionado</param>
     /// <param name="amount">A quantidade a ser adicionada</param>
@@ -31,30 +31,30 @@ public class ItemGiver : MonoBehaviour
     {
         if (playerInventory == null)
         {
-            Debug.LogWarning("[ItemGiver] Invent√°rio do player n√£o encontrado!");
+            Debug.LogWarning("[ItemGiver] Invent·rio do player n„o encontrado!");
             return;
         }
 
         if (item == null)
         {
-            Debug.LogWarning("[ItemGiver] ItemData √© null!");
+            Debug.LogWarning("[ItemGiver] ItemData È null!");
             return;
         }
 
         int remaining = playerInventory.AddItem(item, amount);
-        
+
         if (remaining == 0)
         {
-            Debug.Log($"[ItemGiver] {amount}x {item.displayName} adicionado ao invent√°rio!");
+            Debug.Log($"[ItemGiver] {amount}x {item.displayName} adicionado ao invent·rio!");
         }
         else
         {
-            Debug.LogWarning($"[ItemGiver] Invent√°rio cheio! {remaining} itens n√£o puderam ser adicionados.");
+            Debug.LogWarning($"[ItemGiver] Invent·rio cheio! {remaining} itens n„o puderam ser adicionados.");
         }
     }
 
     /// <summary>
-    /// Adiciona o item padr√£o configurado no Inspector
+    /// Adiciona o item padr„o configurado no Inspector
     /// </summary>
     public void GiveDefaultItem()
     {
@@ -64,14 +64,14 @@ public class ItemGiver : MonoBehaviour
         }
         else
         {
-            Debug.LogWarning("[ItemGiver] Nenhum item padr√£o configurado!");
+            Debug.LogWarning("[ItemGiver] Nenhum item padr„o configurado!");
         }
     }
 
     /// <summary>
-    /// Adiciona uma urtiga ao invent√°rio (m√©todo espec√≠fico para facilitar)
+    /// Adiciona uma urtiga ao invent·rio (mÈtodo especÌfico para facilitar)
     /// </summary>
-    /// <param name="amount">Quantidade de urtigas (padr√£o: 1)</param>
+    /// <param name="amount">Quantidade de urtigas (padr„o: 1)</param>
     public void GiveUrtiga(int amount = 1)
     {
         // Procura o asset da Urtiga em Resources
@@ -83,8 +83,7 @@ public class ItemGiver : MonoBehaviour
         }
         else
         {
-            Debug.LogError("[ItemGiver] Asset da Urtiga n√£o encontrado em Resources! Configure o item manualmente no m√©todo GiveItem ou use GiveDefaultItem.");
+            Debug.LogError("[ItemGiver] Asset da Urtiga n„o encontrado em Resources! Configure o item manualmente no mÈtodo GiveItem ou use GiveDefaultItem.");
         }
     }
 }
-
