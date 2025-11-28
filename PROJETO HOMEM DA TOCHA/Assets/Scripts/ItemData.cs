@@ -15,4 +15,4 @@ public class ItemData : ScriptableObject
     public bool stackable = true;  // pode acumular?
     [Min(1)] public int maxStack = 99;
 }
-
+    

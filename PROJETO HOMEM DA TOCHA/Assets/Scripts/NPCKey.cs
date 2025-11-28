@@ -87,7 +87,6 @@ public class NPCKey : MonoBehaviour
         {
             ConversationManager.Instance.EndConversation();
         }
-        Debug.Log(Emdialogo);
     }
 
     public void Emdialogoff()
