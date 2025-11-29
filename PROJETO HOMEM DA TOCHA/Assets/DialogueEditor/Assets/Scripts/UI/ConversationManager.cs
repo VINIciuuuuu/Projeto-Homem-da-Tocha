@@ -162,6 +162,75 @@ namespace DialogueEditor
                 OnConversationEnded.Invoke();
         }
 
+        /// <summary>
+        /// Pula para o próximo diálogo sequencial. 
+        /// Se houver escolhas, seleciona a primeira opção automaticamente.
+        /// </summary>
+        public void SkipToNextDialogue()
+        {
+            // Só funciona se houver uma conversa ativa
+            if (!IsConversationActive || m_currentSpeech == null)
+                return;
+
+            // Se estiver em estado de transição, não faz nada
+            if (m_state == eState.TransitioningDialogueBoxOn || 
+                m_state == eState.TransitioningDialogueOff ||
+                m_state == eState.TransitioningOptionsOff)
+                return;
+
+            // Se estiver scrollando texto, completa o texto primeiro
+            if (m_state == eState.ScrollingText)
+            {
+                DialogueText.maxVisibleCharacters = m_targetScrollTextCount;
+                SetState(eState.TransitioningOptionsOn);
+                return;
+            }
+
+            // Se estiver em transição de opções aparecendo, aguarda
+            if (m_state == eState.TransitioningOptionsOn)
+                return;
+
+            // Se estiver em Idle (aguardando escolha)
+            if (m_state == eState.Idle)
+            {
+                // Verifica se há opções disponíveis (botões Continue/End ou escolhas)
+                if (m_uiOptions != null && m_uiOptions.Count > 0)
+                {
+                    // Pressiona a opção selecionada (geralmente a primeira)
+                    if (m_currentSelectedIndex >= 0 && m_currentSelectedIndex < m_uiOptions.Count)
+                    {
+                        UIConversationButton button = m_uiOptions[m_currentSelectedIndex];
+                        button.OnButtonPressed();
+                        return;
+                    }
+                    // Se não há índice selecionado, seleciona o primeiro
+                    else if (m_uiOptions.Count > 0)
+                    {
+                        SetSelectedOption(0);
+                        m_uiOptions[0].OnButtonPressed();
+                        return;
+                    }
+                }
+
+                // Se não há opções visíveis, tenta avançar automaticamente
+                if (m_currentSpeech.ConnectionType == Connection.eConnectionType.Speech)
+                {
+                    SpeechNode next = GetValidSpeechOfNode(m_currentSpeech);
+                    if (next != null)
+                    {
+                        SetupSpeech(next);
+                        return;
+                    }
+                }
+                // Se for o último diálogo, finaliza
+                else if (m_currentSpeech.ConnectionType == Connection.eConnectionType.None)
+                {
+                    EndConversation();
+                    return;
+                }
+            }
+        }
+
         public void SelectNextOption()
         {
             int next = m_currentSelectedIndex + 1;

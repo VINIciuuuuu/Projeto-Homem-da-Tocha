@@ -79,14 +79,18 @@ public class NPCKey : MonoBehaviour
 
                 else if (Input.GetKeyDown(KeyCode.E))
                     ConversationManager.Instance.PressSelectedOption();
+
+                else if (Input.GetKeyDown(KeyCode.Q))
+                {
+                    // Q agora pula para o próximo diálogo ao invés de fechar
+                    if (ConversationManager.Instance != null)
+                    {
+                        ConversationManager.Instance.SkipToNextDialogue();
+                    }
+                }
             }
         }
         Emdialogo = ConversationManager.Instance.IsConversationActive;
-
-        if (Input.GetKeyDown(KeyCode.Q))
-        {
-            ConversationManager.Instance.EndConversation();
-        }
     }
 
     public void Emdialogoff()
