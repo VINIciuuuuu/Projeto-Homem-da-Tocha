@@ -760,6 +760,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Door
   destinationSceneName: Turi
   arrivalSpawnName: Turi_Casa01
+  InteractionKey: 101
+  BotaoE: {fileID: 0}
 --- !u!61 &719432825
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -970,6 +972,18 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player
       objectReference: {fileID: 0}
+    - target: {fileID: 2749371261762750856, guid: 83c87023702ab364c83dcaa9bb599b12, type: 3}
+      propertyPath: m_Color.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2749371261762750856, guid: 83c87023702ab364c83dcaa9bb599b12, type: 3}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2749371261762750856, guid: 83c87023702ab364c83dcaa9bb599b12, type: 3}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8618336390805914013, guid: 83c87023702ab364c83dcaa9bb599b12, type: 3}
       propertyPath: m_LocalPosition.x
       value: -1.81395
@@ -1013,8 +1027,38 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 1235673440037898926, guid: 83c87023702ab364c83dcaa9bb599b12, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 901639892}
   m_SourcePrefab: {fileID: 100100000, guid: 83c87023702ab364c83dcaa9bb599b12, type: 3}
+--- !u!1 &901639891 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1235673440037898926, guid: 83c87023702ab364c83dcaa9bb599b12, type: 3}
+  m_PrefabInstance: {fileID: 901639890}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &901639892
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 901639891}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 121d4233424e55b4f91a064d8746084e, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &905655961
 GameObject:
   m_ObjectHideFlags: 0
