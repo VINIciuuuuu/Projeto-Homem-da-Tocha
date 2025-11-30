@@ -44,6 +44,21 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Igreja_Vitral.unity
     guid: fc3f224ec3fd01b4a8d02a732608b3ca
+  - enabled: 1
+    path: Assets/Scenes/Minigame/Lago_mg.1.unity
+    guid: b007cadf9cf896a40b7b76d780f59f9e
+  - enabled: 1
+    path: Assets/Scenes/Minigame/Lago_mg.2.unity
+    guid: 402c6102a0e001c4fbc525bbeaee0760
+  - enabled: 1
+    path: Assets/Scenes/Minigame/Lago_mg.3.unity
+    guid: 29d89f6602fdd2b4eaab9addccf29ebe
+  - enabled: 1
+    path: Assets/Scenes/Minigame/Lago_mg.4.unity
+    guid: 147dd8a2d04955748ae9c3896bdceed8
+  - enabled: 1
+    path: Assets/Scenes/Minigame/Lago_mg.5.unity
+    guid: e2547384fd31834488eabda6aea26e9b
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0
