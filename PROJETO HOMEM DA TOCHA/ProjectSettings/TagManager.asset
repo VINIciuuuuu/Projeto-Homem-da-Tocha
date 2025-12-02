@@ -63,5 +63,8 @@ TagManager:
   - name: "Decora\xE7\xE3o"
     uniqueID: 1150901401
     locked: 0
+  - name: "Decora\xE7\xE3o 2"
+    uniqueID: 1566431339
+    locked: 0
   m_RenderingLayers:
   - Default
