@@ -6083,6 +6083,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Kalu NPC
       objectReference: {fileID: 0}
+    - target: {fileID: 4986896924324293758, guid: b465eaba37a52e143b7beffb9b1baa5d, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.y
+      value: 0.61
+      objectReference: {fileID: 0}
     - target: {fileID: 5384961728289604312, guid: b465eaba37a52e143b7beffb9b1baa5d, type: 3}
       propertyPath: m_Sprite
       value: 
@@ -6142,8 +6146,38 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 2367693101328887779, guid: b465eaba37a52e143b7beffb9b1baa5d, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1259456183}
   m_SourcePrefab: {fileID: 100100000, guid: b465eaba37a52e143b7beffb9b1baa5d, type: 3}
+--- !u!1 &1259456182 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2367693101328887779, guid: b465eaba37a52e143b7beffb9b1baa5d, type: 3}
+  m_PrefabInstance: {fileID: 1259456181}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &1259456183
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1259456182}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 4bfa38ec5202b084fa70d9d49be418d1, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1001 &1362058736
 PrefabInstance:
   m_ObjectHideFlags: 0

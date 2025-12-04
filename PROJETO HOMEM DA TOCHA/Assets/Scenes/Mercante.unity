@@ -1681,6 +1681,26 @@ PrefabInstance:
       propertyPath: m_Name
       value: Arnaldo Ribeiro NPC
       objectReference: {fileID: 0}
+    - target: {fileID: 3988971862547850109, guid: b465eaba37a52e143b7beffb9b1baa5d, type: 3}
+      propertyPath: m_Radius
+      value: 0.58679897
+      objectReference: {fileID: 0}
+    - target: {fileID: 3988971862547850109, guid: b465eaba37a52e143b7beffb9b1baa5d, type: 3}
+      propertyPath: m_Offset.x
+      value: 0.0055931234
+      objectReference: {fileID: 0}
+    - target: {fileID: 3988971862547850109, guid: b465eaba37a52e143b7beffb9b1baa5d, type: 3}
+      propertyPath: m_Offset.y
+      value: -0.27878675
+      objectReference: {fileID: 0}
+    - target: {fileID: 4986896924324293758, guid: b465eaba37a52e143b7beffb9b1baa5d, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.x
+      value: 0.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 4986896924324293758, guid: b465eaba37a52e143b7beffb9b1baa5d, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.y
+      value: 0.64
+      objectReference: {fileID: 0}
     - target: {fileID: 5384961728289604312, guid: b465eaba37a52e143b7beffb9b1baa5d, type: 3}
       propertyPath: m_Sprite
       value: 
@@ -1695,7 +1715,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7424460233419610527, guid: b465eaba37a52e143b7beffb9b1baa5d, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 6.3
+      value: 6.18
       objectReference: {fileID: 0}
     - target: {fileID: 7424460233419610527, guid: b465eaba37a52e143b7beffb9b1baa5d, type: 3}
       propertyPath: m_LocalPosition.z
@@ -1736,8 +1756,38 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 2367693101328887779, guid: b465eaba37a52e143b7beffb9b1baa5d, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 369131159}
   m_SourcePrefab: {fileID: 100100000, guid: b465eaba37a52e143b7beffb9b1baa5d, type: 3}
+--- !u!1 &369131158 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2367693101328887779, guid: b465eaba37a52e143b7beffb9b1baa5d, type: 3}
+  m_PrefabInstance: {fileID: 369131157}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &369131159
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 369131158}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 91511a3b013b23c40960ec55a5af444f, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &719432821
 GameObject:
   m_ObjectHideFlags: 0
