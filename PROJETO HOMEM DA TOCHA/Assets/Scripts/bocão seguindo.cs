@@ -30,6 +30,14 @@ public class FollowPlayer : MonoBehaviour
     {
         rb = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
+
+        GameObject player = GameObject.FindWithTag("Player");
+        
+        if (player != null)
+        {
+            target = player.transform;
+        }
+
         if (rb == null)
         {
             Debug.LogError("Rigidbody2D n�o encontrado no seguidor! Adicione um.");

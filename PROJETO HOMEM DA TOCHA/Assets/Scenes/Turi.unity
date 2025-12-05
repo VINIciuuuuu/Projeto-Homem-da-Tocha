@@ -894,11 +894,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 302401775}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!4 &181664089 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 8618336390805914013, guid: 83c87023702ab364c83dcaa9bb599b12, type: 3}
-  m_PrefabInstance: {fileID: 727488653}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &265333608
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1198,6 +1193,7 @@ MonoBehaviour:
   arrivalSpawnName: CasaKalu_dentro
   InteractionKey: 101
   BotaoE: {fileID: 0}
+  transicao: {fileID: 0}
 --- !u!61 &367020459
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -34237,7 +34233,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1662450d422cfc04ebf4a5c80b4b1a3e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::FollowPlayer
-  target: {fileID: 181664089}
+  target: {fileID: 0}
   moveSpeed: 3
   stoppingDistance: 2
   Corrabocao: 0
@@ -41325,6 +41321,7 @@ MonoBehaviour:
   arrivalSpawnName: Igreja_dentro
   InteractionKey: 101
   BotaoE: {fileID: 0}
+  transicao: {fileID: 0}
 --- !u!61 &1491591770
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -41529,6 +41526,7 @@ MonoBehaviour:
   arrivalSpawnName: Faculdade_dentro
   InteractionKey: 101
   BotaoE: {fileID: 0}
+  transicao: {fileID: 0}
 --- !u!61 &1553171220
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -47630,6 +47628,7 @@ MonoBehaviour:
   arrivalSpawnName: CasaJosefa_dentro
   InteractionKey: 101
   BotaoE: {fileID: 0}
+  transicao: {fileID: 0}
 --- !u!61 &1571681668
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -47837,6 +47836,7 @@ MonoBehaviour:
   arrivalSpawnName: Mercante_dentro
   InteractionKey: 101
   BotaoE: {fileID: 0}
+  transicao: {fileID: 0}
 --- !u!61 &1654402649
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -48314,6 +48314,7 @@ MonoBehaviour:
   arrivalSpawnName: Lago_dentro
   InteractionKey: 101
   BotaoE: {fileID: 0}
+  transicao: {fileID: 0}
 --- !u!61 &1705680884
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -48742,6 +48743,7 @@ MonoBehaviour:
   arrivalSpawnName: Pousada_dentro
   InteractionKey: 101
   BotaoE: {fileID: 0}
+  transicao: {fileID: 0}
 --- !u!61 &1825159937
 BoxCollider2D:
   m_ObjectHideFlags: 0

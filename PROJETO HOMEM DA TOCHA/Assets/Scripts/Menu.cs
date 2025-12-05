@@ -22,24 +22,31 @@ public class Transiçõesdecena : MonoBehaviour
             GameObject.FindGameObjectWithTag("FadeIn");
         }
 
+        SceneManager.sceneLoaded += OnSceneLoaded;
+
         DontDestroyOnLoad(this);
         DontDestroyOnLoad(FadeinCanva);
     }
 
     // Menu inicial
 
+    void OnSceneLoaded(Scene scene, LoadSceneMode mode)
+    {
+        StartCoroutine(FadeIn());
+    }
+
     public void Menustart()
     {
         FadeinCanva.SetActive(true);
         if (!isFading)
         {
-           // nextSceneName = "Turi";
+            // nextSceneName = "Turi";
             StartCoroutine(FadeOutIn());
         }
     }
 
     //
-    IEnumerator FadeOutIn()
+    public IEnumerator FadeOutIn()
     {
         isFading = true;
 
@@ -60,7 +67,7 @@ public class Transiçõesdecena : MonoBehaviour
             SceneManager.LoadScene(nextSceneName);
             Destroy(buttonmenu);
         }
-            SceneManager.LoadScene(nextSceneName);
+        SceneManager.LoadScene(nextSceneName);
 
         // FADE IN (tela ficando visível)
         alpha = 1f;
@@ -73,5 +80,22 @@ public class Transiçõesdecena : MonoBehaviour
 
         fadeImage.color = new Color(0f, 0f, 0f, 0f);
         isFading = false;
+    }
+
+    IEnumerator FadeIn()
+    {
+        float alpha = 1f;
+
+        // garante que começa preto
+        fadeImage.color = new Color(0, 0, 0, 1);
+
+        while (alpha > 0f)
+        {
+            alpha -= Time.deltaTime * fadeSpeed;
+            fadeImage.color = new Color(0f, 0f, 0f, alpha);
+            yield return null;
+        }
+
+        fadeImage.color = new Color(0, 0, 0, 0);
     }
 }

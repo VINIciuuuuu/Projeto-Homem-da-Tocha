@@ -17,6 +17,7 @@ public class Door : MonoBehaviour
     [Tooltip("GameObject do botão E visual. Deixe vazio se não quiser usar.")]
     public GameObject BotaoE;
     private SpriteRenderer botaoSR;
+    public Transiçõesdecena transicao;
 
     private bool Podeinteragir = false;
 
@@ -28,6 +29,11 @@ public class Door : MonoBehaviour
 
     void Start()
     {
+
+        if (transicao == null)
+        {
+            transicao = FindObjectOfType<Transiçõesdecena>();
+        }
         // Busca o botão E visual se não foi atribuído
         if (BotaoE == null)
         {
@@ -53,7 +59,7 @@ public class Door : MonoBehaviour
 
         // Verifica se esta porta tem um LockedDoor (requer urtigas)
         LockedDoor lockedDoor = GetComponent<LockedDoor>();
-        
+
         if (lockedDoor != null)
         {
             // Esta porta requer urtigas - verifica se pode passar
@@ -108,7 +114,7 @@ public class Door : MonoBehaviour
     {
         // Verifica novamente se tem LockedDoor (caso tenha mudado durante a interação)
         LockedDoor lockedDoor = GetComponent<LockedDoor>();
-        
+
         if (lockedDoor != null)
         {
             // Verifica se ainda pode passar (pode ter mudado desde que entrou no trigger)
@@ -122,8 +128,7 @@ public class Door : MonoBehaviour
 
         // Se chegou aqui, pode teleportar
         Spawn.NextSpawnName = arrivalSpawnName;
-        SceneManager.LoadScene(destinationSceneName);
+        transicao.nextSceneName = destinationSceneName;
+        StartCoroutine(transicao.FadeOutIn());
     }
 }
-
-
