@@ -19,7 +19,14 @@ public class Luzia : MonoBehaviour
 
     public bool Luziaparada = false;
 
+    private Animator animator;
+
     // Coisas da Luzia fim
+
+    private void Start()
+    {
+        animator = GetComponent<Animator>();
+    }
 
     private void Awake()
     {
@@ -83,6 +90,20 @@ public class Luzia : MonoBehaviour
         movement.x = Input.GetAxisRaw("Horizontal"); // pega o o botao A e D.
         movement.y = Input.GetAxisRaw("Vertical"); // pega o o botao W e S.
         correndo = Input.GetKey(KeyCode.LeftShift); // pega o o botao left shift.
+
+        if (movement.x != 0 || movement.y != 0)
+        {
+            animator.SetBool("IsWalking", true);
+        }
+        else
+        {
+            animator.SetBool("IsWalking", false);
+            animator.SetFloat("LastInputX", movement.x);
+            animator.SetFloat("LastInputY", movement.y);
+        }
+
+        animator.SetFloat("InputX", movement.x);
+        animator.SetFloat("InputY", movement.y);
 
         Destruircamera();
     }
