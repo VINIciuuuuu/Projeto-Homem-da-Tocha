@@ -1,0 +1,572 @@
+fileFormatVersion: 2
+guid: 2c49e399be561e6448ea9b97d5d7035f
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5952329704857809282
+    second: logo turi menu_0
+  - first:
+      213: 2422375765330128053
+    second: logo turi menu_1
+  - first:
+      213: -2449436387164428058
+    second: logo turi menu_2
+  - first:
+      213: -6653996021831575364
+    second: logo turi menu_3
+  - first:
+      213: 8067139720490622791
+    second: logo turi menu_4
+  - first:
+      213: -2788372865839887223
+    second: logo turi menu_5
+  - first:
+      213: -2185252786684018566
+    second: logo turi menu_6
+  - first:
+      213: -1726799024554315287
+    second: logo turi menu_7
+  - first:
+      213: 5578903451137101533
+    second: logo turi menu_8
+  - first:
+      213: 2548791104700230128
+    second: logo turi menu_9
+  - first:
+      213: -5035616743734206580
+    second: logo turi menu_10
+  - first:
+      213: 9215972270106148165
+    second: logo turi menu_11
+  - first:
+      213: 7560780558077470248
+    second: logo turi menu_12
+  - first:
+      213: 5357007861423726347
+    second: logo turi menu_13
+  - first:
+      213: -5856209694137244036
+    second: logo turi menu_14
+  - first:
+      213: -2513945473259893614
+    second: logo turi menu_15
+  - first:
+      213: -3700740515518632342
+    second: logo turi menu_16
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: logo turi menu_0
+      rect:
+        serializedVersion: 2
+        x: 546
+        y: 908
+        width: 11
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2813e0c645cea9250800000000000000
+      internalID: 5952329704857809282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: logo turi menu_1
+      rect:
+        serializedVersion: 2
+        x: 555
+        y: 890
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5bc640d9ce10e9120800000000000000
+      internalID: 2422375765330128053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: logo turi menu_2
+      rect:
+        serializedVersion: 2
+        x: 376
+        y: 287
+        width: 271
+        height: 596
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e8e523659ad10ed0800000000000000
+      internalID: -2449436387164428058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: logo turi menu_3
+      rect:
+        serializedVersion: 2
+        x: 681
+        y: 251
+        width: 289
+        height: 443
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb8dddd5fd148a3a0800000000000000
+      internalID: -6653996021831575364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: logo turi menu_4
+      rect:
+        serializedVersion: 2
+        x: 1013
+        y: 296
+        width: 298
+        height: 416
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74f994195dc34ff60800000000000000
+      internalID: 8067139720490622791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: logo turi menu_5
+      rect:
+        serializedVersion: 2
+        x: 1345
+        y: 341
+        width: 100
+        height: 362
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98c8646e6a5bd49d0800000000000000
+      internalID: -2788372865839887223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: logo turi menu_6
+      rect:
+        serializedVersion: 2
+        x: 1354
+        y: 296
+        width: 29
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7044412b2c6ca1e0800000000000000
+      internalID: -2185252786684018566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: logo turi menu_7
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 323
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e1f2f6af6d2908e0800000000000000
+      internalID: -1726799024554315287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: logo turi menu_8
+      rect:
+        serializedVersion: 2
+        x: 501
+        y: 269
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dde4a39612f3c6d40800000000000000
+      internalID: 5578903451137101533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: logo turi menu_9
+      rect:
+        serializedVersion: 2
+        x: 1049
+        y: 287
+        width: 29
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f9255271002f5320800000000000000
+      internalID: 2548791104700230128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: logo turi menu_10
+      rect:
+        serializedVersion: 2
+        x: 1399
+        y: 296
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8f96bc5045ed1ab0800000000000000
+      internalID: -5035616743734206580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: logo turi menu_11
+      rect:
+        serializedVersion: 2
+        x: 1228
+        y: 251
+        width: 11
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54df68b83f5b5ef70800000000000000
+      internalID: 9215972270106148165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: logo turi menu_12
+      rect:
+        serializedVersion: 2
+        x: 1264
+        y: 260
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82623ecdbd94de860800000000000000
+      internalID: 7560780558077470248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: logo turi menu_13
+      rect:
+        serializedVersion: 2
+        x: 492
+        y: 206
+        width: 47
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0fd22f644ae75a40800000000000000
+      internalID: 5357007861423726347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: logo turi menu_14
+      rect:
+        serializedVersion: 2
+        x: 735
+        y: 206
+        width: 20
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7620ca8f409abea0800000000000000
+      internalID: -5856209694137244036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: logo turi menu_15
+      rect:
+        serializedVersion: 2
+        x: 762
+        y: 215
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29c84a959ebac1dd0800000000000000
+      internalID: -2513945473259893614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: logo turi menu_16
+      rect:
+        serializedVersion: 2
+        x: 789
+        y: 224
+        width: 19
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6ead96cb1454acc0800000000000000
+      internalID: -3700740515518632342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      logo turi menu_0: 5952329704857809282
+      logo turi menu_1: 2422375765330128053
+      logo turi menu_10: -5035616743734206580
+      logo turi menu_11: 9215972270106148165
+      logo turi menu_12: 7560780558077470248
+      logo turi menu_13: 5357007861423726347
+      logo turi menu_14: -5856209694137244036
+      logo turi menu_15: -2513945473259893614
+      logo turi menu_16: -3700740515518632342
+      logo turi menu_2: -2449436387164428058
+      logo turi menu_3: -6653996021831575364
+      logo turi menu_4: 8067139720490622791
+      logo turi menu_5: -2788372865839887223
+      logo turi menu_6: -2185252786684018566
+      logo turi menu_7: -1726799024554315287
+      logo turi menu_8: 5578903451137101533
+      logo turi menu_9: 2548791104700230128
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
