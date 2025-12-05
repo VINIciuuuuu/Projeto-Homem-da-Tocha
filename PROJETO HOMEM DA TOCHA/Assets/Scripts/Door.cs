@@ -65,8 +65,8 @@ public class Door : MonoBehaviour
             // Esta porta requer urtigas - verifica se pode passar
             if (!lockedDoor.PodePassar())
             {
-                // Player não tem urtigas suficientes - mostra diálogo e não permite interação
-                lockedDoor.ExibirDialogoBloqueio();
+                // Player não tem urtigas suficientes - NÃO permite interação
+                // O diálogo será exibido quando o player apertar E
                 return; // Não marca como pode interagir
             }
         }
@@ -126,9 +126,16 @@ public class Door : MonoBehaviour
             }
         }
 
+        // Verifica se a transição está configurada
+        if (transicao == null)
+        {
+            Debug.LogError("[Door] Transição não encontrada! Configure manualmente ou verifique se existe na cena.");
+            return;
+        }
+
         // Se chegou aqui, pode teleportar
         Spawn.NextSpawnName = arrivalSpawnName;
         transicao.nextSceneName = destinationSceneName;
-        StartCoroutine(transicao.FadeOutIn());
+        transicao.StartCoroutine(transicao.FadeOutIn());
     }
 }

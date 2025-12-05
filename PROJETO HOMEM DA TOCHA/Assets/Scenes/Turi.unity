@@ -35449,6 +35449,55 @@ Transform:
   - {fileID: 1665182735}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1372289165
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1372289167}
+  - component: {fileID: 1372289166}
+  m_Layer: 0
+  m_Name: "Transi\xE7\xF5esdecena"
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1372289166
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1372289165}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb341ee60c11b7d4a8d810665e24e2b8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: "Assembly-CSharp::Transi\xE7\xF5esdecena"
+  fadeImage: {fileID: 0}
+  fadeSpeed: 1
+  nextSceneName: 
+  FadeinCanva: {fileID: 0}
+  buttonmenu: {fileID: 0}
+--- !u!4 &1372289167
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1372289165}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 8.49034, y: -6.92329, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1401894946
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -47844,7 +47893,7 @@ MonoBehaviour:
   arrivalSpawnName: Mercante_dentro
   InteractionKey: 101
   BotaoE: {fileID: 0}
-  transicao: {fileID: 0}
+  transicao: {fileID: 1372289166}
 --- !u!61 &1654402649
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -58700,3 +58749,4 @@ SceneRoots:
   - {fileID: 1661218189}
   - {fileID: 265333608}
   - {fileID: 1590764492}
+  - {fileID: 1372289167}
