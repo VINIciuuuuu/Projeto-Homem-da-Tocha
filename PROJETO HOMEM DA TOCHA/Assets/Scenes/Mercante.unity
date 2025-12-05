@@ -1309,26 +1309,6 @@ Tilemap:
   m_GameObject: {fileID: 269511770}
   m_Enabled: 1
   m_Tiles:
-  - first: {x: -1, y: -3, z: 0}
-    second:
-      serializedVersion: 2
-      m_TileIndex: 2
-      m_TileSpriteIndex: 2
-      m_TileMatrixIndex: 2
-      m_TileColorIndex: 0
-      m_TileObjectToInstantiateIndex: 65535
-      dummyAlignment: 0
-      m_AllTileFlags: 1073741825
-  - first: {x: 0, y: -3, z: 0}
-    second:
-      serializedVersion: 2
-      m_TileIndex: 1
-      m_TileSpriteIndex: 1
-      m_TileMatrixIndex: 2
-      m_TileColorIndex: 0
-      m_TileObjectToInstantiateIndex: 65535
-      dummyAlignment: 0
-      m_AllTileFlags: 1073741825
   - first: {x: 5, y: -2, z: 0}
     second:
       serializedVersion: 2
@@ -1483,10 +1463,10 @@ Tilemap:
   m_TileAssetArray:
   - m_RefCount: 0
     m_Data: {fileID: 0}
-  - m_RefCount: 1
-    m_Data: {fileID: 11400000, guid: 5e1b7a720d611dc40accf5cdaa44a864, type: 2}
-  - m_RefCount: 1
-    m_Data: {fileID: 11400000, guid: 44b5585e9126c5d4dbeb42db29fb270a, type: 2}
+  - m_RefCount: 0
+    m_Data: {fileID: 0}
+  - m_RefCount: 0
+    m_Data: {fileID: 0}
   - m_RefCount: 2
     m_Data: {fileID: 11400000, guid: 68a9ae4d5c7cca343a051f5aaddfd149, type: 2}
   - m_RefCount: 4
@@ -1506,10 +1486,10 @@ Tilemap:
   m_TileSpriteArray:
   - m_RefCount: 0
     m_Data: {fileID: 0}
-  - m_RefCount: 1
-    m_Data: {fileID: -1434839778, guid: 0f977758f2218f649a6d6b2e1ca8b52b, type: 3}
-  - m_RefCount: 1
-    m_Data: {fileID: -1127962186, guid: 0f977758f2218f649a6d6b2e1ca8b52b, type: 3}
+  - m_RefCount: 0
+    m_Data: {fileID: 0}
+  - m_RefCount: 0
+    m_Data: {fileID: 0}
   - m_RefCount: 2
     m_Data: {fileID: -1593237844964680899, guid: f94e69c8f1f03e7488a7b8b325bab105, type: 3}
   - m_RefCount: 4
@@ -1563,26 +1543,26 @@ Tilemap:
       e31: 0
       e32: 0
       e33: 1
-  - m_RefCount: 2
+  - m_RefCount: 0
     m_Data:
-      e00: 1
+      e00: 74834050
       e01: 0
-      e02: 0
-      e03: 0
-      e10: 0
-      e11: 1
-      e12: 0
-      e13: 0
-      e20: 0
+      e02: 74834820
+      e03: -2.8750038
+      e10: 1.98e-43
+      e11: 0
+      e12: 1.98e-43
+      e13: 5.76e-43
+      e20: 5.41668e-38
       e21: 0
-      e22: 1
-      e23: 0
-      e30: 0
+      e22: 9.477554e+9
+      e23: 5.645863e-26
+      e30: 4.5914e-41
       e31: 0
-      e32: 0
-      e33: 1
+      e32: 5.8e-43
+      e33: 5.77e-43
   m_TileColorArray:
-  - m_RefCount: 17
+  - m_RefCount: 15
     m_Data: {r: 1, g: 1, b: 1, a: 1}
   m_TileObjectToInstantiateArray: []
   m_AnimationFrameRate: 1
@@ -1665,6 +1645,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1927590041}
     - target: {fileID: 8673974200986085302, guid: 965b0d4bc10e05f4eb652c9984e3f56a, type: 3}
+      propertyPath: delayParaNovoDialogo
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8673974200986085302, guid: 965b0d4bc10e05f4eb652c9984e3f56a, type: 3}
       propertyPath: quantidadeNecessaria
       value: 4
       objectReference: {fileID: 0}
@@ -1695,7 +1679,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 2061269162}
     m_Modifications:
     - target: {fileID: 2367693101328887779, guid: b465eaba37a52e143b7beffb9b1baa5d, type: 3}
       propertyPath: m_Name
@@ -1731,11 +1715,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7424460233419610527, guid: b465eaba37a52e143b7beffb9b1baa5d, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.526
+      value: -9.62793
       objectReference: {fileID: 0}
     - target: {fileID: 7424460233419610527, guid: b465eaba37a52e143b7beffb9b1baa5d, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 6.18
+      value: 3.3611999
       objectReference: {fileID: 0}
     - target: {fileID: 7424460233419610527, guid: b465eaba37a52e143b7beffb9b1baa5d, type: 3}
       propertyPath: m_LocalPosition.z
@@ -1747,15 +1731,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7424460233419610527, guid: b465eaba37a52e143b7beffb9b1baa5d, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 7424460233419610527, guid: b465eaba37a52e143b7beffb9b1baa5d, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 7424460233419610527, guid: b465eaba37a52e143b7beffb9b1baa5d, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 7424460233419610527, guid: b465eaba37a52e143b7beffb9b1baa5d, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -1808,6 +1792,11 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!4 &369131160 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7424460233419610527, guid: b465eaba37a52e143b7beffb9b1baa5d, type: 3}
+  m_PrefabInstance: {fileID: 369131157}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &719432821
 GameObject:
   m_ObjectHideFlags: 0
@@ -1894,7 +1883,7 @@ Transform:
   m_GameObject: {fileID: 719432821}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -1.2048999, y: -4.55, z: 0}
+  m_LocalPosition: {x: -1.2048999, y: -4.31, z: 0}
   m_LocalScale: {x: 2.0178633, y: 0.8445976, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2157,7 +2146,7 @@ Transform:
   m_GameObject: {fileID: 994668240}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -1.2, y: -2.29, z: 0}
+  m_LocalPosition: {x: -1.2, y: -3.18, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2325,6 +2314,26 @@ Tilemap:
   m_GameObject: {fileID: 1135446044}
   m_Enabled: 1
   m_Tiles:
+  - first: {x: -1, y: -3, z: 0}
+    second:
+      serializedVersion: 2
+      m_TileIndex: 0
+      m_TileSpriteIndex: 0
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_TileObjectToInstantiateIndex: 65535
+      dummyAlignment: 0
+      m_AllTileFlags: 1073741825
+  - first: {x: 0, y: -3, z: 0}
+    second:
+      serializedVersion: 2
+      m_TileIndex: 7
+      m_TileSpriteIndex: 7
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_TileObjectToInstantiateIndex: 65535
+      dummyAlignment: 0
+      m_AllTileFlags: 1073741825
   - first: {x: -6, y: -2, z: 0}
     second:
       serializedVersion: 2
@@ -3367,8 +3376,8 @@ Tilemap:
       m_AllTileFlags: 1073741825
   m_AnimatedTiles: {}
   m_TileAssetArray:
-  - m_RefCount: 0
-    m_Data: {fileID: 0}
+  - m_RefCount: 1
+    m_Data: {fileID: 11400000, guid: 44b5585e9126c5d4dbeb42db29fb270a, type: 2}
   - m_RefCount: 1
     m_Data: {fileID: 11400000, guid: 136b6ebb53dfc2f45a72a55e7b97fbf5, type: 2}
   - m_RefCount: 1
@@ -3381,9 +3390,11 @@ Tilemap:
     m_Data: {fileID: 11400000, guid: 1f2c59e78b9160c4aae17521c6c43660, type: 2}
   - m_RefCount: 25
     m_Data: {fileID: 11400000, guid: a31987a7b6b099346834fd77e29d8613, type: 2}
+  - m_RefCount: 1
+    m_Data: {fileID: 11400000, guid: 5e1b7a720d611dc40accf5cdaa44a864, type: 2}
   m_TileSpriteArray:
-  - m_RefCount: 0
-    m_Data: {fileID: 0}
+  - m_RefCount: 1
+    m_Data: {fileID: -1127962186, guid: 0f977758f2218f649a6d6b2e1ca8b52b, type: 3}
   - m_RefCount: 1
     m_Data: {fileID: -879319625, guid: 0f977758f2218f649a6d6b2e1ca8b52b, type: 3}
   - m_RefCount: 1
@@ -3396,8 +3407,10 @@ Tilemap:
     m_Data: {fileID: 7492987907974030259, guid: 1edccae3da72eca45b0b5511b79bf2c1, type: 3}
   - m_RefCount: 25
     m_Data: {fileID: 2083284220, guid: 1edccae3da72eca45b0b5511b79bf2c1, type: 3}
+  - m_RefCount: 1
+    m_Data: {fileID: -1434839778, guid: 0f977758f2218f649a6d6b2e1ca8b52b, type: 3}
   m_TileMatrixArray:
-  - m_RefCount: 104
+  - m_RefCount: 106
     m_Data:
       e00: 1
       e01: 0
@@ -3416,7 +3429,7 @@ Tilemap:
       e32: 0
       e33: 1
   m_TileColorArray:
-  - m_RefCount: 104
+  - m_RefCount: 106
     m_Data: {r: 1, g: 1, b: 1, a: 1}
   - m_RefCount: 0
     m_Data: {r: 1.65e-43, g: 1.65e-43, b: 1.65e-43, a: 1.65e-43}
@@ -3599,6 +3612,7 @@ GameObject:
   - component: {fileID: 1180711588}
   - component: {fileID: 1180711587}
   - component: {fileID: 1180711585}
+  - component: {fileID: 1180711610}
   m_Layer: 0
   m_Name: ConversationEventInfo
   m_TagString: Untagged
@@ -4076,6 +4090,37 @@ MonoBehaviour:
   NodeID: 0
   TMPFont: {fileID: 11400000, guid: 1e471e1ec41ec774f966967734aa9d66, type: 2}
   Icon: {fileID: 9168632478046803437, guid: 25f9c56c1f8f55e43b6a14311ee5c67a, type: 3}
+  Audio: {fileID: 0}
+--- !u!114 &1180711610
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1180711584}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00abedce3cdbbba46bf2d86c9518c9f0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::DialogueEditor.NodeEventHolder
+  Event:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1865158706}
+        m_TargetAssemblyTypeName: MudarCena, Assembly-CSharp
+        m_MethodName: TrocarCena
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: Turi_noite
+          m_BoolArgument: 0
+        m_CallState: 2
+  NodeID: 25
+  TMPFont: {fileID: 11400000, guid: 1e471e1ec41ec774f966967734aa9d66, type: 2}
+  Icon: {fileID: 0}
   Audio: {fileID: 0}
 --- !u!1 &1487723249
 GameObject:
@@ -5122,12 +5167,122 @@ Transform:
   m_GameObject: {fileID: 1610293671}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -1.2997899, y: 0.16193998, z: 0}
+  m_LocalPosition: {x: -1.2997899, y: -3.21, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1064749104}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &1654220847
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 2061269162}
+    m_Modifications:
+    - target: {fileID: 3278073771190909401, guid: ddb21286d8086664191c13d81fb70044, type: 3}
+      propertyPath: m_Pivot.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3278073771190909401, guid: ddb21286d8086664191c13d81fb70044, type: 3}
+      propertyPath: m_Pivot.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3278073771190909401, guid: ddb21286d8086664191c13d81fb70044, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3278073771190909401, guid: ddb21286d8086664191c13d81fb70044, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3278073771190909401, guid: ddb21286d8086664191c13d81fb70044, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3278073771190909401, guid: ddb21286d8086664191c13d81fb70044, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3278073771190909401, guid: ddb21286d8086664191c13d81fb70044, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3278073771190909401, guid: ddb21286d8086664191c13d81fb70044, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3278073771190909401, guid: ddb21286d8086664191c13d81fb70044, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3278073771190909401, guid: ddb21286d8086664191c13d81fb70044, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3278073771190909401, guid: ddb21286d8086664191c13d81fb70044, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3278073771190909401, guid: ddb21286d8086664191c13d81fb70044, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3278073771190909401, guid: ddb21286d8086664191c13d81fb70044, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3278073771190909401, guid: ddb21286d8086664191c13d81fb70044, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3278073771190909401, guid: ddb21286d8086664191c13d81fb70044, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3278073771190909401, guid: ddb21286d8086664191c13d81fb70044, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3278073771190909401, guid: ddb21286d8086664191c13d81fb70044, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3278073771190909401, guid: ddb21286d8086664191c13d81fb70044, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3278073771190909401, guid: ddb21286d8086664191c13d81fb70044, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3278073771190909401, guid: ddb21286d8086664191c13d81fb70044, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5020216100862075247, guid: ddb21286d8086664191c13d81fb70044, type: 3}
+      propertyPath: m_Name
+      value: Canvas Dialogue Manager
+      objectReference: {fileID: 0}
+    - target: {fileID: 6935951019686646499, guid: ddb21286d8086664191c13d81fb70044, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6935951019686646499, guid: ddb21286d8086664191c13d81fb70044, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: ddb21286d8086664191c13d81fb70044, type: 3}
+--- !u!224 &1654220848 stripped
+RectTransform:
+  m_CorrespondingSourceObject: {fileID: 3278073771190909401, guid: ddb21286d8086664191c13d81fb70044, type: 3}
+  m_PrefabInstance: {fileID: 1654220847}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1831134158
 GameObject:
   m_ObjectHideFlags: 0
@@ -5282,6 +5437,79 @@ Tilemap:
     e31: 0
     e32: 0
     e33: 1
+--- !u!1001 &1865158705
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1927590042}
+    m_Modifications:
+    - target: {fileID: 3914979564199780380, guid: c483eba4d948b374996bb2b087114ed8, type: 3}
+      propertyPath: m_Name
+      value: Teleport Dialogue Manager
+      objectReference: {fileID: 0}
+    - target: {fileID: 4969764178536595830, guid: c483eba4d948b374996bb2b087114ed8, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 2.78227
+      objectReference: {fileID: 0}
+    - target: {fileID: 4969764178536595830, guid: c483eba4d948b374996bb2b087114ed8, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.39990008
+      objectReference: {fileID: 0}
+    - target: {fileID: 4969764178536595830, guid: c483eba4d948b374996bb2b087114ed8, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4969764178536595830, guid: c483eba4d948b374996bb2b087114ed8, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4969764178536595830, guid: c483eba4d948b374996bb2b087114ed8, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4969764178536595830, guid: c483eba4d948b374996bb2b087114ed8, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4969764178536595830, guid: c483eba4d948b374996bb2b087114ed8, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4969764178536595830, guid: c483eba4d948b374996bb2b087114ed8, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4969764178536595830, guid: c483eba4d948b374996bb2b087114ed8, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4969764178536595830, guid: c483eba4d948b374996bb2b087114ed8, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: c483eba4d948b374996bb2b087114ed8, type: 3}
+--- !u!114 &1865158706 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 8038685832061874561, guid: c483eba4d948b374996bb2b087114ed8, type: 3}
+  m_PrefabInstance: {fileID: 1865158705}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f47be81675f3b544b829f75a18ff5f5d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::MudarCena
+--- !u!4 &1865158707 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4969764178536595830, guid: c483eba4d948b374996bb2b087114ed8, type: 3}
+  m_PrefabInstance: {fileID: 1865158705}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1887277158
 GameObject:
   m_ObjectHideFlags: 0
@@ -6694,42 +6922,42 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 83189876d4d389f43b7dd2e925aa112e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DialogueEditor.NPCConversation
-  CurrentIDCounter: 25
-  json: "{\"Options\":[],\"Parameters\":[],\"SpeechNodes\":[{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":1}],\"EditorInfo\":{\"isRoot\":true,\"xPos\":196,\"yPos\":28},\"ID\":0,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Ah,
+  CurrentIDCounter: 26
+  json: "{\"Options\":[],\"Parameters\":[],\"SpeechNodes\":[{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":1}],\"EditorInfo\":{\"isRoot\":true,\"xPos\":-593,\"yPos\":-195},\"ID\":0,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Ah,
     'oc\xEAs voltaram, hein? E com amiguin novo!\\r\\n\",\"parentUIDs\":[],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"S.
-    Ribeiro\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":2}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":197,\"yPos\":124},\"ID\":1,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Seu
-    Ribeiro! Como vai a dor nas costas?\\r\\n\",\"parentUIDs\":[0],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Kalu\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":3}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":197,\"yPos\":216},\"ID\":2,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Aquela
+    Ribeiro\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":2}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":-592,\"yPos\":-99},\"ID\":1,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Seu
+    Ribeiro! Como vai a dor nas costas?\\r\\n\",\"parentUIDs\":[0],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Kalu\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":3}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":-592,\"yPos\":-7},\"ID\":2,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Aquela
     pomadinha qui'oc\xEA fez deu pro gasto!\\r\\n\",\"parentUIDs\":[1],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"S.
-    Ribeiro\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":4}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":196,\"yPos\":312},\"ID\":3,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"E
+    Ribeiro\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":4}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":-593,\"yPos\":89},\"ID\":3,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"E
     NEM CUSTOU NADA! HAHAHAHA!\\r\\n\",\"parentUIDs\":[2],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"S.
-    Ribeiro\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":5}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":193,\"yPos\":404},\"ID\":4,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"S-seu
-    Ribeiro! A gente trouxe as urtigas pra voc\xEA, \xF3\u2026\\r\\n\",\"parentUIDs\":[3],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Boc\xE3o\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":6}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":193,\"yPos\":503},\"ID\":5,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Ah!
+    Ribeiro\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":5}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":-596,\"yPos\":181},\"ID\":4,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"S-seu
+    Ribeiro! A gente trouxe as urtigas pra voc\xEA, \xF3\u2026\\r\\n\",\"parentUIDs\":[3],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Boc\xE3o\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":6}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":-596,\"yPos\":280},\"ID\":5,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Ah!
     Deix\xF4ver, deix\xF4ver\u2026\\r\\n\",\"parentUIDs\":[4],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"S.
-    Ribeiro\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":7}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":417,\"yPos\":27},\"ID\":6,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"!!!\",\"parentUIDs\":[5],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"S.
-    Ribeiro\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":8}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":417,\"yPos\":120},\"ID\":7,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"C\xEAis
+    Ribeiro\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":7}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":-372,\"yPos\":-196},\"ID\":6,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"!!!\",\"parentUIDs\":[5],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"S.
+    Ribeiro\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":8}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":-372,\"yPos\":-103},\"ID\":7,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"C\xEAis
     s\xE3o bom'dimais! Iss'aqui vai render tanto xarope!\\r\\n\",\"parentUIDs\":[6],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"S.
-    Ribeiro\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":9}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":419,\"yPos\":216},\"ID\":8,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Hmph...
-    \",\"parentUIDs\":[7],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Kalu\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":10}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":421,\"yPos\":312},\"ID\":9,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"*O
-    inc\xF4modo na cara de Kalu \xE9 bem vis\xEDvel.*\",\"parentUIDs\":[8],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Luzia\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":11}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":415,\"yPos\":409},\"ID\":10,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"*Ele
+    Ribeiro\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":9}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":-370,\"yPos\":-7},\"ID\":8,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Hmph...
+    \",\"parentUIDs\":[7],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Kalu\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":10}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":-368,\"yPos\":89},\"ID\":9,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"*O
+    inc\xF4modo na cara de Kalu \xE9 bem vis\xEDvel.*\",\"parentUIDs\":[8],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Luzia\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":11}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":-374,\"yPos\":186},\"ID\":10,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"*Ele
     n\xE3o parece gostar de ver Seu Ribeiro ganhando dinheiro em cima da sa\xFAde
-    dos outros.*\",\"parentUIDs\":[9],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Luzia\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":13}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":415,\"yPos\":500},\"ID\":11,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Ent\xE3o,
-    eu vou pra minha casa agora, Boc\xE3o. Luzia.\\r\\n\",\"parentUIDs\":[10],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Kalu\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":14}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":645,\"yPos\":28},\"ID\":13,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Uai!!
-    Por que a pressa? Tem alguma coisa pra fazer?\\r\\n\",\"parentUIDs\":[11],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Boc\xE3o\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":15}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":645,\"yPos\":121},\"ID\":14,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Nah\u2026
-    eu t\xF4 meio entediado mesmo.\\r\\n\",\"parentUIDs\":[13],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Kalu\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":16}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":644,\"yPos\":214},\"ID\":15,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Hm...
-    Na verdade, Kalu n\xE3o quer ficar aqui, na loja de Seu Ribeiro. Eu entendo ele\",\"parentUIDs\":[14],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Luzia\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":17}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":643,\"yPos\":312},\"ID\":16,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Acordo
-    \xE9 acordo. A gente pega o endere\xE7o do meu av\xF4 e vamos embora.\\r\\n\",\"parentUIDs\":[15],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Luzia\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":18}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":639,\"yPos\":402},\"ID\":17,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Ent\xE3o,
-    Seu Ribeiro. Qual o endere\xE7o do meu av\xF4\\r\\n\",\"parentUIDs\":[16],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Luzia\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":19}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":639,\"yPos\":499},\"ID\":18,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Ah,
+    dos outros.*\",\"parentUIDs\":[9],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Luzia\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":13}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":-374,\"yPos\":277},\"ID\":11,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Ent\xE3o,
+    eu vou pra minha casa agora, Boc\xE3o. Luzia.\\r\\n\",\"parentUIDs\":[10],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Kalu\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":14}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":-144,\"yPos\":-195},\"ID\":13,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Uai!!
+    Por que a pressa? Tem alguma coisa pra fazer?\\r\\n\",\"parentUIDs\":[11],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Boc\xE3o\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":15}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":-144,\"yPos\":-102},\"ID\":14,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Nah\u2026
+    eu t\xF4 meio entediado mesmo.\\r\\n\",\"parentUIDs\":[13],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Kalu\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":16}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":-145,\"yPos\":-9},\"ID\":15,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Hm...
+    Na verdade, Kalu n\xE3o quer ficar aqui, na loja de Seu Ribeiro. Eu entendo ele\",\"parentUIDs\":[14],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Luzia\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":17}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":-146,\"yPos\":89},\"ID\":16,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Acordo
+    \xE9 acordo. A gente pega o endere\xE7o do meu av\xF4 e vamos embora.\\r\\n\",\"parentUIDs\":[15],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Luzia\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":18}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":-150,\"yPos\":179},\"ID\":17,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Ent\xE3o,
+    Seu Ribeiro. Qual o endere\xE7o do meu av\xF4\\r\\n\",\"parentUIDs\":[16],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Luzia\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":19}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":-150,\"yPos\":276},\"ID\":18,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Ah,
     calma. Antes de'c\xEAs irem, podem s\xF3 fazer um \xFAltimo favorzin?\\r\\n\",\"parentUIDs\":[17],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"S.
-    Ribeiro\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":20}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":868,\"yPos\":27},\"ID\":19,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Ei
-    ei! Isso n\xE3o tava no acordo! V-voc\xEA disse que a gente\u2013\\r\\n\",\"parentUIDs\":[18],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Boc\xE3o\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":21}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":870,\"yPos\":118},\"ID\":20,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"
+    Ribeiro\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":20}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":79,\"yPos\":-196},\"ID\":19,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Ei
+    ei! Isso n\xE3o tava no acordo! V-voc\xEA disse que a gente\u2013\\r\\n\",\"parentUIDs\":[18],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Boc\xE3o\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":21}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":81,\"yPos\":-105},\"ID\":20,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"
     Eu sei o que eu disse, eu s\xF3 preciso qui'c\xEAs levem esses xaropes na igreja
     e cab\xF4sse!!!\\r\\n\",\"parentUIDs\":[19],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"S.
-    Ribeiro\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":22}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":872,\"yPos\":216},\"ID\":21,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"V\xE1piti-vup\xEDti,
+    Ribeiro\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":22}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":83,\"yPos\":-7},\"ID\":21,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"V\xE1piti-vup\xEDti,
     prome\xE7a de dedin que eu n\xE3o pe\xE7o mais nada! HAHAHA!!\\r\\n\",\"parentUIDs\":[20],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"S.
-    Ribeiro\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":23}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":875,\"yPos\":309},\"ID\":22,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"N\xE3o
-    me trouxe muita confian\xE7a...\",\"parentUIDs\":[21],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Luzia\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":24}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":872,\"yPos\":405},\"ID\":23,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Esse
-    \xE9 Seu Ribeiro pra voc\xEAs.\\r\\n\",\"parentUIDs\":[22],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Kalu\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[],\"EditorInfo\":{\"isRoot\":false,\"xPos\":871,\"yPos\":501},\"ID\":24,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"AAAAAH
-    CARA! Bora logo Luzia..\",\"parentUIDs\":[23],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Boc\xE3o\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0}]}"
+    Ribeiro\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":23}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":86,\"yPos\":86},\"ID\":22,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"N\xE3o
+    me trouxe muita confian\xE7a...\",\"parentUIDs\":[21],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Luzia\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":24}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":83,\"yPos\":182},\"ID\":23,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Esse
+    \xE9 Seu Ribeiro pra voc\xEAs.\\r\\n\",\"parentUIDs\":[22],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Kalu\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":25}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":82,\"yPos\":278},\"ID\":24,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"AAAAAH
+    CARA! Bora logo Luzia..\",\"parentUIDs\":[23],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Boc\xE3o\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[],\"EditorInfo\":{\"isRoot\":false,\"xPos\":83,\"yPos\":380},\"ID\":25,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":null,\"parentUIDs\":[24],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0}]}"
   saveVersion: 110
   DefaultName: Kalu
   DefaultSprite: {fileID: 0}
@@ -6759,11 +6987,24 @@ MonoBehaviour:
   - {fileID: 1180711588}
   - {fileID: 1180711587}
   - {fileID: 1180711585}
+  - {fileID: 1180711610}
   ContinueFont: {fileID: 11400000, guid: 1e471e1ec41ec774f966967734aa9d66, type: 2}
   EndConversationFont: {fileID: 11400000, guid: 1e471e1ec41ec774f966967734aa9d66, type: 2}
   Event:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1865158706}
+        m_TargetAssemblyTypeName: MudarCena, Assembly-CSharp
+        m_MethodName: TrocarCena
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: Turi_noite
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!4 &1927590042
 Transform:
   m_ObjectHideFlags: 0
@@ -6772,13 +7013,14 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1927590040}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1.96374, y: 1.31854, z: 0}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -8.190189, y: -1.50026, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1180711586}
-  m_Father: {fileID: 0}
+  - {fileID: 1865158707}
+  m_Father: {fileID: 2061269162}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2002686005
 GameObject:
@@ -6953,19 +7195,7 @@ MonoBehaviour:
   EndConversationFont: {fileID: 11400000, guid: 1e471e1ec41ec774f966967734aa9d66, type: 2}
   Event:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 333250669}
-        m_TargetAssemblyTypeName: DialogueUrtigaCheck, Assembly-CSharp
-        m_MethodName: VerificarUrtigasEIniciarDialogo
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!4 &2002686007
 Transform:
   m_ObjectHideFlags: 0
@@ -6974,13 +7204,48 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2002686005}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1.73695, y: 1.22247, z: 0}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -8.41698, y: -1.5963299, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 26503141}
   - {fileID: 333250670}
+  m_Father: {fileID: 2061269162}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &2061269161
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2061269162}
+  m_Layer: 0
+  m_Name: "DI\xC1LOGOS"
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2061269162
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2061269161}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 10.15393, y: 2.8188, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 2002686007}
+  - {fileID: 1927590042}
+  - {fileID: 369131160}
+  - {fileID: 1654220848}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2112399818
@@ -7054,6 +7319,4 @@ SceneRoots:
   - {fileID: 1887277160}
   - {fileID: 1064749104}
   - {fileID: 1072744529}
-  - {fileID: 2002686007}
-  - {fileID: 1927590042}
-  - {fileID: 369131157}
+  - {fileID: 2061269162}

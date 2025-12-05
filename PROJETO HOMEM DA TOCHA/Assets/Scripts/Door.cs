@@ -17,7 +17,7 @@ public class Door : MonoBehaviour
     [Tooltip("GameObject do botão E visual. Deixe vazio se não quiser usar.")]
     public GameObject BotaoE;
     private SpriteRenderer botaoSR;
-    public Transiçõesdecena transicao;
+    //public Transiçõesdecena transicao;
 
     private bool Podeinteragir = false;
 
@@ -30,10 +30,10 @@ public class Door : MonoBehaviour
     void Start()
     {
 
-        if (transicao == null)
-        {
-            transicao = FindObjectOfType<Transiçõesdecena>();
-        }
+        //if (transicao == null)
+        //{
+        //    transicao = FindObjectOfType<Transiçõesdecena>();
+        //}
         // Busca o botão E visual se não foi atribuído
         if (BotaoE == null)
         {
@@ -127,15 +127,16 @@ public class Door : MonoBehaviour
         }
 
         // Verifica se a transição está configurada
-        if (transicao == null)
-        {
-            Debug.LogError("[Door] Transição não encontrada! Configure manualmente ou verifique se existe na cena.");
-            return;
-        }
+        //if (transicao == null)
+        //{
+         //   Debug.LogError("[Door] Transição não encontrada! Configure manualmente ou verifique se existe na cena.");
+          //  return;
+        //}
 
         // Se chegou aqui, pode teleportar
         Spawn.NextSpawnName = arrivalSpawnName;
-        transicao.nextSceneName = destinationSceneName;
-        transicao.StartCoroutine(transicao.FadeOutIn());
+        SceneManager.LoadScene(destinationSceneName);
+        //transicao.nextSceneName = destinationSceneName;
+        //transicao.StartCoroutine(transicao.FadeOutIn());
     }
 }

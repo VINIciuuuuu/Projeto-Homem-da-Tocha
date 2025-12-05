@@ -278,6 +278,11 @@ GameObject:
   - component: {fileID: 282570712}
   - component: {fileID: 282570711}
   - component: {fileID: 282570709}
+  - component: {fileID: 282570720}
+  - component: {fileID: 282570719}
+  - component: {fileID: 282570718}
+  - component: {fileID: 282570717}
+  - component: {fileID: 282570716}
   m_Layer: 0
   m_Name: ConversationEventInfo
   m_TagString: Untagged
@@ -438,6 +443,113 @@ MonoBehaviour:
   TMPFont: {fileID: 11400000, guid: 1e471e1ec41ec774f966967734aa9d66, type: 2}
   Icon: {fileID: -7090477922052741380, guid: d332f235a45328948b19fcac23aa2232, type: 3}
   Audio: {fileID: 0}
+--- !u!114 &282570716
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 282570708}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00abedce3cdbbba46bf2d86c9518c9f0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::DialogueEditor.NodeEventHolder
+  Event:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 2002937770}
+        m_TargetAssemblyTypeName: ItemGiver, Assembly-CSharp
+        m_MethodName: GiveDefaultItem
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  NodeID: 42
+  TMPFont: {fileID: 11400000, guid: 1e471e1ec41ec774f966967734aa9d66, type: 2}
+  Icon: {fileID: 2214652250928216992, guid: 68f8e359437ae5b4e860e3d5def361f2, type: 3}
+  Audio: {fileID: 0}
+--- !u!114 &282570717
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 282570708}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00abedce3cdbbba46bf2d86c9518c9f0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::DialogueEditor.NodeEventHolder
+  Event:
+    m_PersistentCalls:
+      m_Calls: []
+  NodeID: 41
+  TMPFont: {fileID: 11400000, guid: 1e471e1ec41ec774f966967734aa9d66, type: 2}
+  Icon: {fileID: -7423414479923241944, guid: 58dfb6f85fabed548aadd5677290ed3e, type: 3}
+  Audio: {fileID: 0}
+--- !u!114 &282570718
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 282570708}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00abedce3cdbbba46bf2d86c9518c9f0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::DialogueEditor.NodeEventHolder
+  Event:
+    m_PersistentCalls:
+      m_Calls: []
+  NodeID: 40
+  TMPFont: {fileID: 11400000, guid: 1e471e1ec41ec774f966967734aa9d66, type: 2}
+  Icon: {fileID: -7090477922052741380, guid: d332f235a45328948b19fcac23aa2232, type: 3}
+  Audio: {fileID: 0}
+--- !u!114 &282570719
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 282570708}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00abedce3cdbbba46bf2d86c9518c9f0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::DialogueEditor.NodeEventHolder
+  Event:
+    m_PersistentCalls:
+      m_Calls: []
+  NodeID: 39
+  TMPFont: {fileID: 11400000, guid: 1e471e1ec41ec774f966967734aa9d66, type: 2}
+  Icon: {fileID: 2214652250928216992, guid: 68f8e359437ae5b4e860e3d5def361f2, type: 3}
+  Audio: {fileID: 0}
+--- !u!114 &282570720
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 282570708}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00abedce3cdbbba46bf2d86c9518c9f0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::DialogueEditor.NodeEventHolder
+  Event:
+    m_PersistentCalls:
+      m_Calls: []
+  NodeID: 38
+  TMPFont: {fileID: 11400000, guid: 1e471e1ec41ec774f966967734aa9d66, type: 2}
+  Icon: {fileID: -7090477922052741380, guid: d332f235a45328948b19fcac23aa2232, type: 3}
+  Audio: {fileID: 0}
 --- !u!1 &793033343
 GameObject:
   m_ObjectHideFlags: 0
@@ -470,6 +582,7 @@ Transform:
   - {fileID: 1486630999}
   - {fileID: 1525043960}
   - {fileID: 1167021168}
+  - {fileID: 2002937769}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &905655961
@@ -4237,7 +4350,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6935951019686646499, guid: ddb21286d8086664191c13d81fb70044, type: 3}
       propertyPath: m_SizeDelta.x
-      value: 0
+      value: -620
       objectReference: {fileID: 0}
     - target: {fileID: 6935951019686646499, guid: ddb21286d8086664191c13d81fb70044, type: 3}
       propertyPath: m_SizeDelta.y
@@ -4359,10 +4472,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 83189876d4d389f43b7dd2e925aa112e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DialogueEditor.NPCConversation
-  CurrentIDCounter: 38
-  json: "{\"Options\":[],\"Parameters\":[],\"SpeechNodes\":[{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":31}],\"EditorInfo\":{\"isRoot\":true,\"xPos\":445.5,\"yPos\":156},\"ID\":0,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"HAHAHAHA!!!
-    OBRIGADO CRIAN\xC7AS!\",\"parentUIDs\":[],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Pescador\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[],\"EditorInfo\":{\"isRoot\":false,\"xPos\":449.5,\"yPos\":378},\"ID\":25,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"\",\"parentUIDs\":[31],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":25}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":447,\"yPos\":262},\"ID\":31,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"T\xE1
-    tranquilo, n\xE3o precisa gritar\",\"parentUIDs\":[0],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Luzia\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0}]}"
+  CurrentIDCounter: 43
+  json: "{\"Options\":[],\"Parameters\":[],\"SpeechNodes\":[{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":31}],\"EditorInfo\":{\"isRoot\":true,\"xPos\":20.5,\"yPos\":96},\"ID\":0,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"HAHAHAHA!!!
+    OBRIGADO CRIAN\xC7AS!\",\"parentUIDs\":[],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Pescador\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[],\"EditorInfo\":{\"isRoot\":false,\"xPos\":459.5,\"yPos\":205},\"ID\":25,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"\",\"parentUIDs\":[42],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":38}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":22,\"yPos\":202},\"ID\":31,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"T\xE1
+    tranquilo, n\xE3o precisa gritar\",\"parentUIDs\":[0],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Luzia\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":39}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":22,\"yPos\":297},\"ID\":38,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"EU
+    GRITO! E GRITO DE ALEGRIIIAAAA!!\",\"parentUIDs\":[31],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Pescador\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":40}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":237,\"yPos\":298},\"ID\":39,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Ent\xE3o,
+    nossa recompensa?\",\"parentUIDs\":[38],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Luzia\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":41}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":235,\"yPos\":201},\"ID\":40,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"HAHAHA!
+    PEGA TUDIN PRA TI MENINA!\",\"parentUIDs\":[39],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Pescador\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":42}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":234,\"yPos\":99},\"ID\":41,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Uou!
+    Habemus urtigam!!!\",\"parentUIDs\":[40],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Boc\xE3o\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":25}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":455,\"yPos\":99},\"ID\":42,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Ok,
+    hora de voltar pro Seu Ribeiro!\",\"parentUIDs\":[41],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Luzia\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0}]}"
   saveVersion: 110
   DefaultName: Luzia
   DefaultSprite: {fileID: 0}
@@ -4374,11 +4492,28 @@ MonoBehaviour:
   - {fileID: 282570712}
   - {fileID: 282570711}
   - {fileID: 282570709}
+  - {fileID: 282570720}
+  - {fileID: 282570719}
+  - {fileID: 282570718}
+  - {fileID: 282570717}
+  - {fileID: 282570716}
   ContinueFont: {fileID: 11400000, guid: 1e471e1ec41ec774f966967734aa9d66, type: 2}
   EndConversationFont: {fileID: 11400000, guid: 1e471e1ec41ec774f966967734aa9d66, type: 2}
   Event:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 2002937770}
+        m_TargetAssemblyTypeName: ItemGiver, Assembly-CSharp
+        m_MethodName: GiveDefaultItem
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1486630997
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6198,6 +6333,79 @@ Transform:
   - {fileID: 263741459}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &2002937768
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 793033344}
+    m_Modifications:
+    - target: {fileID: 7663956967200348301, guid: aceb893829757634d846bfee2ad3aeb6, type: 3}
+      propertyPath: m_Name
+      value: ItemGiver
+      objectReference: {fileID: 0}
+    - target: {fileID: 8150165149631377168, guid: aceb893829757634d846bfee2ad3aeb6, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 1.47999
+      objectReference: {fileID: 0}
+    - target: {fileID: 8150165149631377168, guid: aceb893829757634d846bfee2ad3aeb6, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -2.9791098
+      objectReference: {fileID: 0}
+    - target: {fileID: 8150165149631377168, guid: aceb893829757634d846bfee2ad3aeb6, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8150165149631377168, guid: aceb893829757634d846bfee2ad3aeb6, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8150165149631377168, guid: aceb893829757634d846bfee2ad3aeb6, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8150165149631377168, guid: aceb893829757634d846bfee2ad3aeb6, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8150165149631377168, guid: aceb893829757634d846bfee2ad3aeb6, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8150165149631377168, guid: aceb893829757634d846bfee2ad3aeb6, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8150165149631377168, guid: aceb893829757634d846bfee2ad3aeb6, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8150165149631377168, guid: aceb893829757634d846bfee2ad3aeb6, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: aceb893829757634d846bfee2ad3aeb6, type: 3}
+--- !u!4 &2002937769 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 8150165149631377168, guid: aceb893829757634d846bfee2ad3aeb6, type: 3}
+  m_PrefabInstance: {fileID: 2002937768}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &2002937770 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1740275190974681001, guid: aceb893829757634d846bfee2ad3aeb6, type: 3}
+  m_PrefabInstance: {fileID: 2002937768}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 417ba9dad81bd964b9cf210f2d424513, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ItemGiver
 --- !u!1 &2112399818
 GameObject:
   m_ObjectHideFlags: 0

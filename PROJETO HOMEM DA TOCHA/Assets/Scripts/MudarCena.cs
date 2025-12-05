@@ -6,21 +6,22 @@ public class MudarCena : MonoBehaviour
 
     public string destinationSceneName;
     public string arrivalSpawnName = "default";
-    public Transiçõesdecena transicao;
-
-    private void Start()
-    {
-        if (transicao == null)
-        {
-            transicao = FindObjectOfType<Transiçõesdecena>();
-        }
-    }
+    //public Transiï¿½ï¿½esdecena transicao;
     public void TrocarCena(string destinationSceneName)
+   // private void Start()
+    //{
+    //    if (transicao == null)
+     //   {
+       //     transicao = FindObjectOfType<Transiï¿½ï¿½esdecena>();
+    //}
+   // }
+
     {
         Luzia.Instance.Luziavolta();
         Spawn.NextSpawnName = arrivalSpawnName;
-        transicao.nextSceneName = destinationSceneName;
-        StartCoroutine(transicao.FadeOutIn());
+        SceneManager.LoadScene(destinationSceneName);
+        //transicao.nextSceneName = destinationSceneName;
+        //StartCoroutine(transicao.FadeOutIn());
 
     }
 }
