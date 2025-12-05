@@ -450,7 +450,7 @@ PolygonCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
@@ -6636,6 +6636,7 @@ MonoBehaviour:
   arrivalSpawnName: Faculdade_fora
   InteractionKey: 101
   BotaoE: {fileID: 0}
+  transicao: {fileID: 0}
 --- !u!61 &1197653795
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -9601,6 +9602,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::MudarCena
   destinationSceneName: 
   arrivalSpawnName: default
+  transicao: {fileID: 0}
 --- !u!4 &1791142942
 Transform:
   m_ObjectHideFlags: 0

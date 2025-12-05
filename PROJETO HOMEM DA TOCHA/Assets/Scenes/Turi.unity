@@ -2187,6 +2187,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 179616234673904531, guid: 83c87023702ab364c83dcaa9bb599b12, type: 3}
+      propertyPath: capacity
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 1235673440037898926, guid: 83c87023702ab364c83dcaa9bb599b12, type: 3}
       propertyPath: m_Name
       value: Player
@@ -2198,6 +2202,10 @@ PrefabInstance:
     - target: {fileID: 2408627914935243786, guid: 83c87023702ab364c83dcaa9bb599b12, type: 3}
       propertyPath: m_Offset.y
       value: -0.20039408
+      objectReference: {fileID: 0}
+    - target: {fileID: 6727072999687875749, guid: 83c87023702ab364c83dcaa9bb599b12, type: 3}
+      propertyPath: Luziaparada
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8618336390805914013, guid: 83c87023702ab364c83dcaa9bb599b12, type: 3}
       propertyPath: m_LocalPosition.x
